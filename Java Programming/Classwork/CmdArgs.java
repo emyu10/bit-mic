@@ -1,4 +1,7 @@
-
+/*
+ * To show command line arguments at work.
+ * To run type 'CmdArgs 1 2 3' on the console.
+ */
 class CmdArgs {
 	public static void main(String[] args) {
 		int a, b, c, d;

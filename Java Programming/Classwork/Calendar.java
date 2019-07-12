@@ -1,3 +1,7 @@
+/*
+ * Asks the user to input an year.
+ * Prints the full calendar of that year to the console.
+ */
 import java.util.*;
 
 public class Calendar {

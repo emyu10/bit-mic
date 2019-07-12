@@ -1,3 +1,8 @@
+/*
+ * Digit to day program.
+ * Print the corresponding day when the user enters a digit from 1 to 7.
+ * 1 is Sunday.
+ */
 import java.util.Scanner;
 
 class A1 {

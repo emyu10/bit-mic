@@ -1,3 +1,7 @@
+/*
+ * Scans 4 integers from the user and finds the average
+ * and displays the average on the console.
+ */
 import java.util.*;
 class Average {
 	public static void main(String[] args) {

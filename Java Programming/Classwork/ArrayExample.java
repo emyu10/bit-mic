@@ -1,3 +1,8 @@
+/*
+ * This is an example of an 2 dimensional array.
+ * It scans integers from the keyboard and assigns the values into
+ * positions in the array and then prints it to the console.
+ */
 import java.util.Scanner;
 
 class ArrayExample {

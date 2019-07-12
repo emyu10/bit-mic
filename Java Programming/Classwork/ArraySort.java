@@ -1,3 +1,7 @@
+/*
+ * This program sorts a 1 dimensional array of integers in
+ * ascending order.
+ */
 class ArraySort {
 	public static void main(String[] args) {
 		int[] a = {50, 20, 40, 30, 10, 60, 25, 100};

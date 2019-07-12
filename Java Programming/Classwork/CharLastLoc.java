@@ -1,3 +1,7 @@
+/*
+ * Find the location of the last occurence of a character
+ * from a string.
+ */
 import java.util.Scanner;
 class CharLastLoc {
         public static void main(String[] args) {

@@ -1,3 +1,7 @@
+/*
+ * Finds the position of the first occurence of a character
+ * from a String.
+ */
 import java.util.Scanner;
 class CharLoc {
         public static void main(String[] args) {

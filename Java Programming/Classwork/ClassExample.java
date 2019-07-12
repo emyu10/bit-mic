@@ -1,3 +1,8 @@
+/*
+ * Just for the sake of showing an additional class.
+ * The class asks for two numbers and then prints the sum
+ * to the console.
+ */
 import java.util.*;
 class Abc {
 	private int a, b, c;

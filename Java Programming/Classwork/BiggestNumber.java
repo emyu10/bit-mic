@@ -1,3 +1,7 @@
+/*
+ * Scans 4 integers from the keyboard, find the biggest among those 4
+ * and then prints it to the conssole. An additional class is demonstrated.
+ */
 import java.util.*;
 class Biggest {
 	private int a, b, c, d, biggest = 0;

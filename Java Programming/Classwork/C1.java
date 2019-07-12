@@ -1,5 +1,8 @@
 /*
- * Inheritence example
+ * Inheritence example.
+ * Shows a simple (useless) base class and
+ * another class that extends it just to print some
+ * strings onto the console.
  */
 import java.util.*;
 class A1 {
