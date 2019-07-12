@@ -1,3 +1,6 @@
+/*
+ * Checks if the array contains a certain integer from an array of 5 integers.
+ */
 import java.util.Scanner;
 class HasValue {
 	public static void main(String[] args) {

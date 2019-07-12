@@ -1,3 +1,6 @@
+/*
+ * Checks if a number is positive, negative or zero. An additional class is used.
+ */
 import java.util.*;
 class PosNeg {
 	private int a;

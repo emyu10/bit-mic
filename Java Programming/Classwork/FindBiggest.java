@@ -1,3 +1,6 @@
+/*
+ * Find the biggest integer from an array of 5 integers.
+ */
 import java.util.Scanner;
 class FindBiggest {
 	public static void main(String[] args) {

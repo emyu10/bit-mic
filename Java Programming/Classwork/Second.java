@@ -1,3 +1,6 @@
+/*
+ * The stupidest pyramid of numbers.
+ */
 import java.util.*;
 
 class Second {

@@ -1,3 +1,6 @@
+/*
+ * Just scans 5 integers into an array and print the values onto the console.
+ */
 import java.util.Scanner;
 class PrintArray {
         public static void main(String[] args) {

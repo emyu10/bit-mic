@@ -1,3 +1,6 @@
+/*
+ * Sums up the integers of an array.
+ */
 import java.util.Scanner;
 class SumArray {
 	public static void main(String[] args) {

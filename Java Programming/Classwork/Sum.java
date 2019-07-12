@@ -1,3 +1,6 @@
+/*
+ * Input 2 numbers, find the sum and display.
+ */
 import java.util.*;
 
 class Sum {

@@ -1,3 +1,7 @@
+/*
+ * Sum up all the even numbers and all the odd numbers separately from an array of
+ * 5 integers.
+ */
 import java.util.Scanner;
 class EvenOddSum {
 	public static void main(String[] args) {

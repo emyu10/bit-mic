@@ -1,3 +1,6 @@
+/*
+ * An attempt to create a Swing window.
+ */
 import javax.swing.JDialog;
 import javax.swing.JLabel;
 

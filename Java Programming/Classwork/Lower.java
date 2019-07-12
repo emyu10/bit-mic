@@ -1,3 +1,6 @@
+/*
+ * Convert a string into all lower case letters.
+ */
 import java.util.Scanner;
 
 class Lower {

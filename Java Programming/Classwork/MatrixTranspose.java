@@ -1,3 +1,6 @@
+/*
+ * Transpose a 2 dimensional array.
+ */
 import java.util.Scanner;
 class MatrixTranspose {
 	public static void main(String[] args) {

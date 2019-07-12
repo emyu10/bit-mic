@@ -1,3 +1,6 @@
+/*
+ * Just scans 5 integers into an array and print the array in reverse.
+ */
 import java.util.Scanner;
 class PrintArrayReverse {
         public static void main(String[] args) {

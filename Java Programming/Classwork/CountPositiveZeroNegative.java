@@ -1,3 +1,7 @@
+/*
+ * Scan 5 integers into an array and count the number of zeros, positive numbers
+ * and negative numbers and display the counts.
+ */
 import java.util.Scanner;
 class CountPositiveZeroNegative {
 	public static void main(String[] args) {

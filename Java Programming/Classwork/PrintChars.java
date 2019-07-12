@@ -1,3 +1,6 @@
+/*
+ * Prints the characters in a string, each letter on a separate line.
+ */
 import java.util.Scanner;
 public class PrintChars {
         public static void main(String[] args) {

@@ -1,3 +1,7 @@
+/*
+ * Sums the corresponding elements of 2 two dimensional arrays and generate another
+ * 2 dimensional array with the sums and print the new array.
+ */
 import java.util.*;
 class SumMatrices {
 	public static void main(String[] args) {

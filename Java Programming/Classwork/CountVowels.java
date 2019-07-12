@@ -1,3 +1,6 @@
+/*
+ * Counts the number of vowels in a string.
+ */
 import java.util.Scanner;
 class CountVowels {
         public static void main(String[] args) {
@@ -7,7 +10,7 @@ class CountVowels {
                 a = s.next();
                 l = a.length();
                 for (int i = 0; i < l; i++) {
-                        if (("aeiou").indexOf(a.charAt(i)) >=0 ) {
+                        if (("aeiouAEIOU").indexOf(a.charAt(i)) >=0 ) {
                                 c++;
                         }
 

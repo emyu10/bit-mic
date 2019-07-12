@@ -1,3 +1,7 @@
+/*
+ * This program checks the equality of 2 strings.
+ * Comparison is case sensitive.
+ */
 import java.util.Scanner;
 class CompareNames {
         public static void main(String[] args) {

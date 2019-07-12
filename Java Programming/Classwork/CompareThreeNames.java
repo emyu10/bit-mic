@@ -1,3 +1,6 @@
+/*
+ * Compares 3 strings. Case sensivite.
+ */
 import java.util.Scanner;
 class CompareThreeNames {
         public static void main(String[] args) {

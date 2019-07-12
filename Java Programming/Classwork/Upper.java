@@ -1,3 +1,6 @@
+/*
+ * Converts a string to all upper case letters.
+ */
 import java.util.Scanner;
 
 class Upper {

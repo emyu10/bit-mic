@@ -1,3 +1,7 @@
+/*
+ * Counts the number of occurences of a number in an array of 5 integers.
+ * Array is loaded by getting user input.
+ */
 import java.util.Scanner;
 class CountOccurrence {
 	public static void main(String[] args) {

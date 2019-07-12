@@ -1,3 +1,7 @@
+/*
+ * Enter values for 3 angles of a triangle and print the type of triangle.
+ * THIS PROGRAM IS TOTALLY WRONG. THE SWITCH BLOCK DOES NOT WORK LIKE THAT IN JAVA.
+ */
 class Triangle {
 	public static void main(String[] args) {
 		int a, b, c, sum = 0;

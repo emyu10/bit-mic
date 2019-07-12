@@ -1,3 +1,7 @@
+/*
+ * Ask the user enter a number between 1 and 12 and display the Month that corresponds to
+ * that number.
+ */
 import java.util.Scanner;
 
 class DigitToMonth {

@@ -1,3 +1,6 @@
+/*
+ * Concatenate or join strings.
+ */
 import java.util.Scanner;
 public class Concat {
         public static void main(String[] args) {

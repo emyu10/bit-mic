@@ -1,3 +1,6 @@
+/*
+ * Sum up the integers which occur diagonally in a 2 dimensional array of integers.
+ */
 import java.util.*;
 class DiagonalSum {
 	public static void main(String[] args) {

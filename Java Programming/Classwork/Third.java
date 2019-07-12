@@ -1,3 +1,6 @@
+/*
+ * Another stupid reverse pyramid.
+ */
 import java.util.*;
 
 class Third {

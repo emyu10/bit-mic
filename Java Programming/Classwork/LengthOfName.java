@@ -1,3 +1,6 @@
+/*
+ * Finds and displays the length of a string.
+ */
 import java.util.*;
 class LengthOfName {
         public static void main(String[] args) {

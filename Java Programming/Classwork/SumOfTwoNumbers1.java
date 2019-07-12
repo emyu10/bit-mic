@@ -1,3 +1,6 @@
+/*
+ * Sum of 2 numbers to demonstrate try..catch
+ */
 import java.util.*;
 
 class SumOfTwoNumbers1 {

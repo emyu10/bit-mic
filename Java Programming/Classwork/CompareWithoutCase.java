@@ -1,3 +1,6 @@
+/*
+ * Compares 2 strings without despite any case
+ */
 import java.util.Scanner;
 class CompareWithoutCase {
         public static void main(String[] args) {

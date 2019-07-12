@@ -1,3 +1,6 @@
+/*
+ * Find the sum of all the integers in a 2 dimensional array of integers.
+ */
 import java.util.Scanner;
 class MatrixSum {
 	public static void main(String[] args) {

@@ -1,3 +1,7 @@
+/*
+ * Reads integers into an array of size 5 and counts the number of
+ * even numbers and odd numbers in the array.
+ */
 import java.util.Scanner;
 class CountEvenOdd {
 	public static void main(String[] args) {

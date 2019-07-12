@@ -1,3 +1,6 @@
+/*
+ * Display the multiplication table of a number entered as a command line argument.
+ */
 class Multiplication {
 	public static void main(String[] args) {
 		int a, b;
