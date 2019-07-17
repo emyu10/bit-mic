@@ -1,5 +1,5 @@
 import java.util.*;
-class Student {
+class Person {
     String name;
     int age;
     int salary;
@@ -25,7 +25,7 @@ class Student {
     }
 }
 
-class StudentAddress extends Student {
+class PersonAddress extends Person {
     String address;
     String job;
     
@@ -34,25 +34,45 @@ class StudentAddress extends Student {
         Scanner s = new Scanner(System.in);
         try {
             System.out.print("Enter address: ");
-            address = s.nextLine();
+            address = s.next();
             System.out.print("Enter job: ");
-            job = s.nextLine();
+            job = s.next();
         } catch (Exception e) {
             System.out.println("Data type mismatch.");
         }
     }
     
     void display() {
-        print();
+        super.print();
         System.out.println("Address: " + address);
         System.out.println("Job: " + job);
     }
 }
 
-class StudentMain {
+class PersonExtra extends PersonAddress {
+    int ot;
+    String gender;
+    
+    void scan() {
+    	super.accept();
+    	Scanner s = new Scanner(System.in);
+    	System.out.print("Enter OT: ");
+    	ot = s.nextInt();
+    	System.out.print("Enter gender: ");
+    	gender = s.next();
+    }
+    
+    void print() {
+    	super.display();
+    	System.out.println("OT: " + ot);
+    	System.out.println("Gender: " + gender);
+    }
+}
+
+class PersonMain {
     public static void main(String[] args) {
-        StudentAddress obj = new StudentAddress();
-        obj.accept();
-        obj.display();
+        PersonExtra obj = new PersonExtra();
+        obj.scan();
+        obj.print();
     }
 }
