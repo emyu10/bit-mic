@@ -17,5 +17,21 @@ class Writer {
 		} catch (IOException e) {
 			System.out.println(e.getMessage());
 		}
+		stringWrite();
+	}
+	
+	public static void stringWrite() {
+		try {
+			File f = new File("abcd.txt");
+			Scanner s = new Scanner(System.in);
+			String name;
+			FileWriter fw = new FileWriter(f);
+			System.out.print("Enter name: ");
+			name = s.nextLine();
+			fw.write(name, 0, name.length());
+			fw.close();
+		} catch (IOException e) {
+			System.out.println(e.getMessage());
+		}
 	}
 }
