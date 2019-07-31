@@ -2,7 +2,7 @@
  * Read an array of integers and find the biggest and smallest number.
  */
 import java.util.Scanner;
-class BiggestSmallestElement {
+class QuestionTwo {
 	public static void main(String[] args) {
 		int[] nums = new int[10];
 		Scanner s = new Scanner(System.in);

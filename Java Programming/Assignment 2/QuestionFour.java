@@ -2,7 +2,7 @@
  * Read array, insert a number to a specified postion.
  */
 import java.util.Scanner;
-class InsertElement {
+class QuestionFour {
 	private static final int MAX = 10;
 	public static void main(String[] args) {
 		int[] n = new int[100];

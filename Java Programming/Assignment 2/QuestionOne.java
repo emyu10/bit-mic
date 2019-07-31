@@ -2,7 +2,7 @@
  * Read array - sort in descending order.
  */
 import java.util.Scanner;
-class ArraySortDesc {
+class QuestionOne {
 	public static void main(String[] args) {
 		int[] n = new int[10];
 		Scanner s = new Scanner(System.in);
