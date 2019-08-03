@@ -1,3 +1,6 @@
+/**
+ * Read a 3x3 matrix and generate a 4x4 matrix with the last row and column containing the sums of corresponding elements.
+ */
 import java.util.Scanner;
 
 class QuestionFive {
