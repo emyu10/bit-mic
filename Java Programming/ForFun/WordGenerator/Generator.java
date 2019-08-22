@@ -1,3 +1,8 @@
+/**
+ * This program scans a series of letters from the user
+ * and generates a list of words that can be made from those letters.
+ */
+
 import java.io.*;
 import java.util.*;
 
