@@ -4,6 +4,7 @@
 
 ## Learning Hours and Tutorials
 Lectures: 25 lecture hours
+
 Tutorials: 25 Tutorial Hours
 
 ## Expected learning outcomes
