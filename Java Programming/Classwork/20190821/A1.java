@@ -1,3 +1,7 @@
+/**
+ * This program demonstrates creating a thread by implementing the Runnable interface.
+ * In this example, class ABC is the thread class. Class A1 is the main class.
+ */
 class ABC implements Runnable {
     String name;
     Thread t; 

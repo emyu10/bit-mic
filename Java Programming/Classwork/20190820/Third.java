@@ -1,3 +1,9 @@
+/**
+ * Demonstrates thread synchronization.
+ * Class ABC is not a thread but its call() method is synchronized, so any threads accessing
+ * that method will get synchronized access to that method.
+ * PQR is a thread class because it implements the Runnable interface.
+ */
 class Third {
     public static void main(String[] args) {
         ABC z = new ABC();

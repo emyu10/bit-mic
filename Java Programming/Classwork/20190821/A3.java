@@ -1,3 +1,8 @@
+/**
+ * This process demonstrates synchronization.
+ * All objects of the class ABC access the shared resource (an object of PrintClass).
+ * ABC access this resource in a synchronized way (see the method run() in ABC).
+ */
 class PrintClass {
     public void print() {
         for (int i = 1; i <= 10; i++) {

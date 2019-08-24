@@ -1,3 +1,7 @@
+/**
+ * Demonstrates creating a thread by implementing the Runnable interface.
+ * Class ABC is the thread class in this example.
+ */
 class Second {
     public static void main(String[] args) {
         ABC a = new ABC();

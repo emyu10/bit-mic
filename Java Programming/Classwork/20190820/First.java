@@ -1,3 +1,7 @@
+/**
+ * Demonstrates creating threads by extending the Thread class.
+ * Class ABC is the thread class in this example.
+ */
 class First {
     public static void main(String[] args) {
         ABC a = new ABC();

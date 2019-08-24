@@ -1,3 +1,7 @@
+/**
+ * Demonstrates creating a thread by implementing the Runnable interface.
+ * ABC is the thread class.
+ */
 class ABC implements Runnable {
     Thread t;
     ABC() {
