@@ -1,3 +1,11 @@
+/**
+ * Generate the following series using while loop.
+ * a) 10, 20, 30, ...100
+ * b) 100, 95, 90, 85, ...5
+ * c) 5, 15, 25, 35, ...105
+ * d) 100, 90, 80, ...0
+ * e) 1, 2, 4, 8, 16, ...1024
+ */
 public class QuestionSeventeen {
     public static void main(String[] args) {
         (new WPartA()).generate();

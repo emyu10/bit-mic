@@ -1,4 +1,8 @@
 import java.util.Scanner;
+
+/**
+ * Check if a number is palindrome or not.
+ */
 public class QuestionTwentyFive {
     public static void main(String[] args) {
         Palindrome p = new Palindrome();

@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/**
+ * Digit to month. Output the corresponding month when the user inputs a number from
+ * 1 to 12. Any other number is invalid.
+ */
 public class QuestionFour {
     public static void main(String[] args) {
         Months m = new Months();

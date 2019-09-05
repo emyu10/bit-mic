@@ -1,3 +1,7 @@
+
+/**
+ * Find the second largest among 3 numbers.
+ */
 import java.util.Scanner;
 
 public class QuestionEleven {

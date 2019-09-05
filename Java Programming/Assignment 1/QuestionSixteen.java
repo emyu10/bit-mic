@@ -1,4 +1,10 @@
 import java.util.Scanner;
+
+/**
+ * Quadrant program.
+ * Output the corresponding quadrant when the user enters an angle.
+ * 0-90: first quadrant
+ */
 public class QuestionSixteen {
     public static void main(String[] args) {
         Quad q = new Quad();

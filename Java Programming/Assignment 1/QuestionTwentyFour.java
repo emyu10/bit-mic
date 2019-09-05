@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * Sum of digits of a number.
+ */
 public class QuestionTwentyFour {
     public static void main(String[] args) {
         SumOfDigits sod = new SumOfDigits();

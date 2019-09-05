@@ -1,4 +1,8 @@
 import java.util.Scanner;
+
+/**
+ * Check if a number is Armstrong.
+ */
 public class QuestionTwentySix {
     public static void main(String[] args) {
         Armstrong a = new Armstrong();

@@ -1,4 +1,8 @@
 import java.util.Scanner;
+
+/**
+ * Reverse of a number.
+ */
 public class QuestionTwentyNine {
     public static void main(String[] args) {
         Reverse r = new Reverse();

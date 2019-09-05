@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * Find if entered number is positive or negative.
+ */
 public class QuestionSeven {
     public static void main(String[] args) {
         PosNeg pn = new PosNeg();

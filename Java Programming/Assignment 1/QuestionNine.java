@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * Find the smallest number among 5 numbers entered by the user.
+ */
 public class QuestionNine {
     public static void main(String[] args) {
         Smallest s = new Smallest();

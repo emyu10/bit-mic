@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * Find the average of 3 numbers.
+ */
 public class QuestionTwo {
     public static void main(String[] args) {
         Average avg1 = new Average();

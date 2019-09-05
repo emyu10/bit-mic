@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * Find the second smallest among 4 numbers entered by the user.
+ */
 public class QuestionTen {
     public static void main(String[] args) {
         SecondSmallest ss = new SecondSmallest();

@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * Read a number and check if it's divisible by 2 and 3.
+ */
 public class QuestionTwelve {
     public static void main(String[] args) {
         DivByTwoThree dbtt = new DivByTwoThree();

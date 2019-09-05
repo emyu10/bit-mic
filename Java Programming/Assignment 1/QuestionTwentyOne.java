@@ -1,4 +1,8 @@
 import java.util.Scanner;
+
+/**
+ * Factorial of a number.
+ */
 public class QuestionTwentyOne {
     public static void main(String[] args) {
         Factorial f = new Factorial();

@@ -1,4 +1,8 @@
 import java.util.Scanner;
+
+/**
+ * Read a number and find biggest digit.
+ */
 public class QuestionThirty {
     public static void main(String[] args) {
         BiggestDigit bd = new BiggestDigit();

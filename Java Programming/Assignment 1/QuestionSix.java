@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * Find if the entered year is leap or not.
+ */
 public class QuestionSix {
     public static void main(String[] args) {
         Leaper l = new Leaper();

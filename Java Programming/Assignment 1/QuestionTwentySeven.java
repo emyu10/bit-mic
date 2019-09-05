@@ -1,4 +1,8 @@
 import java.util.Scanner;
+
+/**
+ * Check if an entered number is prime or not.
+ */
 public class QuestionTwentySeven {
     public static void main(String[] args) {
         Prime p = new Prime();

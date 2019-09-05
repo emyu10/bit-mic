@@ -1,3 +1,6 @@
+/**
+ * Print the multiplication in reverse.
+ */
 public class QuestionTwenty {
     public static void main(String[] args) {
         MulTableRev mt = new MulTableRev();

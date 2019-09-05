@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * Student grade program. Output the grade of the student when marks is entered.
+ */
 public class QuestionThirteen {
     public static void main(String[] args) {
         Grade g = new Grade();
