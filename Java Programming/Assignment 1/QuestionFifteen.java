@@ -1,3 +1,9 @@
+
+/**
+ * Triangle program.
+ * Tell if a triangle is either equilateral, isosceles, right-angled or invalid
+ * when user input the 3 angles of the triangle.
+ */
 import java.util.Scanner;
 
 public class QuestionFifteen {

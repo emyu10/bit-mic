@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * Sum up to the number.
+ */
 public class QuestionTwentyTwo {
     public static void main(String[] args) {
         SumUpTo sut = new SumUpTo();

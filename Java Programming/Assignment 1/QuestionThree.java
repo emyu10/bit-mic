@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/**
+ * Digit to day.
+ * Output the corresponding day when the user enters a number from 1 - 7.
+ */
 public class QuestionThree {
     public static void main(String[] args) {
         Days d = new Days();

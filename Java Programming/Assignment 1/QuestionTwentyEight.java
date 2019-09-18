@@ -1,4 +1,8 @@
 import java.util.Scanner;
+
+/**
+ * Check if a number is perfect or not.
+ */
 public class QuestionTwentyEight {
     public static void main(String[] args) {
         Perfect p = new Perfect();

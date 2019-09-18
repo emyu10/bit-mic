@@ -1,3 +1,6 @@
+/**
+ * Print the multiplication table of numbers from 1 to 9.
+ */
 public class QuestionNineteen {
     public static void main(String[] args) {
         MulTable mt = new MulTable();

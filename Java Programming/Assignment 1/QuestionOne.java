@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * Find the sum of 5 numbers entered by the user.
+ */
 public class QuestionOne {
     public static void main(String[] args) {
         Sum sum = new Sum();

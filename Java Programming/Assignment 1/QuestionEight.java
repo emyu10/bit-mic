@@ -1,3 +1,6 @@
+/**
+ * Find the biggest number among 4 numbers.
+ */
 import java.util.Scanner;
 
 public class QuestionEight {

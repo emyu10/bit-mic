@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * Read a number and check if the number is 1, 2, 3 or 4 digits.
+ */
 public class QuestionFourteen {
     public static void main(String[] args) {
         CountDigits cd = new CountDigits();

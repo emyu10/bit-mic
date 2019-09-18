@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * Find if entered number is even or odd.
+ */
 public class QuestionFive {
     public static void main(String[] args) {
         EvenOdd eo = new EvenOdd();

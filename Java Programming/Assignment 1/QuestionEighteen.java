@@ -1,3 +1,9 @@
+/**
+ * Generate the following series using for loops
+ * a) 5, 15, 25, ...105
+ * b) 7, 14, 21, ...70
+ * c) 100, 90, 80, ...0
+ */
 public class QuestionEighteen {
     public static void main(String[] args) {
         (new FPartA()).generate();

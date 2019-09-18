@@ -1,4 +1,8 @@
 import java.util.Scanner;
+
+/**
+ * Factors of a number.
+ */
 public class QuestionTwentyThree {
     public static void main(String[] args) {
         Factors f = new Factors();
