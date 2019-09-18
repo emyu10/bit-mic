@@ -1,8 +1,10 @@
+package Strings;
+
+import java.util.Scanner;
+
 /**
  * Read a name, convert to upper and lower.
  */
-import java.util.Scanner;
-
 class QuestionTwo {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

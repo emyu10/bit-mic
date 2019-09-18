@@ -1,9 +1,10 @@
+package Strings;
+
+import java.util.Scanner;
 
 /**
  * Read 3 names and check they are same or not regardless of the case.
  */
-import java.util.Scanner;
-
 class QuestionNine {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

@@ -1,8 +1,10 @@
+package Strings;
+
+import java.util.Scanner;
+
 /**
  * Read a name, replace a character with another.
  */
-import java.util.Scanner;
-
 class QuestionThirteen {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

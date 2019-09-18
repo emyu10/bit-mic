@@ -1,9 +1,10 @@
+package Strings;
+
+import java.util.Scanner;
 
 /**
  * Read a name, search a character is present or not.
  */
-import java.util.Scanner;
-
 class QuestionFive {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

@@ -1,8 +1,10 @@
+package Strings;
+
+import java.util.Scanner;
+
 /**
  * Read a name, find length
  */
-import java.util.Scanner;
-
 class QuestionOne {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

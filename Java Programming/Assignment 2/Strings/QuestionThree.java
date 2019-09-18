@@ -1,9 +1,10 @@
+package Strings;
+
+import java.util.Scanner;
 
 /**
  * Read a name, print characters in reverse.
  */
-import java.util.Scanner;
-
 class QuestionThree {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

@@ -1,9 +1,10 @@
+package Strings;
+
+import java.util.Scanner;
 
 /**
  * Read 3 names merge it.
  */
-import java.util.Scanner;
-
 class QuestionTwelve {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

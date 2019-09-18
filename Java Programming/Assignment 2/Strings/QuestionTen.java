@@ -1,8 +1,10 @@
+package Strings;
+
+import java.util.Scanner;
+
 /**
  * Read a name, find the index of a character.
  */
-import java.util.Scanner;
-
 class QuestionTen {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

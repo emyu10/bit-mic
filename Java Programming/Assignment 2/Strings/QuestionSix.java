@@ -1,9 +1,10 @@
+package Strings;
+
+import java.util.Scanner;
 
 /**
  * Read a name, search a how many times character is present.
  */
-import java.util.Scanner;
-
 class QuestionSix {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

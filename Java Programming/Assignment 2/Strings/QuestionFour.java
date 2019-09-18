@@ -1,9 +1,10 @@
+package Strings;
+
+import java.util.Scanner;
 
 /**
  * Read a name, count vowels in it.
  */
-import java.util.Scanner;
-
 class QuestionFour {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
