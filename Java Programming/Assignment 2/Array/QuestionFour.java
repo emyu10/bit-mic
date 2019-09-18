@@ -1,8 +1,10 @@
+package Array;
+
+import java.util.Scanner;
+
 /**
  * Read an array of integers and find the average.
  */
-import java.util.Scanner;
-
 class QuestionFour {
     public static void main(String[] args) {
         int[] a = new int[10];
@@ -12,6 +14,8 @@ class QuestionFour {
             System.out.print("Enter number: ");
             a[i] = s.nextInt();
         }
+        
+        s.close();
 
         int sum = 0;
 

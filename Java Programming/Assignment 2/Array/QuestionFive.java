@@ -1,8 +1,10 @@
+package Array;
+
+import java.util.Scanner;
+
 /**
  * Read an array of integers and count how many numbers are divisible by 10.
  */
-import java.util.Scanner;
-
 class QuestionFive {
     public static void main(String[] args) {
         int[] a = new int[10];
@@ -13,6 +15,8 @@ class QuestionFive {
             a[i] = s.nextInt();
         }
 
+        s.close();
+        
         int count = 0;
 
         for (int i: a) {

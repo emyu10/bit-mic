@@ -1,8 +1,11 @@
-/**
- * Read an array of integers and find the sum of even numbers and odd numbers separately.
- */
+package Array;
+
 import java.util.Scanner;
 
+/**
+ * Read an array of integers and find the sum of even numbers and odd numbers
+ * separately.
+ */
 class QuestionSeven {
     public static void main(String[] args) {
         int[] a = new int[10];
@@ -12,7 +15,8 @@ class QuestionSeven {
             System.out.print("Enter number: ");
             a[i] = s.nextInt();
         }
-
+        s.close();
+        
         int evenSum = 0, oddSum = 0;
         for (int i : a) {
             if (i % 2 == 0)

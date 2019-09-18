@@ -1,8 +1,10 @@
+package Array;
+
+import java.util.Scanner;
+
 /**
  * Read an array of integers and count the number of even and odd numbers.
  */
-import java.util.Scanner;
-
 class QuestionSix {
     public static void main(String[] args) {
         int[] a = new int[10];
@@ -13,6 +15,8 @@ class QuestionSix {
             a[i] = s.nextInt();
         }
 
+        s.close();
+        
         int even = 0, odd = 0;
 
         for (int i: a) {

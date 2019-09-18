@@ -1,8 +1,10 @@
+package Array;
+
+import java.util.Scanner;
+
 /**
  * Read an array of integers and check if a number is present or not.
  */
-import java.util.Scanner;
-
 class QuestionTen {
     public static void main(String[] args) {
         int[] a = new int[10];
@@ -18,6 +20,7 @@ class QuestionTen {
         System.out.print("Enter number to search: ");
         needle = s.nextInt();
 
+        s.close();
         for (int i : a) {
             if (i == needle) {
                 found = true;

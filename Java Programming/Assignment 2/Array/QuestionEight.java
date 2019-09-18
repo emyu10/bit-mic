@@ -1,9 +1,11 @@
-/**
- * Read an array of integers.
- * Count how many positive numbers and how many negative numbers are there.
- */
+package Array;
+
 import java.util.Scanner;
 
+/**
+ * Read an array of integers. Count how many positive numbers and how many
+ * negative numbers are there.
+ */
 class QuestionEight {
     public static void main(String[] args) {
         int[] a = new int[10];
@@ -13,6 +15,8 @@ class QuestionEight {
             System.out.print("Enter number: ");
             a[i] = s.nextInt();
         }
+        
+        s.close();
 
         int cp = 0, cn = 0;
         for (int i : a) {

@@ -1,9 +1,10 @@
+package Array;
+
+import java.util.Scanner;
 
 /**
  * Read an array. Sort it in descending order.
  */
-import java.util.Scanner;
-
 class QuestionThirteen {
     public static void main(String[] args) {
         int[] n = new int[10];
@@ -13,6 +14,7 @@ class QuestionThirteen {
             System.out.print("Enter number " + (i + 1) + ": ");
             n[i] = s.nextInt();
         }
+        s.close();
         printArray(n);
         n = sortDesc(n);
         printArray(n);

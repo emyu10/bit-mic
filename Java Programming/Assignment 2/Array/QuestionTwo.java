@@ -1,8 +1,9 @@
+package Array;
+import java.util.Scanner;
+
 /**
  * Read an array of integers and print it in reverse.
  */
-import java.util.Scanner;
-
 class QuestionTwo {
     public static void main(String[] args) {
         int[] a = new int[10];
@@ -13,7 +14,7 @@ class QuestionTwo {
             System.out.print("Enter number: ");
             a[i] = s.nextInt();
         }
-        
+        s.close();
         for (int i = a.length - 1; i >= 0; i--) {
             System.out.println(a[i]);
         }

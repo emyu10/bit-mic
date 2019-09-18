@@ -1,8 +1,10 @@
+package Array;
+
+import java.util.Scanner;
+
 /**
  * Read an array of integers and find the positive sum and negative sum.
  */
-import java.util.Scanner;
-
 class QuestionNine {
     public static void main(String[] args) {
         int[] a = new int[10];
@@ -12,7 +14,8 @@ class QuestionNine {
             System.out.print("Enter number: ");
             a[i] = s.nextInt();
         }
-
+        s.close();
+        
         int ps = 0, ns = 0;
         for (int i : a) {
             if (i > 0)

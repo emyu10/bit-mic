@@ -1,8 +1,10 @@
+package Array;
+
+import java.util.Scanner;
+
 /**
  * Read an array of integers and count how many times a number is present.
  */
-import java.util.Scanner;
-
 class QuestionEleven {
     public static void main(String[] args) {
         int[] a = new int[10];
@@ -17,6 +19,8 @@ class QuestionEleven {
         System.out.print("Enter number to search for: ");
         needle = s.nextInt();
 
+        s.close();
+        
         int count = 0;
 
         for (int i : a) {

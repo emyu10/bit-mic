@@ -1,8 +1,10 @@
+package Array;
+
+import java.util.Scanner;
+
 /**
  * Read an array of integers and print it.
  */
-import java.util.Scanner;
-
 class QuestionOne {
     public static void main(String[] args) {
         int[] a = new int[10];
@@ -12,6 +14,8 @@ class QuestionOne {
             System.out.print("Enter number: ");
             a[i] = s.nextInt();
         }
+        
+        s.close();
         
         //printing the array
         for (int i: a) {

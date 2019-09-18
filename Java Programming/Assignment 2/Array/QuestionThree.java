@@ -1,8 +1,10 @@
+package Array;
+
+import java.util.Scanner;
+
 /**
  * Read an array of integers and find the sum.
  */
-import java.util.Scanner;
-
 class QuestionThree {
     public static void main(String[] args) {
         int[] a = new int[10];
@@ -12,7 +14,7 @@ class QuestionThree {
             System.out.print("Enter number: ");
             a[i] = s.nextInt();
         }
-
+        s.close();
         int sum = 0;
 
         for (int i: a) {
