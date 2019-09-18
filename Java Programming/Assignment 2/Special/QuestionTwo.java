@@ -1,7 +1,10 @@
+package Special;
+
+import java.util.Scanner;
+
 /**
  * Read an array of integers and find the biggest and smallest number.
  */
-import java.util.Scanner;
 class QuestionTwo {
 	public static void main(String[] args) {
 		int[] nums = new int[10];
@@ -13,7 +16,8 @@ class QuestionTwo {
 		}
 		System.out.println();
 		biggest(nums);
-		smallest(nums);
+        smallest(nums);
+        s.close();
 	}
 	
 	public static void biggest(int[] nums) {

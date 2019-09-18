@@ -1,16 +1,20 @@
+package Special;
+
+import java.util.Scanner;
+
 /**
  * Read array - sort in descending order.
  */
-import java.util.Scanner;
 class QuestionOne {
 	public static void main(String[] args) {
 		int[] n = new int[10];
 		Scanner s = new Scanner(System.in);
 		
-		for (int i = 0; i < n.length; i++) {
-			System.out.print("Enter number " + (i + 1) + ": ");
-			n[i] = s.nextInt();
-		}
+        for (int i = 0; i < n.length; i++) {
+            System.out.print("Enter number " + (i + 1) + ": ");
+            n[i] = s.nextInt();
+        }
+        s.close();
 		printArray(n);
 		n = sortDesc(n);
 		printArray(n);

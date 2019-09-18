@@ -1,7 +1,10 @@
+package Special;
+
+import java.util.Scanner;
+
 /**
  * Read an array. Delete a number from a location. Print the balance.
  */
-import java.util.Scanner;
 class QuestionThree {
     private static final int MAX = 10;
 
@@ -28,6 +31,7 @@ class QuestionThree {
         System.out.println("\nNew values");
 
         displayArray(nums);
+        s.close();
     }
 
     public static void displayArray(int[] nums) {

@@ -1,14 +1,15 @@
+package Special;
+
+import java.util.Scanner;
 
 /**
  * Matrix multiplication
  * 
- * 1 2 3 | 5 6 7 | (1x5+2x8+3x9) (1x6+2x9+3x7) (1x7+2x1+3x3)
- * 4 5 6 | 8 9 1 | (4x5+5x8+6x9) (4x6+5x9+6x7) ()
- * 7 8 9 | 9 7 3 | () () ()
+ * 1 2 3 | 5 6 7 | (1x5+2x8+3x9) (1x6+2x9+3x7) (1x7+2x1+3x3) 4 5 6 | 8 9 1 |
+ * (4x5+5x8+6x9) (4x6+5x9+6x7) () 7 8 9 | 9 7 3 | () () ()
  * 
  * c[i][j] = c[i][j] + (a[i][k] * b[k][j])
  */
-import java.util.Scanner;
 class QuestionSeven {
     private static final int SIZE = 3;
     private static int[][] a = new int[SIZE][SIZE];
@@ -39,6 +40,7 @@ class QuestionSeven {
                 n[i][j] = s.nextInt();
             }
         }
+        s.close();
         return n;
     }
 
@@ -54,7 +56,6 @@ class QuestionSeven {
 
     private static void multiply() {
         for (int i = 0; i < SIZE; i++) {
-            int r = i % SIZE;
             for (int j = 0; j < SIZE; j++) {
                 for (int k = 0; k < SIZE; k++) {
                     c[i][j] = c[i][j] + (a[i][k] * b[k][j]);

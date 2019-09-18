@@ -1,8 +1,11 @@
-/**
- * Read a 3x3 matrix and generate a 4x4 matrix with the last row and column containing the sums of corresponding elements.
- */
+package Special;
+
 import java.util.Scanner;
 
+/**
+ * Read a 3x3 matrix and generate a 4x4 matrix with the last row and column
+ * containing the sums of corresponding elements.
+ */
 class QuestionFive {
 	public static void main(String[] args) {
 		int[][] n = new int[3][3];
@@ -16,6 +19,8 @@ class QuestionFive {
 			}
 		}
 
+        s.close();
+        
 		printArray(n);
 
 		// calculating the sum

@@ -1,7 +1,10 @@
+package Special;
+
+import java.util.Scanner;
+
 /**
  * Read array, insert a number to a specified postion.
  */
-import java.util.Scanner;
 class QuestionFour {
 	private static final int MAX = 10;
 	public static void main(String[] args) {
@@ -19,9 +22,9 @@ class QuestionFour {
 		location = s.nextInt();
 		
 		System.out.print("Enter new number: ");
-		newNum = s.nextInt();
-		
-		int tmp;
+        newNum = s.nextInt();
+        
+        s.close();
 		
 		for (int i = MAX; i >= location; i--) {
 			n[i+1] = n[i];
