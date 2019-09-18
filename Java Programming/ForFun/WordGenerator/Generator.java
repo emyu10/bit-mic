@@ -1,12 +1,20 @@
-/**
- * This program scans a series of letters from the user
- * and generates a list of words that can be made from those letters.
- */
-
 import java.io.*;
 import java.util.*;
 
+/**
+ * This program scans a series of letters from the user
+ * and generates a list of words that can be made from those letters.
+ * @author Mohamed Usman
+ * @version 1.0
+ * @since 2019-09-17
+ * @docRoot
+ */
 public class Generator {
+    /**
+     * Entry point to the program.
+     * @param String[] args an array of strings
+     * @return void
+     */
     public static void main(String[] args) {
         try {
             // to read the file which contains the word list
