@@ -10,10 +10,11 @@ class QuestionTen {
         Scanner s = new Scanner(System.in);
         System.out.print("Enter a name: ");
         String name = s.nextLine();
-        
+
         System.out.print("Enter a letter: ");
         char letter = s.next().charAt(0);
 
         System.out.println("Index of '" + letter + "' in '" + name + "' is " + name.indexOf(letter));
+        s.close();
     }
 }

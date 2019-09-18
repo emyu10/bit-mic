@@ -19,6 +19,8 @@ class QuestionThirteen {
         char newChar = s.next().charAt(0);
 
 
-        System.out.println("Replaced '" + oldChar + "' with '" + newChar + "' from '" + name + "': " + name.replace(oldChar, newChar));
+        System.out.println("Replaced '" + oldChar + "' with '" + newChar + "' from '" + name + "': "
+                + name.replace(oldChar, newChar));
+        s.close();
     }
 }

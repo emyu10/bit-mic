@@ -24,5 +24,6 @@ class QuestionFive {
             System.out.println("Character '" + letter + "' is present in '" + name + "'");
         else
             System.out.println("Character '" + letter + "' is NOT present in '" + name + "'");
+        s.close();
     }
 }

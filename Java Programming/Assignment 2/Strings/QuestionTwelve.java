@@ -18,5 +18,6 @@ class QuestionTwelve {
         String name3 = s.nextLine();
         
         System.out.println("Full Name: " + name1.concat(" ").concat(name2).concat(" ").concat(name3));
+        s.close();
     }
 }

@@ -22,5 +22,6 @@ class QuestionNine {
         } else {
             System.out.println("Names are not same.");
         }
+        s.close();
     }
 }

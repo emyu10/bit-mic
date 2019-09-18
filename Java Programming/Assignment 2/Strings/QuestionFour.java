@@ -19,5 +19,6 @@ class QuestionFour {
         }
 
         System.out.println("Number of vowels in '" + name + "' is: " + count);
+        s.close();
     }
 }

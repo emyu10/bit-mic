@@ -16,5 +16,6 @@ class QuestionThree {
         }
 
         System.out.println();
+        s.close();
     }
 }

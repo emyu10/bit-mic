@@ -21,5 +21,6 @@ class QuestionSix {
         }
          
         System.out.println("Character '" + letter + "' is present " + count + " times in '" + name + "'");
+        s.close();
     }
 }

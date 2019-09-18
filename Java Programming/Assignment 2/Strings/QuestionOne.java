@@ -11,5 +11,6 @@ class QuestionOne {
         System.out.print("Enter a name: ");
         String name = s.nextLine();
         System.out.println("Length of '" + name + "' is " + name.length());
+        s.close();
     }
 }
