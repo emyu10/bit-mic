@@ -1,3 +1,5 @@
+package Inheritance;
+
 import java.util.Scanner;
 
 class Student extends Person {

@@ -1,3 +1,5 @@
+package Inheritance;
+
 /**
  * To show inheritance examples.
  */
