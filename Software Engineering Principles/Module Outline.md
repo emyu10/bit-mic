@@ -16,14 +16,14 @@ context of systematic construction of quality software.
 ## Curricular Content:
 | # | Topic | Subject in Detail | Lecture Hours | Tutorial Hours |
 | --- | --- | --- | --- | --- |
-| 1 | Introduction to Software Engineering | | 3 | 3 |
-| 2 | Software Development | | 3 | 3 |
-| 3 | Software Development Process Model | | 3 | 3 |
-| 4 | SDLC | | 3 | 3 |
-| 5 | Data Modeling | | 3 | 3 |
-| 6 | Software Design Concepts | | 3 | 3 |
-| 7 | Maintenance | | 3 | 3 |
-| 8 | Case | | 4 | 4 |
+| 1 | Introduction to Software Engineering | <ul><li>Describe software problems</li><li>Describe the characteristics of the software as a process</li><li>Describe the characteristics of the software as a product</li><li>Explain the need for the Software Engineering discipline</li></ul> | 3 | 3 |
+| 2 | Software Development | <ul><li>Define Software Engineering Goals</li><li>Describe the importance of a phased approach to software development</li><li>List various phases involved in software development process</li><li>Compare how software development companies organize their development process</li></ul> | 3 | 3 |
+| 3 | Software Development Process Model | <ul><li>Explain the essentials of any process models</li><li>Describe the process model for the Web and the process technology</li><li>Describe the process of System Analysis</li><li>Explain how a Feasibility Study is undertaken</li></ul> | 3 | 3 |
+| 4 | SDLC | <ul><li>Describe the scope and activities of the Requirements Analysis phase of SDLC</li><li>Explain the process of Requirements Gathering</li><li>Describe the process of Analysis Modeling</li><li>Explain the rationale behind Essential Model</li></ul> | 3 | 3 |
+| 5 | Data Modeling | <ul><li>Describe system elements</li><li>Discuss Data Modeling</li><li>Explain the concepts of cardinality and modality</li><li>Examine Entity relationship diagrams</li><li>Discuss function modeling using DFDs</li><li>Describe Control Flow Model</li></ul> | 3 | 3 |
+| 6 | Software Design Concepts | <ul><li>Describe the data dictionary</li><li>Describe the design process and principles of design</li><li>Describe the software design concepts</li><li>Describe baseline concepts</li><li>Describe various configuration items</li><li>Describe the different types of maintenance</li></ul> | 3 | 3 |
+| 7 | Maintenance | <ul><li>Explain the maintenance metrics</li><li>Describe the working of a typical maintenance organization</li><li>Describe various factors affecting maintenance</li><li>Analyze why Implementation is an important phase of SDLC</li><li>Discuss the activities of Implementation Phase and Implementation Strategies</li><li>Discuss the need for Contingency Planning and Post Implementation Maintenance</li></ul> | 3 | 3 |
+| 8 | CASE | <ul><li>Learn the meaning of CASE and its evolution</li><li>Discuss the classification of CASE</li><li>Correlate the use of CASE to software engineering concept</li><li>Describe the basic Object Oriented concepts</li></ul> | 4 | 4 |
 | | | Total | 25 | 25 |
 
 ## Assessment Methods and Grading Criteria
