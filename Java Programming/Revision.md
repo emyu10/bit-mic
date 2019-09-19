@@ -257,8 +257,62 @@ class First {
         b = (a == 1) ? 20 : 30; // condition is false, assigns 30 to b
         b = (a == 10) ? 20 : 30; // condition is true,  assigns 30 to b
         ```
-## Decision making
 
+## Decision making
+- Decision making constructs in Java are
+    - ```if```, ```else if```, ```else```
+    - ```switch ... case```
+- ```if``` is used to check a condition and run statement(s) if the condition is true.
+    ``` java
+    int c = 20;
+    if (c == 20)
+        System.out.print("c equals 20"); // this condition will execute because condition c == 20 is true.
+    
+    if (c < 10)
+        System.out.print("c is less than 10"); // this statement will not execute because the condition c < 10 is false.
+    ```
+- To execute more than one statement if a condition is true, enclose the statements in curly braces after the condition.
+    ``` java
+    int c = 20;
+    if (c == 20) {
+        System.out.println("c is equal to 20");
+        System.out.println("it means c is equal to 20");
+    }
+    ```
+- To do something if the condition is false, use ```else``` after the statements of ```if```
+    ``` java
+    int c = 20;
+    if (c == 20) {
+        System.out.println("c is 20");
+    } else {
+        System.out.println("c is not 20");
+    }
+    // you can use curly braces even if there is only one statement
+    ```
+- Use ```else if``` if you want to check more than one condition.
+    ``` java
+    int a = 10;
+    if (a == 0) {
+        System.out.println("a is zero");
+    } else if (a > 0) {
+        System.out.println("a is positive");
+    } else { // else block execute if no other conditions are true
+        System.out.println("a is negative");
+    }
+    ```
+    > Note: It's good practice to always have an ```else``` when using ```else if```
+- An ```if``` construct can be nested inside another ```if``` construct.
+    ```java
+    int a = 4;
+    if (a == 0) {
+        System.out.println("a is zero");
+    } else {
+        if (a > 0) {
+            System.out.println("a is positive");
+        } else {
+            System.out.println("a is negative");
+        }
+    }
 ## Iteration (Loops)
 
 ## Arrays
