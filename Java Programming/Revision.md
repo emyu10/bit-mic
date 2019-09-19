@@ -164,7 +164,18 @@ My first Java program
     ```
 
 ## Operators
+### Arithmetic Operators
+- +(Addition): Add values.
+- -(Subtraction): Subtract right operand from the left operand.
+- *(Multiplication): Multiplies operands on both sides.
+- /(Division): Divides left operand by right operand.
+- %(Modulus): Divides left operand by right operand and yields the remainder after division.
+- ++(Increment): Increases the value of the operand by 1.
+- --(Decrement): Decreases the value of the operand by 1.
 
+### Relational Operators
+- == (equal to): checks both operands are equal, yields true if equal, false if not.
+- != (not equal to): checks both operands are equal, yields true if not equal, false if equal.
 ## Decision making
 
 ## Iteration (Loops)
