@@ -94,6 +94,70 @@ My first Java program
 ```
 
 ## Variables & data types
+### Primitive (basic) data types
+1. <b>byte</b>:
+    - 8-bit integer.
+    - Minimum value -128.
+    - Maximum value 127.
+    - Default 0.
+2. <b>short</b>:
+    - 16-bit integer.
+    - Minimum value -32,768.
+    - Maximum value 32,767.
+    - Default 0.
+3. <b>int</b>:
+    - 32-bit integer.
+    - Minimum value -2,147,483,648.
+    - Maximum value 2,147,483,647.
+    - Default 0.
+4. <b>long</b>:
+    - 64-bit integer.
+    - Minimum value -9,223,372,036,854,775,808.
+    - Maximum value 9,223,372,036,854,775,807.
+    - Default value 0L.
+5. <b>float</b>:
+    - Single precision, 32-bit floating point number.
+    - Default 0.0f.
+    - Never use for precise values such as currency.
+6. <b>double</b>:
+    - Double precision, 64-bit floating point number.
+    - Use as default data type as decimal values.
+    - Never use for precise values such as currency.
+    - Default 0.0d.
+7. <b>boolean</b>:
+    - Represents 1 bit.
+    - Two possible values, true or false.
+    - Default is false.
+8. <b>char</b>:
+    - Single 16-bit unicode character.
+    - Minimum value is '\u0000' (or 0).
+    - Maximum value is '\uffff' (or 65,535).
+
+### Reference data types
+- Objects of classes.
+- Most arrays.
+- Default value is ```null```.
+
+### Declaring variables
+- Syntax ```data_type variable_name;```
+- eg:
+    ``` java
+    int a;
+    String b;
+    char c;
+    Animal d;
+    ```
+- Assigning values
+    ``` java
+    a = 10;
+    d = new Animal();
+    ```
+- Declaring and assigning a value in one line
+    ``` java
+    int a = 10;
+    Animal d = new Animal();
+    Scanner s = new Scanner(System.in);
+    ```
 
 ## Operators
 
