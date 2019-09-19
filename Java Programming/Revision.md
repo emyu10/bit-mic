@@ -62,4 +62,45 @@ Most popular Java development tools are as follows
 - Network programming like RMI is easy.
 
 ### 6. Java is secure
-- 
+- The language, JVM and security libraries are open source and anyone can look into the code and report bugs or fix them.
+- Programs are sandboxed inside a virtual machine.
+- Programs cannot read or write files without permission.
+- Digitally signed classes to verify the author of a class.
+
+## Misconceptions About Java
+### 6. I use XML, so I don't need Java
+- Java is a programming language.
+- XML is a way to describe data.
+- XML can be processed in any programming language.
+- Java API has excellent support for XML.
+
+
+# Fundamental Programming Structures in Java
+## Running a simple program
+Write the following program in a text editor and save it as First.java
+``` java
+class First {
+    public static void main(String[] args) {
+        System.out.println("My first Java program");
+    }
+}
+```
+- On a terminal (or cmd), navigate to the folder containing this file.
+- Type in ```javac First.java``` to compile it.
+- Type ```java First``` to run it.
+- The output
+```
+My first Java program
+```
+
+## Variables & data types
+
+## Operators
+
+## Decision making
+
+## Iteration (Loops)
+
+## Arrays
+
+# Objects and Classes
