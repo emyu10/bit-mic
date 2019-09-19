@@ -93,9 +93,9 @@ class First {
 - Type in ```javac First.java``` to compile it.
 - Type ```java First``` to run it.
 - The output
-```
-My first Java program
-```
+    ```
+    My first Java program
+    ```
 
 ## Variables & data types
 ### Primitive (basic) data types
@@ -165,21 +165,21 @@ My first Java program
 
 ## Operators
 ### Arithmetic Operators
-- <u>+ (Addition):</u> Add values.
-- <u>- (Subtraction):</u> Subtract right operand from the left operand.
-- <u>* (Multiplication):</u> Multiplies operands on both sides.
-- <u>/ (Division):</u> Divides left operand by right operand.
-- <u>% (Modulus):</u> Divides left operand by right operand and yields the remainder after division.
-- <u>++ (Increment):</u> Increases the value of the operand by 1.
-- <u>-- (Decrement):</u> Decreases the value of the operand by 1.
+- <b>+ (Addition):</b> Add values.
+- <b>- (Subtraction):</b> Subtract right operand from the left operand.
+- <b>* (Multiplication):</b> Multiplies operands on both sides.
+- <b>/ (Division):</b> Divides left operand by right operand.
+- <b>% (Modulus):</b> Divides left operand by right operand and yields the remainder after division.
+- <b>++ (Increment):</b> Increases the value of the operand by 1.
+- <b>-- (Decrement):</b> Decreases the value of the operand by 1.
 
 ### Relational Operators
-- <u>== (equal to):</u> checks both operands are equal, yields true if equal, false if not.
-- <u>!= (not equal to):</u> checks both operands are equal, yields true if not equal, false if equal.
-- <u>> (greater than):</u> true if value of left operand is greater than the right.
-- <u>< (less than):</u> true if value of left operand is less than the right.
-- <u>>= (greater than or equal to):</u> true if left operand is equal or greater than the right.
-- <u><= (less than or equal to):</u> true if left operand is equal or less than the right.
+- <b>== (equal to):</b> checks both operands are equal, yields true if equal, false if not.
+- <b>!= (not equal to):</b> checks both operands are equal, yields true if not equal, false if equal.
+- <b>> (greater than):</b> true if value of left operand is greater than the right.
+- <b>< (less than):</b> true if value of left operand is less than the right.
+- <b>>= (greater than or equal to):</b> true if left operand is equal or greater than the right.
+- <b><= (less than or equal to):</b> true if left operand is equal or less than the right.
 ## Decision making
 
 ## Iteration (Loops)
