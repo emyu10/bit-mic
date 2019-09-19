@@ -76,6 +76,7 @@ context of systematic construction of quality software.
 After first four topics, a case study based on the topic will be given. Each case study will contain a range of questions covering the topic. The students are expected to analyse the case and answer it.
 
 Quizzes will be administered according to the following table.
+
 | CASE STUDY | TOPICS COVERED |
 | --- | --- |
 | Case Study 1 | From Topic 1 to Topic 4 |
