@@ -12,7 +12,11 @@ Most popular Java development tools are as follows
 - Runs on all major desktop operating systems.
 - Earlier used to deal with Java Swing wizard framework.
 
-### 3. Junit
+### 3. JUnit
+- Foundation for launching testing frameworks.
+- Includes TestEngine API for developing testing frameworks.
+- Exists in popular IDEs.
+
 ### 4. Apache Spark
 ### 5. Jenkins
 ### 6. Android Studio
