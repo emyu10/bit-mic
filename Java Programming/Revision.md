@@ -165,21 +165,21 @@ My first Java program
 
 ## Operators
 ### Arithmetic Operators
-- +(Addition): Add values.
-- -(Subtraction): Subtract right operand from the left operand.
-- *(Multiplication): Multiplies operands on both sides.
-- /(Division): Divides left operand by right operand.
-- %(Modulus): Divides left operand by right operand and yields the remainder after division.
-- ++(Increment): Increases the value of the operand by 1.
-- --(Decrement): Decreases the value of the operand by 1.
+- <u>+ (Addition):</u> Add values.
+- <u>- (Subtraction):</u> Subtract right operand from the left operand.
+- <u>* (Multiplication):</u> Multiplies operands on both sides.
+- <u>/ (Division):</u> Divides left operand by right operand.
+- <u>% (Modulus):</u> Divides left operand by right operand and yields the remainder after division.
+- <u>++ (Increment):</u> Increases the value of the operand by 1.
+- <u>-- (Decrement):</u> Decreases the value of the operand by 1.
 
 ### Relational Operators
-- == (equal to): checks both operands are equal, yields true if equal, false if not.
-- != (not equal to): checks both operands are equal, yields true if not equal, false if equal.
-- \> (greater than): true if value of left operand is greater than the right.
-- < (less than): true if value of left operand is less than the right.
-- \>= (greater than or equal to): true if left operand is equal or greater than the right.
-- <= (less than or equal to): true if left operand is equal or less than the right.
+- <u>== (equal to):</u> checks both operands are equal, yields true if equal, false if not.
+- <u>!= (not equal to):</u> checks both operands are equal, yields true if not equal, false if equal.
+- <u>> (greater than):</u> true if value of left operand is greater than the right.
+- <u>< (less than):</u> true if value of left operand is less than the right.
+- <u>>= (greater than or equal to):</u> true if left operand is equal or greater than the right.
+- <u><= (less than or equal to):</u> true if left operand is equal or less than the right.
 ## Decision making
 
 ## Iteration (Loops)
