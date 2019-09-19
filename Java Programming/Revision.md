@@ -132,6 +132,16 @@ class First {
     - Represents 1 bit.
     - Two possible values, true or false.
     - Default is false.
+    ``` java
+    int a = 20;
+    boolean isGreater = a > 18; // true
+    if (isGreater) {
+        System.out.print("a is greater than 18");
+    } else {
+        System.out.print("a is not greater than 18");
+    }
+    // prints "a is greater than 18"
+    ```
 8. <b>char</b>:
     - Single 16-bit unicode character.
     - Minimum value is '\u0000' (or 0).
@@ -180,6 +190,58 @@ class First {
 - <b>< (less than):</b> true if value of left operand is less than the right.
 - <b>>= (greater than or equal to):</b> true if left operand is equal or greater than the right.
 - <b><= (less than or equal to):</b> true if left operand is equal or less than the right.
+
+### Bitwise operators
+- <b>& (bitwise and):</b> copies a bit to the result if it exists in both operands.
+- <b>| (bitwise or):</b> copies a bit if it exists in either operand.
+- <b>^ (bitwise XOR):</b> copies a bit if it is set in one operand but not both.
+- <b>~ (bitwise compliment):</b> operates on one operand and has effect of flipping bits.
+- <b><< (left shift):</b> left operand's value is moved left by the number of bits specified by the right operand.
+- <b>>> (right shift):</b> the left operand's value is moved right by the number of bits specified by the right operand.
+- <b>>>> (zero fill right shift):</b> the left operand's value is moved right by the number of bits specified by the right operand and shifted values are filled with zeros.
+
+### Logical operators
+- <b>&& (logical and):</b> true if both operands are true.
+- <b>|| (logical or):</b> true if either of the operands are true.
+- <b>! (logical not):</b> true if the operand is false.
+
+### Assignment operators
+- <b>= (assignment)</b> assigns values from right side operands to the left operand.
+    ``` java
+    int a;
+    a = 10; // assigns value 10 to a
+    ```
+- <b>+= (add and assignment)</b> add right operand to the left operand and assigns the resulting value to the left operand.
+    ``` java
+    int a = 10, b = 20;
+    a += b; // same as a = a + b, a now equals 30
+    ```
+- <b>-= (subract and assignment) </b> subtracts right operand from the left operand and assigns the resulting value to the left operand.
+    ``` java
+    int a = 20, b = 10;
+    a -= b; // same as a = a - b, a now equals 10
+    ```
+- <b>*= (multiply and assignment) </b> multiplies both operands and assign the resulting value to the left operand.
+    ``` java
+    int a = 5, b = 2;
+    a *= b; // same as a = a * b, a now equals 10
+    ```
+- <b>/= (divide and assignment) </b> divides the left operand by the right operand and assign the resulting value to the left operand.
+    ``` java
+    int a = 6, b = 2;
+    a /= b; // same as a = a / b, a now equals 3
+    ```
+- <b>%= (modulus and assignment) </b> divides left operand by the right operand and assigns the remainder to the left operand.
+    ``` java
+    int a = 5, b = 2;
+    a %= b; // same as a = a % b, a now equals 1
+    ```
+- <b> </b>
+- <b> </b>
+- <b> </b>
+- <b> </b>
+- <b> </b>
+
 ## Decision making
 
 ## Iteration (Loops)
