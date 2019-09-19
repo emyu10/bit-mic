@@ -176,6 +176,10 @@ My first Java program
 ### Relational Operators
 - == (equal to): checks both operands are equal, yields true if equal, false if not.
 - != (not equal to): checks both operands are equal, yields true if not equal, false if equal.
+- \> (greater than): true if value of left operand is greater than the right.
+- < (less than): true if value of left operand is less than the right.
+- \>= (greater than or equal to): true if left operand is equal or greater than the right.
+- <= (less than or equal to): true if left operand is equal or less than the right.
 ## Decision making
 
 ## Iteration (Loops)
