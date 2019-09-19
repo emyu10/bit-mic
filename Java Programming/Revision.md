@@ -236,12 +236,27 @@ class First {
     int a = 5, b = 2;
     a %= b; // same as a = a % b, a now equals 1
     ```
-- <b> </b>
-- <b> </b>
-- <b> </b>
-- <b> </b>
-- <b> </b>
+- <b><<= (left shift and assignment)</b>
+- <b>>>= (right shift and assignment)</b>
+- <b>&= (bitwise AND and assignment)</b>
+- <b>^= (bitwise exclusive OR and assignment)</b>
+- <b>|= (bitwise inclusive OR and assignment)</b>
 
+### Other operators
+- <b>Conditional / ternary operator (? :)</b>
+    - Operates on 3 operands.
+    - Used to evaluate boolean (truth) operations.
+    - Used to decide which operand should be assigned based on the condition.
+    - First operand is a boolean expression (a condition which evaluates either to true or false).
+    - Second operand is the return if the first operand evaluates to true.
+    - Third operand is the return if the first operand evaluates to false.
+    - Syntax ```varible x = (boolean expression) ? value_if_true : value_if_false; ```
+    - Example:
+        ``` java
+        int a = 10, b;
+        b = (a == 1) ? 20 : 30; // condition is false, assigns 30 to b
+        b = (a == 10) ? 20 : 30; // condition is true,  assigns 30 to b
+        ```
 ## Decision making
 
 ## Iteration (Loops)
