@@ -387,6 +387,16 @@ class First {
     // count equals 10
     ```
 ### The enhanced ```for()``` loop
+> This loop was never taught in class
+
+- The enhanced ```for``` loop is sometimes referred to as foreach loop.
+- This loop provides an easy and elegant way to go through the elements of Java collections (like arrays) without having to deal with loop control variables.
+- Syntax
+    ``` java
+    for (data_type var : collection)
+        loop_body
+    ```
+
 ### The ```while()``` loop
 ### The ```do .. while()``` loop
 ## Arrays
