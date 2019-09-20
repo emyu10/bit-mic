@@ -393,7 +393,7 @@ class First {
 - This loop provides an easy and elegant way to go through the elements of Java collections (like arrays) without having to deal with loop control variables.
 - Syntax
     ``` java
-    for (data_type var : collection)
+    for (data_type variable : collection)
         loop_body
     ```
 
