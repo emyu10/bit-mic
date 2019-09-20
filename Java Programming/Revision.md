@@ -349,7 +349,44 @@ class First {
 - A ```break;``` statement is required in most cases to stop the execution from moving to the next case.
 - A ```default``` case is used to deal with all other values that's not matched in any of the ```case```s.
 ## Iteration (Loops)
+- Loops are used to repeat part of the program more than once.
+- For example going through a collection (like arrays) or reading lines from a file.
+- There are 4 types of loops in Java.
+    1. for
+    2. Enhanced for (foreach)
+    3. while
+    4. do .. while
 ### The ```for()``` loop
+- A ```for``` loop is used when repeating part of the program for a known number of times.
+- For example going through a collection (like arrays).
+- The parenthesis (round brackets) of a for loop has three parts separated by semicolon.
+    1. Initialization of the variables used as the iteration control.
+    2. The condition on which the loop will run. (The loop will iterate until this condition becomes false)
+    3. Increment/decrement of the variable used as the loop control.
+- The syntax:
+    ``` java
+    for ( initilization ; condition ; increment/decrement)
+        loop_body
+    ```
+- Example
+    ``` java
+    for (int i = 0; i < 10; i++)
+        System.out.println("Line " + i);
+    ```
+    1. ```i``` is declared and initialized to 0, this happens only at the beginning of the loop.
+    2. the condition is checked, if it's ```true``` the body of the loop executes.
+    3. increment/decrement statement runs (```i++```)
+    4. steps 2 and 3 keeps running until the condition becomes ```false```.
+- More than one statement can be written inside the loop body by enclosing the body in curly braces, and curly braces can be used even if there is only one statement.
+    ``` java
+    int count = 0;
+    for (int i = 0; i < 10; i++) {
+        System.out.println("Line " + 1);
+        count++;
+    }
+    // count equals 10
+    ```
+### The enhanced ```for()``` loop
 ### The ```while()``` loop
 ### The ```do .. while()``` loop
 ## Arrays
