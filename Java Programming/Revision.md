@@ -478,6 +478,66 @@ class First {
     // notice the semicolon after the condition
     ```
 - Curly braces have the same rule as the other loops.
-## Arrays
 
+## Arrays
+- An array is a collection of the same type of values, that is all the elements of an array are of the same type.
+- An array has a fixed size which cannot be changed after declaring.
+- Each element in the array has an index.
+- The index of the first element is 0.
+- The index of the last element is the size of the array minus 1.
+- Declaration syntax:
+    ``` java
+    String[] words;
+    words = new String[100];
+    ```
+    - In this example ```String[]``` is the data type just like any other variable declaration in Java (call it a String array).
+    - ```words``` is the name of the array.
+    - ```new``` operator is used to create an array.
+    - The size of the array is written inside square brackets after the data type. Here it's 100.
+    - The indices of ```words``` array goes from 0 to 99.
+- Usually array declaration and assigning an array to the array variable is done in 1 line.
+    ``` java
+    int[] a = new int[10];
+    ```
+- Individual elements of an array is accessed using the index number of the elements.
+    ``` java
+    int[] a = new int[10];
+
+    a[0] = 0; // assign value 0 to the first element of the array (element at index 0)
+    a[8] = 90; // assign value 90 to the ninth element of the array (element at index 8)
+    ```
+- It's very easy to access individual elements of an array using a ```for``` loop or the enhanced
+    ``` java
+    int[] a = new int[10];
+    for (int i = 0; i < 10; i++) {
+        a[i] = i;
+    }
+
+    for (int b : a) {
+        System.out.println(b);
+    }
+    ```
+    The output
+    ```
+    0
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    ```
+- Array is an object, so it has some properties and methods which you can access using the dot (.) operator.
+- For example to get the size (number of elements) of an array, use the ```length``` property.
+    ``` java
+    int[] weekDays = new int[7];
+    System.out.println("The size of array is " + weekDays.length);
+
+    for (int i = 0; i < weekDays.length; i++) { // use in the condition in for loops
+        // do something
+    }
+    ```
 # Objects and Classes
