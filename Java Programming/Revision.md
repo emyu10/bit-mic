@@ -465,6 +465,19 @@ class First {
     ```
 
 ### The ```do .. while()``` loop
+- ```do .. while``` loop is not too different from the ```while``` loop.
+- The only difference is that the condition is checked at the bottom, that is after executing the body of the loop.
+- So this loop is guaranteed to run at least once, regardless of the condition.
+- Syntax
+    ``` java
+    int i = 0;
+    do {
+        System.out.println("Value of " + i);
+        i++;
+    } while (i < 5);
+    // notice the semicolon after the condition
+    ```
+- Curly braces have the same rule as the other loops.
 ## Arrays
 
 # Objects and Classes
