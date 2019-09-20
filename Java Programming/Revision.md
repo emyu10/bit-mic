@@ -313,8 +313,45 @@ class First {
             System.out.println("a is negative");
         }
     }
-## Iteration (Loops)
+    ```
+- A ```switch``` is used when a value of a variable needs to be checked against several other values for equality.
+    ``` java
+    int dayDigit = 4;
+    String day;
 
+    switch (dayDigit) {
+        case 1:
+            day = "Sunday";
+            break;
+        case 2:
+            day = "Monday";
+            break;
+        case 3:
+            day = "Tuesday";
+            break;
+        case 4:
+            day = "Wednesday";
+            break;
+        case 5:
+            day = "Thursday";
+            break;
+        case 6:
+            day = "Friday";
+            break;
+        case 7:
+            day = "Saturday";
+            break;
+        default:
+            day = "invalid";
+    }
+    // day will be set to "Wednesday"
+    ```
+- A ```break;``` statement is required in most cases to stop the execution from moving to the next case.
+- A ```default``` case is used to deal with all other values that's not matched in any of the ```case```s.
+## Iteration (Loops)
+### The ```for()``` loop
+### The ```while()``` loop
+### The ```do .. while()``` loop
 ## Arrays
 
 # Objects and Classes
