@@ -540,4 +540,7 @@ class First {
         // do something
     }
     ```
+> Arrays can also be defined like this ```int a[] = new int[10];```
+> <br> This syntax is supported in Java just to help programmers who come from C/C++, because that is the syntax used in C/C++. It is encouraged not to use this syntax.
+
 # Objects and Classes
