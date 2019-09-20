@@ -396,7 +396,29 @@ class First {
     for (data_type variable : collection)
         loop_body
     ```
+- The first part declares a variable of the type of one element in the collection. For example if the collection is an array of Strings, the variable should be of type ```String```. The loop will assign an item from the collection in every iteration. So inside the loop body, you can just access the item using that variable.
+- Second part is the collection itself and the body is just like the normal ```for``` loop.
+- Example:
+    ``` java
+    String[] names = new String[5];
+    names[0] = "Ahmed";
+    names[1] = "Mohamed";
+    names[2] = "Ali";
+    names[3] = "Aminath";
+    names[4] = "Aishath";
 
+    for (String name : names) {
+        System.out.println(name);
+    }
+    ```
+- The output:
+    ```
+    Ahmed
+    Mohamed
+    Ali
+    Aminath
+    Aishath
+    ```
 ### The ```while()``` loop
 ### The ```do .. while()``` loop
 ## Arrays
