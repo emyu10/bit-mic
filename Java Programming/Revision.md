@@ -255,7 +255,7 @@ class First {
         ``` java
         int a = 10, b;
         b = (a == 1) ? 20 : 30; // condition is false, assigns 30 to b
-        b = (a == 10) ? 20 : 30; // condition is true,  assigns 30 to b
+        b = (a == 10) ? 20 : 30; // condition is true,  assigns 20 to b
         ```
 
 ## Decision making
@@ -348,6 +348,7 @@ class First {
     ```
 - A ```break;``` statement is required in most cases to stop the execution from moving to the next case.
 - A ```default``` case is used to deal with all other values that's not matched in any of the ```case```s.
+
 ## Iteration (Loops)
 - Loops are used to repeat part of the program more than once.
 - For example going through a collection (like arrays) or reading lines from a file.
@@ -356,6 +357,7 @@ class First {
     2. Enhanced for (foreach)
     3. while
     4. do .. while
+
 ### The ```for()``` loop
 - A ```for``` loop is used when repeating part of the program for a known number of times.
 - For example going through a collection (like arrays).
@@ -386,6 +388,7 @@ class First {
     }
     // count equals 10
     ```
+
 ### The enhanced ```for()``` loop
 > This loop was never taught in class
 
@@ -419,7 +422,48 @@ class First {
     Aminath
     Aishath
     ```
+
 ### The ```while()``` loop
+- The ```while``` loop is generally used when you don't know how many times the loop will run.
+- For example, when going through the lines of a file one by one, you wouldn't know how many lines the file will contain.
+- Inside the parenthesis of the ```while``` loop is a boolean (a condition which evaluates to ```true``` or ```false```).
+- Syntax
+    ``` java
+    while ( condition )
+        loop_body
+    ```
+- Example
+    ``` java
+    // the following loop should stop when the value
+    // of i becomes equal or greater than 5
+    int i = 0;
+    while (i < 5) {
+        System.out.println("Value of i is " + i);
+        i++;
+    }
+    // for this kind of loops, a for loop is better
+    ```
+- Another example
+    ``` java
+    String aboutYear = "There are 365 days in a normal year and each day has 24 hours and 1 hour is 60 minues and 1 minute is 60 seconds.";
+    Scanner s = new Scanner(aboutYear);
+
+    while (s.hasNext()) { // checks if the Scanner has any values left
+        System.out.println(s.nextInt()); // gets the next integer value from the string
+    }
+    // the loop ends at the end of the String aboutYear.
+    ```
+- In this example, (assuming the String ```aboutYear``` would be populated during runtime) we don't know how long the String ```aboutYear``` would be.
+- The output
+    ```
+    365
+    24
+    1
+    60
+    1
+    60
+    ```
+
 ### The ```do .. while()``` loop
 ## Arrays
 
