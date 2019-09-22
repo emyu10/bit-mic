@@ -580,11 +580,26 @@ class First {
     in the above example ```name``` is an instance or object of ```String``` (you can say ```name``` is a ```String```). ```scanner1``` is an object of ```Scanner```. so ```scanner1``` is a ```Scanner```.
 
 ### Object-oriented Concepts
-1. Abstraction
-2. Encapsulation
-3. Inheritance
-4. Polymorphism
+1. **Abstraction**
+    - Abstraction is, giving more importance to how something can be used instead of how the same thing is implemented.
+    - An analogy: we don't have to know how the buttons and the chips inside a TV remote are wired from inside. But we can still use the remote using the button provided.
+    - In Java, things like objects, classes and varibles provide this usability without necessarily knowing the underlying implementation of these things.
 
+2. **Encapsulation**
+    - Prventing direct access to properties or fields of an object;
+    - and providing access to these properties through public methods.
+    - A simple analogy to this can be explained using a person. We cannot go into his body and directly change how angry or how happy he is. But we use a public method (like talking to him) to change his mood.
+
+3. **Inheritance**
+    - Inheritance extending the features of an already existing class without affecting that class.
+    - If you find a class that has most of the features you want, you can just extend that class and add the features you want, to your own class. Then your class will have all the features of that class plus the features you added to your class.
+
+4. **Polymorphism**
+    - Polymorphism is the ability to present the same thing in different forms in different contexts.
+    - An analogy: two brothers working in the same office will be colleagues at office and brothers when they are at home. The same thing in different forms when applied in different contexts.
+    - Two types of polymorphism in Java;
+        1. Method overloading
+        2. Method overriding
 
 ## Using Existing Classes
 ### String Class
