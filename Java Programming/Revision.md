@@ -586,7 +586,7 @@ class First {
     - In Java, things like objects, classes and varibles provide this usability without necessarily knowing the underlying implementation of these things.
 
 2. **Encapsulation**
-    - Prventing direct access to properties or fields of an object;
+    - Preventing direct access to properties or fields of an object;
     - and providing access to these properties through public methods.
     - A simple analogy to this can be explained using a person. We cannot go into his body and directly change how angry or how happy he is. But we use a public method (like talking to him) to change his mood.
 
@@ -599,7 +599,17 @@ class First {
     - An analogy: two brothers working in the same office will be colleagues at office and brothers when they are at home. The same thing in different forms when applied in different contexts.
     - Two types of polymorphism in Java;
         1. Method overloading
+            - Having more than one method with the same name (in the same class).
+            - The methods differ by the type or the number of paremeters passed to it.
+            - When polymorphism is applied, the same method is called with different parameters (different contexts).
+            - For example a class might have a ```sum(int a, int b)``` method and another ```sum(double a, double b)``` method.
+            - The user of the class does not have to worry about which method to use with which data type. The right method will be chosen based on the parameters supplied.
         2. Method overriding
+            - Method overriding is the concept of overriding the functionality of a parent class in the subclass.
+            - In this case, the method has the same name and the same parameters (types and numbers of parameters alike).
+            - For example there maybe a class for a Database connection written for an MS Access database. You find that all methods of that class can be used to work with a MySQL database, and you also find that you only need to change the ```connect()``` method to make it work. So you extend the Database class and override the ```connect()``` method and write code that will connect to a MySQL database instead of MS Access.
+            - When polymorphism is applied to the above example, 2 classes with the same methods can be used to work with 2 types of databases. No method calls have to be changed when switching to the new type of database.
+    > Note: Polymorphism in Java is not limited to only these two types. There are other ways Java utilizes this concept.
 
 ## Using Existing Classes
 ### String Class
