@@ -543,4 +543,65 @@ class First {
 > Arrays can also be defined like this ```int a[] = new int[10];```
 > <br> This syntax is supported in Java just to help programmers who come from C/C++, because that is the syntax used in C/C++. It is encouraged not to use this syntax.
 
+
+
 # Objects and Classes
+## Introduction to Object Oriented Programming
+## Using Existing Classes
+### String Class
+- ```String``` class can be found in the ```java.lang``` package.
+- There are numerous methods in this class to work with and manipulate strings.
+    - ```length()``` method returns the length (the number of characters) of a string.
+        ``` java
+        String name = "Albert Einstein";
+        System.out.println(name.length()) // prints 15
+        ```
+    - ```toUpperCase()``` method returns a new string with all the characters of the string converted to all capital letters.
+        ``` java
+        String name = "Steve Jobs";
+        System.out.println(name.toUpperCase()); // prints STEVE JOBS
+        ```
+    - ```toLowerCase()``` method returns a new string with all the characters converted into lowercase letters.
+        ``` java
+        String name = "Larry Page";
+        System.out.println(name.toLowerCase()); // prints larry page
+        ```
+    - ```concat()``` method returns a new string after joining "this" string with the string passed as an argument to the method.
+        ``` java
+        String firstName = "Bill";
+        String lastName = "Gates";
+        System.out.println(firstName.concat(lastName)); // prints BillGates
+        ```
+    - ```charAt()``` method returns a single character from the string at the specified position. Positions start from 0, just like array indexes.
+        ``` java
+        String name = "Satya Nadella";
+        System.out.println(name.charAt(3)); // prints y
+        ```
+    - ```compareTo()``` method compares "this" string to the string thats passed as the argument. If it is exactly same, this method returns 0, otherwise it returns an integer representing the difference between the 2 strings. This method compares strings with case sensitivity.
+        ``` java
+        String name1 = "Mark";
+        String name2 = "Mark";
+        String name3 = "Zuckerberg";
+        System.out.println(name1.compareTo(name2)); // prints 0
+        System.out.println(name2.compareTo(name3)); // prints -13
+        ```
+    - ```compareToIgnoreCase()``` method is similar to ```compareTo()``` method. The difference is that this method returns 0 even if the two strings have different case (case insensitive).
+        ``` java
+        String name1 = "Mark";
+        String name2 = "mArK";
+        System.out.println(name1.compareToIgnoreCase(name2)); // prints 0
+        ```
+    - ```indexOf()``` method returns the first position of a single character in the string. The position starts from 0. Returns -1 if the character is not found in the string.
+        ``` java
+        String name = "Linus Torvalds";
+        System.out.println(name.indexOf('s')); // prints 4
+        System.out.println(name.indexOf('x')); // prints -1
+        ```
+    
+## Building Your Own Classes
+## Static fields and Methods
+## Method Parameters
+## Object Construction
+## Packages
+## Documentation Comments
+## Class Design Hints
