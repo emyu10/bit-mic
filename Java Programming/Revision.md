@@ -547,6 +547,45 @@ class First {
 
 # Objects and Classes
 ## Introduction to Object Oriented Programming
+- Object-oriented programming (OOP) is the dominant programming paradigm (method/style) these days.
+- Java is object-oriented, to be productive in Java, you hava to be familiar with OOP.
+- An OO program is made of objects.
+- Each object has a specific functionality exposed to users (programmers who use the object).
+- How the object is implemented is not important for the users of the object.
+- OOP deals with data and objects first and then focuses on how to implement the programming logic.
+
+### Classes
+- A class represents a logical entity. For example a file in the filesystem or a database connection or even real life physical objects.
+- For a better example, in an order-processing system, classes can be
+    - Item
+    - Order
+    - ShippingAddress
+    - Payment
+    - Account
+- A class binds the properties and the functionality of an object.
+- A class is the template or blueprint from which objects are made.
+- Properties or attributes are called ```fields``` and functions or behaviour are called ```methods``` in Java.
+- A class is a data type in Java.
+
+### Objects
+- Simply put, an object is an instance or a variable of a class.
+- Java objects has 3 key characteristics.
+    1. object's <i>behaviour</i>
+    2. object's <i>state</i>
+    3. object's <i>identity</i>
+    ``` java
+    String name = "Richard Stallman";
+    Scanner scanner1 = new Scanner(System.in);
+    ```
+    in the above example ```name``` is an instance or object of ```String``` (you can say ```name``` is a ```String```). ```scanner1``` is an object of ```Scanner```. so ```scanner1``` is a ```Scanner```.
+
+### Object-oriented Concepts
+1. Abstraction
+2. Encapsulation
+3. Inheritance
+4. Polymorphism
+
+
 ## Using Existing Classes
 ### String Class
 - ```String``` class can be found in the ```java.lang``` package.
