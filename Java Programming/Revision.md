@@ -666,6 +666,28 @@ class First {
 ## Static fields and Methods
 ## Method Parameters
 ## Object Construction
+- A constructor is used to construct a new object.
+- A constructor is a special method whose pupose is to construct and initialize objects.
+- Example: an object of ```Scanner``` can be constructed and assigned to a varible of type ```Scanner``` like this.
+    ``` java
+    Scanner s = new Scanner(System.in);
+    ```
+    - On the left side of the equal is the declaration of the a variable of type ```Scanner```.
+    - On the right side is the object construction statement and the newly created ```Scanner``` object is assigned to variable ```s``` which is of type ```Scanner```.
+    - ```new Scanner(System.in)``` uses the ```new``` operator followed by one of the constructors in the ```Scanner``` class. This particular constructor accepts an ```InputStream``` object (```System.in```) as a parameter.
+    - There are other constructors in the ```Scanner``` class like the one which accepts a ```String``` object as its parameter.
+- A constructor has exactly the same name as the class and has no return type.
+- If you do not define a constructor explicitly, Java defines a default constructor for you.
+- The default constructor does not accept any parameters.
+- Constructor is executed at the time of object creation.
 ## Packages
 ## Documentation Comments
 ## Class Design Hints
+
+# Inheritance
+
+# Interfaces and Inner classes
+
+# Exceptions and Debugging
+
+# Multithreading
