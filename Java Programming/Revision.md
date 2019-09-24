@@ -71,12 +71,46 @@ Most popular Java development tools are as follows
 - Programs cannot read or write files without permission.
 - Digitally signed classes to verify the author of a class.
 
+### 7. Java is robust
+- Robust means reliability or dependability.
+- Java compiler is able to detect many problems that would show up during execution time in other languages.
+- Java makes an effort to eliminate error prone situation on compile time and runtime.
+
 ## Misconceptions About Java
+### 1. Java is an extension of HTML
+- Java is a programming language.
+- HTML is used to describe the structure of a web page.
+
+### 2. All Java programs run in a web browser
+- Most Java programs run as standalone applications.
+- Only Java "applets" inside a Java enabled web browser.
+
+### 3. Java programs have major security risks
+- Most security issues found in early days of Java were due to the poor implementation of Java in a specific browser.
+- These failures were quickly addressed and fixed.
+
+### 4. Javascript is the simpler version of Java
+- Javascript is a scripting language used in web browsers to program user interactivity on a web page.
+- There is nothing in common between Java and Javascript except for the name.
+- The 2 languages are developed and maintained by 2 different companies.
+
+### 5. Java will become the universal programming language
+- Most programs developed in other languages work well on desktops.
+- There is no need to rewrite these applications in Java.
+
 ### 6. I use XML, so I don't need Java
 - Java is a programming language.
 - XML is a way to describe data.
 - XML can be processed in any programming language.
 - Java API has excellent support for XML.
+
+### 7. Java is an easy programming language
+- No programming language as powerful as Java is easy to learn.
+- The comparison should be made on how easy it is to write toy programs and how hard it could get for some serious work to be done.
+
+### 8. Java is just another programming language
+- Java is nice and a lot of programmers prefer it over C/C++ or C#.
+- Not so nice languages like C++ and VB also have been wildly successful.
 
 
 # Fundamental Programming Structures in Java
@@ -663,6 +697,25 @@ class First {
         ```
     
 ## Building Your Own Classes
+### Access Modifiers: ```private```, default, ```protected```, ```public```
+- There are 4 access modifiers under Java.
+
+| Modifier | class | package | sub class | world |
+| --- | --- | --- | --- | --- |
+| private | o | x | x | x |
+| default | o | o | x | x |
+| protected | o | o | o | x |
+| public | o | o | o | o |
+
+#### 1. private
+- Syntax: ```private int a;```
+- ```private``` variables are accessible only inside of the class.
+
+#### 2. default
+- Syntax: ```int a;```
+- Default is when no other access modifiers are applied explicitly.
+- Default variable can access or modify under class or package.
+
 ## Static fields and Methods
 ## Method Parameters
 ## Object Construction
@@ -676,18 +729,62 @@ class First {
     - On the right side is the object construction statement and the newly created ```Scanner``` object is assigned to variable ```s``` which is of type ```Scanner```.
     - ```new Scanner(System.in)``` uses the ```new``` operator followed by one of the constructors in the ```Scanner``` class. This particular constructor accepts an ```InputStream``` object (```System.in```) as a parameter.
     - There are other constructors in the ```Scanner``` class like the one which accepts a ```String``` object as its parameter.
-- A constructor has exactly the same name as the class and has no return type.
+- A constructor has exactly the same name as the class and has no return type (a constructor always returns an object of that class).
 - If you do not define a constructor explicitly, Java defines a default constructor for you.
 - The default constructor does not accept any parameters.
 - Constructor is executed at the time of object creation.
+
 ## Packages
 ## Documentation Comments
 ## Class Design Hints
+### 1. Always keep data private
+- When you are creating complex programs using classes, data items must be private.
+- You may need to write an accessor or mutator method occassionally, but you are still better off keeping instance fields private.
+- When data are kept private, changes in their representation do not affect ther user of class.
+
+### 2. Always initialize data
+- Java won't initialize local variables for you. But it will initialize instance fields of objects.
+- Don't rely on the defaults, but initialize the varibales expressively either by supplying a default or by setting default values in the constructor.
+
+### 3. Don't use too many basic data types
+- The idea is to replace multiple related uses of basic types with other classes.
+- This keeps your class eacy to understand.
+- Example: replace the following as a customer class.
+    - String street
+    - String city
+    - String island
+    - String state
+    - String postalCode
+
+### 4. Use a standard form for class definition
+- The main contents of classes are
+    - public features
+    - package scope
+    - private fearture
+    - instance varibale (fields)
+    - static methods
+    - static fields
+
+### 5. Break up classes with too many responsibilities
+- If there is an obvious way to make one complicated class into 2 simpler classes.
+- If a class has more tasks, it is easy to divide the class into sub classes.
+- Then the complexity of the program will be minimized.
+
+### 6. Make names of the classes and methods reflect their purpose
+- Just as varibles should have meaningful names, so should classes and methods.
+- A good rule is that a class name should be a noun (eg: Order), or a noun preceded by an adjective (eg: RushOrder).
+- A method name should begin with lower case and the first letter of each subsequent word should be upper case.
+- A method name is usually a verb (eg: getUnixTimestamp()).
 
 # Inheritance
 
 # Interfaces and Inner classes
 
 # Exceptions and Debugging
+## Dealing with Errors
+- Erros that occur during runtime are called Exceptions.
+- To deal with exceptions, use ```try .. catch .. finally``` blocks.
+
+## Catching Exceptions
 
 # Multithreading
