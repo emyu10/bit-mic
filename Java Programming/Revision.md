@@ -744,6 +744,40 @@ class First {
 
 ## Packages
 ## Documentation Comments
+- There are 3 types of comments in Java
+    1. Single line ```//```
+        <br>Example:
+        ``` java
+        // System.out.println("this line will not execute");
+        ```
+    2. Multiline ```/* ... */```
+        <br>Example:
+        ``` java
+        /*
+        System.out.print("Following lines ");
+        System.out.print("will not");
+        System.out.print(" execute");
+        */
+    3. Documentation comments ```/** ... */```
+        - ```javadoc``` is a tool which comes with JDK and it is used for generating java code documentation in HTML format from the Java source code.
+
+        - **Tags Used**<br>
+        ```@author```: author of class<br>
+        ```@code```: display text in code font<br>
+        ```@docRoot```: relative root path<br>
+        ```@exception```: possible chances of Exception<br>
+        ```@inheritDoc```: inherit a comment from nearest inheritable class<br>
+        ```@link```: link to the documentation
+        - Example:
+            ``` java
+            /**
+             @author James Gosling
+             @exception ArithmeticException
+             */
+            public double divide(int a, int b) {
+                return a / b;
+            }
+            ```
 ## Class Design Hints
 ### 1. Always keep data private
 - When you are creating complex programs using classes, data items must be private.
