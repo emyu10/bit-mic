@@ -716,6 +716,14 @@ class First {
 - Default is when no other access modifiers are applied explicitly.
 - Default variable can access or modify under class or package.
 
+#### 3. protected
+- Syntax: ```protected int a;```
+- Protected variables are accessible inside of class, package and sub class.
+
+#### 4. public
+- Syntax: ```public int a;```
+- Public variables can be accessed from anywhere.
+
 ## Static fields and Methods
 ## Method Parameters
 ## Object Construction
