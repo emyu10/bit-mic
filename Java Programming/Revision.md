@@ -787,7 +787,18 @@ class First {
 # Inheritance
 
 # Interfaces and Inner classes
+## Interfaces
+## Object cloning
+- A way to create an exact copy of an object.
+- The clone method ```clone()``` is used.
+- ```java.lang.Clonable``` must be implemented by the class whose object we want to be clonable.
+- If cloning is not supported, ```CloneNotSupportedException``` will occur.
+- The clone method is inherited from the ```Object``` class.
+- ```clone()``` method saves us from the trouble of creating an exact copy of the object.
+- Object cloning is useed to avoid extra processing when we create objects using the ```new``` operator.
 
+## Inner classes
+## Proxies
 # Exceptions and Debugging
 ## Dealing with Errors
 - Erros that occur during runtime are called Exceptions.
