@@ -861,7 +861,14 @@ class First {
 - ```clone()``` method saves us from the trouble of creating an exact copy of the object.
 - Object cloning is used to avoid extra processing when we create objects using the ```new``` operator.
 
-## Inner classes
+## Inner classes (Nested classes)
+- A class defined within another class is known as a nested or inner class.
+
+### Advantages
+- Logically groups classes that are used only in one place.
+- Increases encapsulation.
+- More readable and maintainable code.
+
 ## Proxies
 # Exceptions and Debugging
 ## Dealing with Errors
