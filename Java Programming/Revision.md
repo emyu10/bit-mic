@@ -769,7 +769,45 @@ class First {
 - Syntax: ```public int a;```
 - Public variables can be accessed from anywhere.
 
+## Methods (functions) / Recursive Methods
+### Method
+- A function in Java is called a method because any function in Java belongs to some object of a class or the class itself.
+- A set of statements which is enclosed in a block.
+- A method has a return type. A method with no return type show be defined as void.
+- A method can accept 0 or more arguments as data that the method need to do it's function.
+- Syntax:
+    ```
+    access_modifiers return_type methodName(data_type arg1, data_type arg2) {
+        method body;
+    }
+    ```
+- Methods are divided into 4 categories
+    1. No argument, no return
+    2. No argument with return
+    3. Argument, no return
+    4. Argument with return
+
+### Recursion
+- Recursion is a process in which a method calls itself.
+- A method in Java that call itself is known as recursive method.
+
 ## Static fields and Methods
+- A static field of a class has the following characteristics.
+    1. There is only one copy of the static field for all the objects of the class.
+    2. It's a shared memory location.
+    3. A static field can be accessed without reference to an object of the class.
+- A static method also does not belong to the objects of a class but rather the class itself.
+- A static method can be invoked without reference to an object (like all the methods in the Math class).
+- To create a static variable or method, use the ```static``` keyword before the data type of the variable or the return type of the method.
+- Example:
+    ``` java
+    public static double PI = 3.142; // type double
+    
+    public static int sum(int a, int b) { // return type int
+        return a + b;
+    }
+    ```
+
 ## Method Parameters
 ## Object Construction
 - A constructor is used to construct a new object.
