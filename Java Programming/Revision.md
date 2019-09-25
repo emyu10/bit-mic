@@ -724,6 +724,22 @@ class First {
         System.out.println(Math.ceil(3.4)); // 4
         System.out.println(Math.ceil(3.5)); // 4
         ```
+    - ```floor()```: returns the value rounded down to the nearest integer
+        ``` java
+        System.out.println(Math.floor(3.5)); // 3
+        ```
+    - ```random()```: returns a random number
+        ``` java
+        System.out.println(Math.random()); // a random number between 0 and 1
+        ```
+    - ```max()```: returns maximum among 2 numbers
+        ``` java
+        System.out.println(Math.max(3, 4)); // 4
+        ```
+    - ```min()```: returns minimum among 2 numbers
+        ``` java
+        System.out.println(Math.min(3, 4)); // 3
+        ```
 
 ## Building Your Own Classes
 ### Access Modifiers: ```private```, default, ```protected```, ```public```
