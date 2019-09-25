@@ -743,6 +743,20 @@ class First {
 - Constructor is executed at the time of object creation.
 
 ## Packages
+- Java allows grouping of classes in packages.
+- Helps organizing classes.
+- Prevents name conflicts with classes from library packages and other packages.
+- Standard Java library has a number of packages. Example: ```java.lang```, ```java.util```, ```java.io```
+- A package groups classes, interfaces and sub packages.
+- Can be considered as data encapsulation.
+
+### Built-in packages
+- ```java.lang``` contains language support classes. This package is imported automatically (no import declaration required).
+- ```java.io``` contains classes for input and output operations.
+- ```java.util``` contains data structures and date-time operations. The familiar ```Scanner``` class is in this package.
+- ```java.applet``` contains classes for applet programming.
+- ```java.awt``` contains classes for GUI programming.
+
 ## Documentation Comments
 - There are 3 types of comments in Java
     1. Single line ```//```
