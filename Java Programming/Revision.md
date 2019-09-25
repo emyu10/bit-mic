@@ -788,6 +788,22 @@ class First {
 
 # Interfaces and Inner classes
 ## Interfaces
+- An interface has the literal meaning, a way to interact with classes. The way is defined as methods in the interface.
+- A Java interface is an abstract class which means the methods have no body.
+- Example: 
+    ``` java
+    interface Animal {
+        public void animalSound();
+        public void run();
+        public void start();
+        public void round();
+    }
+    ```
+- Interfaces are implemented by other classes.
+- A class which ```implements``` interface must implement (write the body of) all the methods in the interface.
+- An interface cannot be used to create objects (cannot contain a contructor). But it can be used as a data type (to declare variables).
+- Interface attributes (fields) are public and static and final by default.
+
 ## Object cloning
 - A way to create an exact copy of an object.
 - The clone method ```clone()``` is used.
@@ -795,7 +811,7 @@ class First {
 - If cloning is not supported, ```CloneNotSupportedException``` will occur.
 - The clone method is inherited from the ```Object``` class.
 - ```clone()``` method saves us from the trouble of creating an exact copy of the object.
-- Object cloning is useed to avoid extra processing when we create objects using the ```new``` operator.
+- Object cloning is used to avoid extra processing when we create objects using the ```new``` operator.
 
 ## Inner classes
 ## Proxies
