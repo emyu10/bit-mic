@@ -638,6 +638,7 @@ class First {
             - When polymorphism is applied, the same method is called with different parameters (different contexts).
             - For example a class might have a ```sum(int a, int b)``` method and another ```sum(double a, double b)``` method.
             - The user of the class does not have to worry about which method to use with which data type. The right method will be chosen based on the parameters supplied.
+
         2. Method overriding
             - Method overriding is the concept of overriding the functionality of a parent class in the subclass.
             - In this case, the method has the same name and the same parameters (types and numbers of parameters alike).
@@ -696,6 +697,34 @@ class First {
         System.out.println(name.indexOf('x')); // prints -1
         ```
     
+### Java ```Math``` class
+- Provides more advanced mathematical calculations.
+- ```Math``` is location in ```java.lang``` package.
+- All methods in this class are static (do not have to create an object of the class to invoke the methods).
+- Methods
+    - ```abs()```: finds the absolute value (without + or - sign)
+        ``` java
+        System.out.println(Math.abs(-10)); // 10
+        System.out.println(Math.abs(30)); // 30
+        ```
+    - ```cbrt()```: computes cubic root of a number
+        ``` java
+        System.out.println(Math.cbrt(64)); // 4
+        ```
+    - ```sqrt()```: computes sqare root of a number
+        ``` java
+        System.out.println(Math.sqrt(9)); // 3
+        ```
+    - ```pow()```: computes power of a number
+        ``` java
+        System.out.println(Math.pow(2, 3)); // 2x2x2 = 8
+        ```
+    - ```ceil()```: returns the value rounded up to the nearest integer
+        ``` java
+        System.out.println(Math.ceil(3.4)); // 4
+        System.out.println(Math.ceil(3.5)); // 4
+        ```
+
 ## Building Your Own Classes
 ### Access Modifiers: ```private```, default, ```protected```, ```public```
 - There are 4 access modifiers under Java.
