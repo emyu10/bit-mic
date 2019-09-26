@@ -206,6 +206,17 @@ class First {
     Animal d = new Animal();
     Scanner s = new Scanner(System.in);
     ```
+### Declaring constants
+- A Java constant is declared using the ```final``` keyword.
+- Use the ```final``` keyword before the data type of the variable.
+- A final variable will accept a value only once. The value can be assigned after declaring the variable, but once a value is assigned, it cannot be changed.
+- Syntax: ```final data_type variableName = value;```
+- Example
+    ``` java
+    final int a;
+    a = 10; // first assignment, this is okay
+    a = 20; // a is final, this will report an error
+    ```
 
 ## Operators
 ### Arithmetic Operators
