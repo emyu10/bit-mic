@@ -795,7 +795,7 @@ class First {
 ### Method
 - A function in Java is called a method because any function in Java belongs to some object of a class or the class itself.
 - A set of statements which is enclosed in a block.
-- A method has a return type. A method with no return type show be defined as void.
+- A method has a return type. A method with no return type should be defined as void.
 - A method can accept 0 or more arguments as data that the method need to do it's function.
 - Syntax:
     ```
@@ -829,6 +829,24 @@ class First {
         return a + b;
     }
     ```
+## Static and non-static data items (fields)
+- Non-static
+    - Non-static fields are instance members
+    - It means each object of the class have a its own copy of the field.
+- Static
+    - Static fields are attributes of the class itself.
+    - So it will be shared among all objects of the class.
+
+## Java Enums
+- A special class that represents a group of constants.
+- Use ```enum``` keyword to create and enum.
+- Syntax: ```enum Name = {ConstName1, ConstName2 ...};```
+- Example
+    ``` java
+    enum WeekDays = {Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday};
+
+    WeekDays day = WeekDays.Sunday; // use like this
+    ```
 
 ## Method Parameters
 ## Object Construction
@@ -844,8 +862,10 @@ class First {
     - There are other constructors in the ```Scanner``` class like the one which accepts a ```String``` object as its parameter.
 - A constructor has exactly the same name as the class and has no return type (a constructor always returns an object of that class).
 - If you do not define a constructor explicitly, Java defines a default constructor for you.
-- The default constructor does not accept any parameters.
+- The default constructor does not accept any parameters (arguments).
 - Constructor is executed at the time of object creation.
+- A constructor which accepts an argument is a parameterized constructor (example ```new Scanner(System.in)```, here ```System.in``` is the argument)
+- If an object is passed to the constructor to set the initial values of another object, it's called object constructor.
 
 ## Packages
 - Java allows grouping of classes in packages.
@@ -856,6 +876,7 @@ class First {
 - Can be considered as data encapsulation.
 
 ### Built-in packages
+Following are only some of the packages in Java official library.
 - ```java.lang``` contains language support classes. This package is imported automatically (no import declaration required).
 - ```java.io``` contains classes for input and output operations.
 - ```java.util``` contains data structures and date-time operations. The familiar ```Scanner``` class is in this package.
@@ -977,10 +998,55 @@ class First {
 ## Proxies
 # Exceptions and Debugging
 ## Dealing with Errors
-- Erros that occur during runtime are called Exceptions.
-- To deal with exceptions, use ```try .. catch .. finally``` blocks.
+- An Exception is an abnormal condition that occurs in the code at runtime, meaning, Exception is a runtime error.
+- Java exception handling is managed through 5 keywords
+    1. try
+    2. catch
+    3. throw
+    4. throws
+    5. finally
 
 ## Catching Exceptions
+- Enclose statements that may / will throw an Exception in a ```try {}``` block.
+- Write a ```catch() {}``` block for each type of Exceptions that may / will arise from the try block. For a ```try``` block, at least 1 ```catch``` block is required.
+- Use a ```finally {}``` block to do something whether or not an Exception was thrown.
+- Syntax:
+    ``` java
+    try {
+        // statements that potentially throws an Exception
+    }
+    catch (TypeOneException eObject) {
+        // do something if TypeOneException occurs
+    }
+    catch (TypeTwoException eObject) {
+        // do something if TypeTwoException occurs
+    }
+    catch (Exception eObject) {
+        // catch all other exceptions
+    }
+    finally {
+        // this block is optional
+        // maybe close resources that were opened in the try block
+    }
+- Example
+    ``` java
+    int a, b, c;
+    a = 5;
+    b = 0;
+
+    try {
+        System.out.println(a + b);
+        System.out.println(a - b);
+        System.out.println(a * b);
+        System.out.println(a / b); // this will throw an ArithmeticException
+    } catch (ArithmeticException e) {
+        System.out.println("Cannot divide by zeor");
+    } catch (Exception e) {
+        System.out.println(e.getMessage());
+    }
+    // finally block not required here
+    ```
+## Throwing Exceptions
 
 # Multithreading
 ## What are threads?
@@ -997,17 +1063,18 @@ class First {
         ``` java
         class MyThread implements Runnable {
             public void run() {
-
+                // thread task here
             }
         }
         ```
 - Thread methods
     - ```getName()```: Get object name.
     - ```getPriority()```: Get object priority.
-    - ```isAlive()```: Check if thread is still running or not.
-    - ```run()```: Entry point to the thread.
+    - ```isAlive()```: Check if thread is still running or not. Returns ```true``` if active and ```false``` if not.
+    - ```run()```: Entry point to the thread. The task of the thread is written here.
     - ```start()```: Start a thread by using ```run()```.
     - ```sleep()```: Suspend a thread.
+    - ```join()```: make a thread wait until all the threads finish the tasks.
 
 ## Interrupting Threads
 ## Thread Properties
