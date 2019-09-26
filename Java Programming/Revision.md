@@ -961,3 +961,39 @@ class First {
 ## Catching Exceptions
 
 # Multithreading
+## What are threads?
+### The ```Thread``` class and ```Runnable``` interface
+- You can create a thread program either by
+    1. Extending the ```Thread``` class and override the ```run()``` method or
+        ``` java
+        class MyThread extends Thread {
+            public void run() {
+                // thread task here
+            }
+        }
+    2. Implementing the ```Runnable``` interface and implement the ```run()``` method
+        ``` java
+        class MyThread implements Runnable {
+            public void run() {
+
+            }
+        }
+        ```
+- Thread methods
+    - ```getName()```: Get object name.
+    - ```getPriority()```: Get object priority.
+    - ```isAlive()```: Check if thread is still running or not.
+    - ```run()```: Entry point to the thread.
+    - ```start()```: Start a thread by using ```run()```.
+    - ```sleep()```: Suspend a thread.
+
+## Interrupting Threads
+## Thread Properties
+## Thread Piorities
+## Selfish Threads
+## Synchronization
+- A way to ensure that a shared resource is used by only one thread a time.
+
+## Deadlocks
+## User interface programming with Threads
+## Using pipes for communication between Threads
