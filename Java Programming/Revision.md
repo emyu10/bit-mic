@@ -999,6 +999,7 @@ Following are only some of the packages in Java official library.
 # Exceptions and Debugging
 ## Dealing with Errors
 - An Exception is an abnormal condition that occurs in the code at runtime, meaning, Exception is a runtime error.
+- All exceptions in Java are directly or indirectly inherited from ```Throwable``` class.
 - Java exception handling is managed through 5 keywords
     1. try
     2. catch
@@ -1047,6 +1048,54 @@ Following are only some of the packages in Java official library.
     // finally block not required here
     ```
 ## Throwing Exceptions
+- Throw an Exception in your own program using the ```throw``` keyword.
+- Syntax
+    ``` java
+    throw new ArithmeticException();
+    ```
+- Any Exception that's thrown should be an object of an exception class. So the ```new``` keyword is used when throwing an exception, to create an object of the exception.
+- Example
+    ``` java
+    public int getValueFromArray(int[] a, int position) {
+        if (position >= a.length) {
+            throw new ArrayIndexOutOfBoundsException();
+        } else {
+            return a[position];
+        }
+    }
+    ```
+- Use the ```throws``` keyword to tell the compiler explicitly that a method will throw a certain exception.
+- Write ```throws``` keyword after the parameter list of a method followed by the name of an Exception class.
+- ```throws``` should be used if an exception is not caught in your own method.
+- More than one exception can be declared to be thrown. Each exception is separated by a comma.
+- Example syntax
+    ``` java
+    public void someMethod() throws IOException {
+        // do something that will throw IOException, no try catch here
+    }
+    ```
+
+### Difference between ```throw``` and ```throws```
+| throw | throws |
+| --- | --- |
+| Used to throw an exception | Used to declare an exception possible during its execution |
+| Followed by an instance (object) of ```Throwable``` or one of its sub classes | Followed by one or more exception names separated by commas |
+| Used inside the method body | Used with method declaration |
+| Cannot throw multiple exceptions using ```throw``` keyword | Can declare multiple exceptions separated by commas |
+
+## Java built-in Exceptions
+Following are only some of the exceptions.
+- ```ArithmeticException```: An arithmetic error such as divide by 0.
+- ```ArrayIndexOutOfBoundsException```: Array index mismatch.
+- ```ArrayStoreException```: Store different type of data in array.
+- ```ClassCastException```: Invalid cast
+- ```IllegalArgumentException```: Illegal argument passed to a method.
+- ```NegativeArraySizeException```: Array created with negative size.
+- ```NullPointerException```: Invalid use of null
+- ```NumberFormatException```: Invalid conversion from String to int.
+- ```SecurityException```: Violate security.
+- ```StringIndexOutOfBoundsException```: index out side of string.
+
 
 # Multithreading
 ## What are threads?
