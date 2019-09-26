@@ -112,6 +112,21 @@ Most popular Java development tools are as follows
 - Java is nice and a lot of programmers prefer it over C/C++ or C#.
 - Not so nice languages like C++ and VB also have been wildly successful.
 
+## Difference between C++ and Java
+| C++ | Java |
+| --- | --- |
+| Supports pointers | No pointers |
+| Supports unions & structures | No unions & structures |
+| Operator overloading | No operator overloading |
+| No garbage collection | Automatic garbage collection |
+| Platform dependent | Platform independent |
+| Supports all types inheritance | No multiple inheritance |
+| Compiled | Interpreted |
+| Supports destructor | No destructor |
+| Call by value & call by reference | Call by reference does not exist |
+| :: exist | :: does not exist |
+| goto verb exist | No goto statement |
+| No exception handling | Exception handling with try..catch |
 
 # Fundamental Programming Structures in Java
 ## Running a simple program
