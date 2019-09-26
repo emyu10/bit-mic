@@ -206,6 +206,7 @@ class First {
     Animal d = new Animal();
     Scanner s = new Scanner(System.in);
     ```
+
 ### Declaring constants
 - A Java constant is declared using the ```final``` keyword.
 - Use the ```final``` keyword before the data type of the variable.
@@ -242,7 +243,17 @@ class First {
 - <b>^ (bitwise XOR):</b> copies a bit if it is set in one operand but not both.
 - <b>~ (bitwise compliment):</b> operates on one operand and has effect of flipping bits.
 - <b><< (left shift):</b> left operand's value is moved left by the number of bits specified by the right operand.
+    ``` java
+    int a = 8, b;
+    b = a << 2; // 32
+    // 64 32 16 8 4 2 1 - two steps towards left
+    ```
 - <b>>> (right shift):</b> the left operand's value is moved right by the number of bits specified by the right operand.
+    ``` java
+    int a = 64, b;
+    b = a >> 2; // 16
+    // 64 32 16 8 4 2 1 - two steps towards right
+    ```
 - <b>>>> (zero fill right shift):</b> the left operand's value is moved right by the number of bits specified by the right operand and shifted values are filled with zeros.
 
 ### Logical operators
