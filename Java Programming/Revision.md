@@ -861,10 +861,10 @@ class First {
 ## Java Enums
 - A special class that represents a group of constants.
 - Use ```enum``` keyword to create and enum.
-- Syntax: ```enum Name = {ConstName1, ConstName2 ...};```
+- Syntax: ```enum Name {ConstName1, ConstName2 ...};```
 - Example
     ``` java
-    enum WeekDays = {Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday};
+    enum WeekDays {Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday};
 
     WeekDays day = WeekDays.Sunday; // use like this
     ```
