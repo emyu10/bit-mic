@@ -980,6 +980,29 @@ Following are only some of the packages in Java official library.
 - A method name is usually a verb (eg: getUnixTimestamp()).
 
 # Inheritance
+- Deriving a new class from an existing base class.
+- The ```super``` keyword
+    - Is used to access base class methods.
+## Types of Inheritance
+### 1. Single Inheritance
+- It's simple inheritance when a class extends another class.
+
+### 2. Multi-level Inheritance
+- One class extends another class and that class is inherited from yet another class.
+- Example: class B extends class A and class C extends class B.
+
+### 3. Hierarchical Inheritance
+- A class is extended by more than one class.
+- Example: class B and class C extends class A.
+
+### 4. Multiple Inheritance
+- Java does not support multiple inheritance by extending classes.
+- Multiple inheritance is achieved by implementing more than one interface to derive a class.
+- Example: class A implements interface B and interface C.
+
+### 5. Hybrid Inheritance
+- Combination of multiple and hierarchical inheritance.
+
 ## ```Object```: The cosmic superclass
 - Parent class of all classes by default.
 - The top most class in Java.
