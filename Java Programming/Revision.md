@@ -637,6 +637,12 @@ class First {
 - A class is the template or blueprint from which objects are made.
 - Properties or attributes are called ```fields``` and functions or behaviour are called ```methods``` in Java.
 - A class is a data type in Java.
+- A class contains 5 entities
+    1. Modifiers
+    2. class name
+    3. super class
+    4. interface
+    5. body
 
 ### Objects
 - Simply put, an object is an instance or a variable of a class.
@@ -974,6 +980,45 @@ Following are only some of the packages in Java official library.
 - A method name is usually a verb (eg: getUnixTimestamp()).
 
 # Inheritance
+## ```Object```: The cosmic superclass
+- Parent class of all classes by default.
+- The top most class in Java.
+- Every class is directly or indirectly inherited from ```Object``` class.
+- ```Object``` class methods are available to all classes.
+- Acts as the root of inheritance hierarchy in any Java program.
+### Methods of ```Object``` class
+1. ```toString()```
+2. ```hashCode()```
+3. ```equals()```
+4. ```getClass()```
+5. ```finalize()```
+6. ```clone()```
+
+## Design Hints for Inheritance
+1. Place common operations and fields in super class.
+    - If user puts all operations (methods) in super class, it's easy for inheritance.
+2. Don't use ```protected``` fields.
+    - Some programmers thinks it's a good idea to define most instance fields as ```protected```, just in case sub class needs to access these fields.
+    - This is a violation of encapsulation.
+3. Don't use inheritance unless all inherited methods make sense.
+4. Don't change the expected behaviour when you override a method.
+    - When you override a method, you should not unrecessarily change its behaviour. The compiler will not check whether your redefinitions make sense.
+5. Use polymorphism, not type information.
+    - Whenever you find code of the form
+    ``` java
+    if (x is of type1)
+        action1;
+    if (x is of type2)
+        action2;
+    ```
+    replace it with
+    ``` java
+    obj.function(type1);
+    obj.function(type2);
+    ```
+6. Don't overuse reflection.
+    - The reflection mechanism lets you write programs with amazing generality, by detecting fields and methods at runtime.
+    - This capability can be extremely useful for system programming but it is usually not appropriate in applications.
 
 # Interfaces and Inner classes
 ## Interfaces
