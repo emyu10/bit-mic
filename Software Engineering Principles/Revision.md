@@ -96,7 +96,50 @@
 ## Phases involved in software development process
 ## Compare how software development companies organize their development process
 # Software Development Process Model
-# SDLC
+# Software Development Lifecycle (SDLC)
+- It is a *well defined*, *structured* sequence of *stages* in software engineering.
+
+## Stages (Phases) of SDLC
+### 1. Communication
+- First step in SDLC.
+- Initiate the request for software product.
+- Try to negotiate the terms.
+- Client gives all information to developers in writing.
+
+### 2. Requirement Gathering
+- Development team manages this stage.
+- Developers collect more data from the client.
+- Study the existing system with
+    1. Questionnaires
+    2. Interviews
+- Developers collect answers from the questionnaires.
+
+### 3. Feasibility Study
+- Developers start designing a software in a cost-effective way.
+- There are 4 types of feasibility study
+    1. Technical feasibility
+    2. Operational feasibility
+    3. Economic feasibility
+    4. Schedule feasibility
+
+### 4. Detailed System Study
+- Various operations are performed by the system and their relationship within and outside the system is studied.
+- All the data is documented in
+    1. Detailed Data Flow Diagrams
+    2. Data Dictionary
+    3. Logical Data Structures
+
+### 5. System Design
+- New system starts.
+- Features of new system is designed.
+- Cost of development is estimated.
+- System Analyst selects best solution from all feasible solutions.
+
+### 6. Coding
+### 7. Testing
+### 8. Implementation
+### 9. Maintenance
+
 # Data Modeling
 # Software Design Concepts
 # Maintenance
