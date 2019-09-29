@@ -144,6 +144,7 @@
 # 5) Data Modeling
 ## System Elements
 > Incomplete
+
 ## Cardinality and Modality
 ## Entity Relationship Diagram
 ## Data Flow Diagram
@@ -185,11 +186,121 @@
 
         ![](assets/images/dfd_level1.png)
 
+3. Level 2
+    - At this level of DFD, data flows inside the module mentioned in level 1.
+
+## Structure Chart
+- Derived from DFD.
+- Represents the system more detailed than DFD.
+- Breaks down the entire system into lowest functional modules, describes functions and sub functions of each module of the system.
+- Represents hierarchical structure of modules.
+- At each layer, a specific task is performed.
+
+### Symbols used under structure chart
+1. Module: represents process or subroutine.
+    > @todo: image here
+2. Condition:
+    - It is represented by small diamond at base of the module.
+    - It tells that control module can select any of subroutines based on some condition.
+    > @todo: image here
+3. Jump: An arrow is shown pointing inside the module tells that the control will jump in the middle of the sub module.
+    > @todo: image here
+4. Loop:
+    - A curved arrow represents loop in the module.
+    - Every sub module covered by loop repeat execution of module.
+    > @todo: image here
+5. Data Flow:
+    - A directed arrow with empty circle at the end represents data flow.
+6. Control Flow:
+    - A directed arrow with filled circle at the end represents control flow.
+    > @todo: image here
+
+## Hipo Chart
+- Developed by IBM in 1970.
+- Represents the hierarchy of modules in the software system.
+- System Analyst uses hipo diagram in order to obtain high level view of system functions.
+- It decomposes functions into sub functions in a hierarchical manner.
+> @todo: image here
+
+## Structured English
+- The description of what is required to the code and how to code it.
+- Structured English helps the programmer to write error free code.
+- It uses plain English words in structured programming method.
+- It is not the ultimate code but a kind of description of what is required to code and how to code it.
+- Example:
+    ```
+    enter Customer_Name<br>
+    seek Customer_Name in Customer_Table
+    if Customer_Name found then
+        Call procedure User_Passwd
+    else
+        print Error_Message
+        Call procedure New_Customer_Request
+    end if
+    ```
+## Decision Tables
+- A decision table represents conditions and the respective actions to be taken to address them in a structured table format.
+- It is a powerful tool to debug and prevent errors.
+- It helps similar information into a single table and then by combining tables, it delivers easy and convenient decision-making.
+- Example:
+    > @todo: image here
+
+    | condition | rule 1 | rule 2 | rule 3 | rule 4 |
+    | ---       | :---:  | :---:  | :---:  | :---:  |
+    | username  | F      | T      | F      | T      |
+    | password  | F      | F      | T      | T      |
+    | output    | E      | E      | E      | H      |
+    T - correct<br>
+    F - wrong<br>
+    E - error<br>
+    H - home screen
+
 ## Control Flow Model
+> Not found
+
 # 6) Software Design Concepts
-> Incomplete
+## Data Dictionaries
+- It is a file or set of files that includes database information.
+- In data dictionaries, the following information exist.
+    1. **Name of data items**: fields
+    2. **Aliases**: other names by which data items are called
+    3. **Description**: textual description of what the data item is
+    4. **Related data items**:
+        - captures relationship between data items.
+        - For example, total marks relate to internal marks and external marks
+    5. **Range of values**:
+        - records all possible values that is connected with the field.
+        - For example, total marks must be positive and between 0 to 100.
+    6. **Data structure definition**: data flows capture the name of processes that generate or receive the data item
+
+### Mathematical operators used under Data Dictionary
+<table>
+<tr>
+    <td>x = a + b</td>
+    <td>x contain both a and b</td>
+</tr>
+<tr>
+    <td>x = [a/b]</td>
+    <td>x contains either a or b</td>
+</tr>
+<tr>
+    <td>x = a X b</td>
+    <td>x contains most entries from a</td>
+</tr>
+<tr>
+    <td>x = y[a]</td>
+    <td>x includes y more occurence of a</td>
+</tr>
+<tr>
+    <td>x = [a]z</td>
+    <td>x includes z fewer occurences of a</td>
+</tr>
+</table>
+
+
 # 7) Maintenance
 > Incomplete
+
 # 8) Computer Aided Software Engineering (CASE)
 > Incomplete
 
