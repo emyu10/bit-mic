@@ -1,4 +1,4 @@
-# Introduction to Software Engineering
+# 1) Introduction to Software Engineering
 ## Software Problems
 > Incomplete
 ## Characteristics of Good Software
@@ -39,7 +39,7 @@
 5. Quality Management
     - To ensure quality of software.
 
-# Software Development
+# 2) Software Development
 ## Software Engineering Goals
 ## Importance of a phased approach to software development
 ### Phases or Stages of Software Development Process
@@ -95,8 +95,9 @@
 
 ## Phases involved in software development process
 ## Compare how software development companies organize their development process
-# Software Development Process Model
-# Software Development Lifecycle (SDLC)
+# 3) Software Development Process Model
+> Incomplete
+# 4) Software Development Life Cycle (SDLC)
 - It is a *well defined*, *structured* sequence of *stages* in software engineering.
 
 ## Stages (Phases) of SDLC
@@ -140,7 +141,19 @@
 ### 8. Implementation
 ### 9. Maintenance
 
-# Data Modeling
-# Software Design Concepts
-# Maintenance
-# CASE
+# 5) Data Modeling
+## System Elements
+> Incomplete
+## Cardinality and Modality
+## Entity Relationship Diagram
+## Data Flow Diagram
+- Graphical representation of flow of data.
+- Capable of showing incoming, outgoing and stored data.
+![](assets/images/dfd_elements.png)
+## Control Flow Model
+# 6) Software Design Concepts
+> Incomplete
+# 7) Maintenance
+> Incomplete
+# 8) Computer Aided Software Engineering (CASE)
+> Incomplete
