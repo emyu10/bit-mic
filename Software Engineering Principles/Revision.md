@@ -151,6 +151,30 @@
 - Capable of showing incoming, outgoing and stored data.
 
     ![](assets/images/dfd_elements.png)
+
+### Entity
+- Entities are sources and destinations of information data.
+- Entities are represented by rectangles with their respective names.
+
+### Process
+- Activities and actions taken on the data are represented by circle or round edged rectangles.
+
+### Data Store
+- There are 2 variants of data storage.
+- It can either be represented as a rectangle with absence of both smaller sides or an open-sided rectangle with only one side missing.
+
+### Data Flow
+- Movement of data is shown by pointed arrows.
+- Data movement is shown from the base of the arrow towards head of the arrow as destination.
+
+    ![](assets/images/dfd_example1.png)
+
+### Levels of DFD
+1. Level 0
+    - Highest level of DFD
+    - Shows the entire information system as one diagram.
+    - Example:
+    
 ## Control Flow Model
 # 6) Software Design Concepts
 > Incomplete
@@ -158,3 +182,64 @@
 > Incomplete
 # 8) Computer Aided Software Engineering (CASE)
 > Incomplete
+
+
+> Will put this part to somewhere later
+## Requirement Analysis & Specification
+The process of gathering the software requirements from the client.
+
+It has 4 steps
+1. Feasibility Study: Feasibility study is used to select a feasibile solution which follows all the user requirements.
+
+The output of this phase should be a feasible output report which contains all user requirements.
+
+2. Requirement gathering: getting information from client.
+Types of information gathering
+    1. Interview
+        - a. One to One interview
+        - b. Written interview
+        - c. Oral interview
+        - d. Group interview
+    2. Surveys: Organization may conduct surveys about their expectations and needs from the upcoming system.
+    3. Questionnaires: A document with a predefined set of objective questions and respective options is used to get information from the client.
+    4. Brainstorming: An informational debate is held among the organization. Inputs are stored onto the database during this procedure.
+    5. Prototype: It is building user interface without adding detail functionality. It helps use to give a better idea about the system. Using prototype model, user will understand the system working in a rough way.
+
+3. Software Requirement Validation: After requirement specifications are developed, the requirements mentioned in the document are validated.
+    - All features can be practically implemented or not.
+    - All features are clear and complete.
+4. Requirement Elicitation Process:
+    - System Analyst will get information from the client and they prioritize and arrange the requirements in order of importance and urgency.
+    - All these requirments are discussed with the organization and then be changed the priority of requirements.
+
+## Coupling
+Coupling is a measure that defines the level of inter-dependability among modules of a program.
+It tells at what level, modules interfere & interact with each other.
+
+### Types of coupling
+#### 1. Content coupling
+When module can directly access, modify, refer to the other module contents, it is called content coupling.
+#### 2. Common coupling
+When multiple modules have read/write permission to global data is called common coupling.
+#### 3. Control coupling
+Two modules are control coupled if one of then decides the function of another one.
+#### 4. Stamp coupling
+When multiple modules share common data structures, it is called stamp coupling.
+#### 5. Data coupling
+When two modules interact with each other by passing data as arguments.
+
+
+## Management Skills of a System Analyst
+1. Time management skills
+2. Project management skills
+3. Man management skills
+4. Team management skills
+5. Directional skills
+6. Negotiation skills
+7. Leadership skills
+8. Training skills
+9. Documentation management skills
+10. Presentational skills
+11. Technical skills
+12. Problem solving skills
+13. Creativity skills
