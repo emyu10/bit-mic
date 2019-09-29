@@ -21,8 +21,13 @@
 2. **Maintainability**:
     - A failed equipment, machine or system can be restored to its normal operable state within a given timeframe.
 3. **Flexibility**: Ability to change or changed according to the situation.
+
 ## Characteristics of the Software as a Process
+> not found
+
 ## Characteristics of the Software as a Product
+> not found
+
 ## The Need for the Software Engineering Discipline
 - It arises because of higher rate of change in
     - user requirements and
@@ -41,7 +46,11 @@
 
 # 2) Software Development
 ## Software Engineering Goals
+> not found
+
 ## Importance of a phased approach to software development
+> not found
+
 ### Phases or Stages of Software Development Process
 #### 1. Planning
 - First phase in software development.
@@ -94,9 +103,14 @@
 7. Evaluating system
 
 ## Phases involved in software development process
+> not found
+
 ## Compare how software development companies organize their development process
+> not found
+
 # 3) Software Development Process Model
-> Incomplete
+> not found
+
 # 4) Software Development Life Cycle (SDLC)
 - It is a *well defined*, *structured* sequence of *stages* in software engineering.
 
@@ -299,10 +313,10 @@
 
 
 # 7) Maintenance
-> Incomplete
+> not found
 
 # 8) Computer Aided Software Engineering (CASE)
-> Incomplete
+> not found
 
 
 > Will put this part to somewhere later
