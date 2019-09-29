@@ -174,7 +174,17 @@
     - Highest level of DFD
     - Shows the entire information system as one diagram.
     - Example:
-    
+
+        ![](assets/images/dfd_level0.png)
+
+2. Level 1
+    - Level 0 is broken down to more specific level 1 modules.
+    - Level 1 depicts basic modules in the system.
+    - Level 1 DFD mentions basic process and source of information.
+    - Example:
+
+        ![](assets/images/dfd_level1.png)
+
 ## Control Flow Model
 # 6) Software Design Concepts
 > Incomplete
