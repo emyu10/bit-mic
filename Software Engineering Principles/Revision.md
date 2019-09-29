@@ -150,7 +150,7 @@
 - Graphical representation of flow of data.
 - Capable of showing incoming, outgoing and stored data.
 
-![](assets/images/dfd_elements.png)
+    ![](assets/images/dfd_elements.png)
 ## Control Flow Model
 # 6) Software Design Concepts
 > Incomplete
