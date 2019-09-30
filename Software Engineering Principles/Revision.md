@@ -193,7 +193,9 @@
 - Its value is computed as zero when there is no requirement for a relationship to occur or if the relationship is optional.
 - The modality value is one if there is an occurrence of relationship.
 - In simple words, modality describes whether a relationship between 2 or more entities are required or not.
-    > @todo: image here
+
+
+    ![](assets/images/modality.png)
 
     > Note: Using modality, user will be able to know that entity sets are connectged or not. If connected its value = 1. If not connected, its value = 0.
 
