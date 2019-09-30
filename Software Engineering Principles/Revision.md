@@ -163,28 +163,35 @@
 
 ## Cardinality and Modality
 ### Cardinality
-- Cardinality describes that a data model must be able to represent the number of occurences of an object in a relationship.
+- Cardinality describes that a data model must be able to represent the number of occurrences of an object in a relationship.
 - It can be expressed in the pattern of 1 or many.
 - For example, bank account having the tables, pan card and debit card holder. Each inidividual can have a unique pan card number and on the basis of it, that person could be in a one-to-one model relationship. Or several different accounts in different banks (one-to-many).
 
 #### Different types of Cardinality
 1. One to One
-    - If occurence of object **A** can relate to one and only one occurence of object **B**.
-    > @todo: image here
+    - If one occurrence of object **A** can relate to one and only one occurrence of object **B**.
+    
+    ![](assets/images/cardinality_one_to_one.png)
+
 2. One to Many
-    - If object **A** can relate to more than one occurence of object **B**.
-    > @todo: image here
+    - If one occurrence of object **A** can relate to more than one occurrence of object **B**.
+    
+    ![](assets/images/cardinality_one_to_many.png)
+
 3. Many to One
-    - If more than one occurence of object **A** can relate to one occurence of object **B**.
-    > @todo: image here
+    - If more than one occurrence of object **A** can relate to one occurrence of object **B**.
+    
+    ![](assets/images/cardinality_many_to_one.png)
+
 4. Many to Many
-    - If more than one occurence of object **A** can relate to more than one occurence of object **B**.
-    > @todo: image here
+    - If more than one occurrence of object **A** can relate to more than one occurrence of object **B**.
+    
+    ![](assets/images/cardinality_many_to_many.png)
 
 ### Modality
 - Modality is completely different from cardinality.
 - Its value is computed as zero when there is no requirement for a relationship to occur or if the relationship is optional.
-- The modality value is one if there is an occurence of relationship.
+- The modality value is one if there is an occurrence of relationship.
 - In simple words, modality describes whether a relationship between 2 or more entities are required or not.
     > @todo: image here
 
@@ -422,11 +429,11 @@ There are so many design concepts which make a system reliable.
 </tr>
 <tr>
     <td>x = y[a]</td>
-    <td>x includes y more occurence of a</td>
+    <td>x includes y more occurrence of a</td>
 </tr>
 <tr>
     <td>x = [a]z</td>
-    <td>x includes z fewer occurences of a</td>
+    <td>x includes z fewer occurrences of a</td>
 </tr>
 </table>
 
@@ -450,7 +457,7 @@ There are so many design concepts which make a system reliable.
 
 ### 4. Preventive Maintenance
 - This type of maintenance includes modifications and updations to prevent future problems of the software.
-- It involves implementing changes to prevent the occurence of errors.
+- It involves implementing changes to prevent the occurrence of errors.
 - It goals to attend problems which are not significant at this moment but may cause serious issues in future.
 
 ---
