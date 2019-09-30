@@ -351,14 +351,15 @@
     - A directed arrow with filled circle at the end represents control flow.
     
     ![](assets/images/sc_control_flow.png)
-    
+
 
 ## Hipo Chart
 - Developed by IBM in 1970.
 - Represents the hierarchy of modules in the software system.
 - System Analyst uses hipo diagram in order to obtain high level view of system functions.
 - It decomposes functions into sub functions in a hierarchical manner.
-> @todo: image here
+
+    ![](assets/images/hipo_example.png)
 
 ## Structured English
 - The description of what is required to the code and how to code it.
