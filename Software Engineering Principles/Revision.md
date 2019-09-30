@@ -44,6 +44,8 @@
 5. Quality Management
     - To ensure quality of software.
 
+---
+
 # 2) Software Development
 ## Software Engineering Goals
 > not found
@@ -51,22 +53,22 @@
 ## Importance of a phased approach to software development
 > not found
 
-### Phases or Stages of Software Development Process
-#### 1. Planning
+## Phases or Stages of Software Development Process
+### 1. Planning
 - First phase in software development.
 - Checks whether there is the need for a new system.
 - To find problems and determine solutions.
 
-#### 2. System Analysis
+### 2. System Analysis
 - Analyse the performance of a software by supplying various inputs.
 - Checks whether all solutions fits the requirements.
 - Requirement gathering.
 
-#### 3. System Design
+### 3. System Design
 - Clients (end-users) determine their information needs.
 - Programmers create basic architecture.
 
-#### 4. Development
+### 4. Development
 - Coding (real programming starts here).
 - Using a high level programming language.
     - Low level language
@@ -78,22 +80,22 @@
     - High level language
         - Modern programming languages like C, C++, VB, Java
 
-#### 5. Integration and Testing
+### 5. Integration and Testing
 - Merging all modules as a whole system.
 - Check all modules and integrate into one system.
 
-#### 6. Implementation
+### 6. Implementation
 - Installation of newly created system.
 - Old system is replaced by new system.
 
-#### 7. Maintenance
+### 7. Maintenance
 - Upgrade the system from time to time.
 - To adapt changes.
 
-### System Analyst
+## System Analyst
 - Main person who is responsible for development of software / hardware.
 
-#### Roles of System Analyst
+### Roles of System Analyst
 1. Defining IT requirements
 2. Gathering data
 3. Analyze problem
@@ -102,14 +104,12 @@
 6. Design system
 7. Evaluating system
 
-## Phases involved in software development process
-> not found
-
-## Compare how software development companies organize their development process
-> not found
+---
 
 # 3) Software Development Process Model
 > not found
+
+---
 
 # 4) Software Development Life Cycle (SDLC)
 - It is a *well defined*, *structured* sequence of *stages* in software engineering.
@@ -155,11 +155,41 @@
 ### 8. Implementation
 ### 9. Maintenance
 
+---
+
 # 5) Data Modeling
 ## System Elements
 > Incomplete
 
 ## Cardinality and Modality
+### Cardinality
+- Cardinality describes that a data model must be able to represent the number of occurences of an object in a relationship.
+- It can be expressed in the pattern of 1 or many.
+- For example, bank account having the tables, pan card and debit card holder. Each inidividual can have a unique pan card number and on the basis of it, that person could be in a one-to-one model relationship. Or several different accounts in different banks (one-to-many).
+
+#### Different types of Cardinality
+1. One to One
+    - If occurence of object **A** can relate to one and only one occurence of object **B**.
+    > @todo: image here
+2. One to Many
+    - If object **A** can relate to more than one occurence of object **B**.
+    > @todo: image here
+3. Many to One
+    - If more than one occurence of object **A** can relate to one occurence of object **B**.
+    > @todo: image here
+4. Many to Many
+    - If more than one occurence of object **A** can relate to more than one occurence of object **B**.
+    > @todo: image here
+
+### Modality
+- Modality is completely different from cardinality.
+- Its value is computed as zero when there is no requirement for a relationship to occur or if the relationship is optional.
+- The modality value is one if there is an occurence of relationship.
+- In simple words, modality describes whether a relationship between 2 or more entities are required or not.
+    > @todo: image here
+
+    > Note: Using modality, user will be able to know that entity sets are connectged or not. If connected its value = 1. If not connected, its value = 0.
+
 ## Entity Relationship Diagram
 - ER modeling is a data modeling used in software engineering to produce conceptual data models.
 
@@ -306,6 +336,7 @@
         Call procedure New_Customer_Request
     end if
     ```
+
 ## Decision Tables
 - A decision table represents conditions and the respective actions to be taken to address them in a structured table format.
 - It is a powerful tool to debug and prevent errors.
@@ -325,6 +356,8 @@
 
 ## Control Flow Model
 > Not found
+
+---
 
 # 6) Software Design Concepts
 When user is creating a big system, user have to design both the frontend and backend.
@@ -397,6 +430,7 @@ There are so many design concepts which make a system reliable.
 </tr>
 </table>
 
+---
 
 # 7) Maintenance
 - It is a process of modifying a software after it has been delivered to the client.
@@ -419,9 +453,13 @@ There are so many design concepts which make a system reliable.
 - It involves implementing changes to prevent the occurence of errors.
 - It goals to attend problems which are not significant at this moment but may cause serious issues in future.
 
+---
+
 # 8) Computer Aided Software Engineering (CASE)
 > not found
 
+
+---
 
 > Will put this part to somewhere later
 ## Requirement Analysis & Specification
