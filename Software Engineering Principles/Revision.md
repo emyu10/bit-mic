@@ -323,22 +323,35 @@
 
 ### Symbols used under structure chart
 1. Module: represents process or subroutine.
-    > @todo: image here
+    
+    ![](assets/images/sc_module.png)
+
 2. Condition:
     - It is represented by small diamond at base of the module.
     - It tells that control module can select any of subroutines based on some condition.
-    > @todo: image here
+    
+    ![](assets/images/sc_condition.png)
+
 3. Jump: An arrow is shown pointing inside the module tells that the control will jump in the middle of the sub module.
-    > @todo: image here
+
+    ![](assets/images/sc_jump.png)
+
 4. Loop:
     - A curved arrow represents loop in the module.
     - Every sub module covered by loop repeat execution of module.
-    > @todo: image here
+
+    ![](assets/images/sc_loop.png)
+
 5. Data Flow:
     - A directed arrow with empty circle at the end represents data flow.
+
+    ![](assets/images/sc_data_flow.png)
+
 6. Control Flow:
     - A directed arrow with filled circle at the end represents control flow.
-    > @todo: image here
+    
+    ![](assets/images/sc_control_flow.png)
+    
 
 ## Hipo Chart
 - Developed by IBM in 1970.
