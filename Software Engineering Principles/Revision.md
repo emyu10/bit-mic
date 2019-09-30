@@ -161,6 +161,60 @@
 
 ## Cardinality and Modality
 ## Entity Relationship Diagram
+- ER modeling is a data modeling used in software engineering to produce conceptual data models.
+
+### Components of ER diagram
+1. Attribute
+    - Entities are denoted using their properties known as attributes.
+    - All attributes have values.
+    - For example, student entity may have name, class, age, marks attributes.
+    - There are 4 types of attributes.
+        1. Key attribute
+            - Uniquely identifies an entity among the entity set.
+            - Can be an attibute or a collection fo attributes.
+            - Example: roll number of a student: 2K19/BIT/003
+            > @todo: image here
+
+            > Note: key attribute cannot be sub-divided
+        2. Composite attribute
+            - An attribute that is a combination of other attributes.
+            - Another name is compound attribute.
+            - This attribute can be sub-divided.
+            - Example: student address
+            > @todo: image here
+        3. Single-valued / multi-valued attribute
+            - Single-valued attribute contains a single value only.
+            - Example: election ID, national ID
+
+            - Multi-valued attribute can have more than one value.
+            - In ER diagram, multi-valued attributes are denoted by double ellipse.
+            > @todo: image here
+        4. Derived attribute
+            - These are attributes that does not exist in the physical database.
+            - Their values are derived from other attributes present in the database.
+2. Entity and entity sets
+    - An entitiy set is a collection of related types of entities.
+    - An entity set may include entities with attributes sharing similar values.
+    - An entity can be a real world object that can be identified easily.
+    - Entities are represented as rectangles in ER diagrams.
+3. Relationship
+    - The association among entities are known as relationships.
+    - They are represented by diamond shaped boxes.
+    > @todo: image here
+
+### Degree of a relationship
+- The number of participating entities in a relationship describes the degree of a relationship.
+- There are 3 most common relationships in ER diagrams.
+    1. Unary
+        - Relationships between the instances of one entity type.
+        - For example, one person is married to only one person.
+    2. Binary
+        - It is a relationship between the instances of 2 entity types.
+        - Example: teacher teaches subject.
+    3. Ternary
+        - It is among instances of 3 entity types.
+        - Teacher, student, subject are the examples of ternary relationship.
+
 ## Data Flow Diagram
 - Graphical representation of flow of data.
 - Capable of showing incoming, outgoing and stored data.
@@ -273,6 +327,38 @@
 > Not found
 
 # 6) Software Design Concepts
+When user is creating a big system, user have to design both the frontend and backend.
+
+There are so many design concepts which make a system reliable.
+
+## 1. Modularity
+- A software is separately divided into names and addressable components, sometimes they are called modules which integrate to satisfy the problem requirements.
+- Modularity is the sigle attribute of a software that permits a program to be managed easily.
+
+## 2. Information Hiding
+- Modules must be specified and designed so that the information like algorithm and data presented in a module is not accessible for other modules not requiring that information.
+
+## 3. Abstraction
+- A collection of data that describes a data object is a data abstraction.
+- A solution is made in large terms using the language of the problem environment at the highest level of abstraction.
+- The lower level abstraction provides a more detailed description of the solution.
+
+    > @todo: image here
+
+## 4. Functional Independence
+- It is the concept of separation and related to the concept of modularity.
+- The functional independence is assessed using 2 criteria, cohesion and coupling.
+
+## 5. Refinement
+- It is the top down design approach.
+- It is a process of elaboration.
+- A hierarchy is established by decomposing a statement of function in a stepwise manner till the programming language statements are reached.
+
+## 6. Architecture
+- The complete structure of software is known as software architecture.
+- The architecture is the structure of program modules where they interact with each other in a specialized way.
+- The aim of the software design is to obtain an architectural framework of a system.
+
 ## Data Dictionaries
 - It is a file or set of files that includes database information.
 - In data dictionaries, the following information exist.
