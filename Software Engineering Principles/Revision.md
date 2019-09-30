@@ -96,13 +96,50 @@
 - Main person who is responsible for development of software / hardware.
 
 ### Roles of System Analyst
-1. Defining IT requirements
-2. Gathering data
-3. Analyze problem
-4. Setting priority to the jobs
-5. Problem solving
-6. Design system
-7. Evaluating system
+- A system analyst is responsible for designing and implementing system to fulfill organisational needs.
+- He plays a vital role in making the management information systems operational.
+- Some of his roles include
+    1. Defining IT requirements
+    2. Gathering data
+    3. Analyze problem
+    4. Setting priority to the jobs
+    5. Problem solving
+    6. Design system
+    7. Evaluating system
+
+### Skills required by the System Analyst
+#### 1. Communication
+    The analyst needs to be a good communicator to understand and communicate to the user group and the technical group. Sometimes the user may not be able to communicate their needs fully to the analyst but the analyst must be able to understand their needs from imcomplete communication of the users.
+
+#### 2. Adaptability
+    The anaylyst may be new to the environment of a particular business but he has to adapt fast to the culture and environment of the organization.
+
+#### 3. Selling
+    The analyst needs to have ideas to sell their product to the users. Sometimes this may be difficult as the users and client might not know what solution will serve them best. The analyst needs to employ his selling skills to convince the users on the sutability of a solution.
+
+#### 4. Patience
+    The analyst needs to be patient so that he does not rush to a solution. If they make quick solutions, they might miss critical information about the problem and end up with a wrong solution for the users.
+
+#### 5. Sound temperament
+    The analyst needs to remain calm in all phases of a solution. Most of the time the critical data that the analyst seeks is hard to come and may be late in coming. The analyst will have to put up with all these and be calm in such situations.
+
+#### 6. Foresightness
+    The analyst must have foresight envision, so that they can factor in the future requirements of the users even if they have to mentioned that in the design. The analyst must also have vision with regard to technological changes. System analyst must be able to predict where the business needs, technical capabilities, constraints will be in the future.
+
+### Management Skills of a System Analyst
+1. Time management skills
+2. Project management skills
+3. Man management skills
+4. Team management skills
+5. Directional skills
+6. Negotiation skills
+7. Leadership skills
+8. Training skills
+9. Documentation management skills
+10. Presentational skills
+11. Technical skills
+12. Problem solving skills
+13. Creativity skills
 
 ---
 
@@ -548,17 +585,3 @@ When multiple modules share common data structures, it is called stamp coupling.
 When two modules interact with each other by passing data as arguments.
 
 
-## Management Skills of a System Analyst
-1. Time management skills
-2. Project management skills
-3. Man management skills
-4. Team management skills
-5. Directional skills
-6. Negotiation skills
-7. Leadership skills
-8. Training skills
-9. Documentation management skills
-10. Presentational skills
-11. Technical skills
-12. Problem solving skills
-13. Creativity skills
