@@ -383,7 +383,8 @@
 - It is a powerful tool to debug and prevent errors.
 - It helps similar information into a single table and then by combining tables, it delivers easy and convenient decision-making.
 - Example:
-    > @todo: image here
+    
+    ![](assets/images/decision_tables_login_form.png)
 
     | condition | rule 1 | rule 2 | rule 3 | rule 4 |
     | ---       | :---:  | :---:  | :---:  | :---:  |
