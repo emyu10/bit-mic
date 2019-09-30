@@ -168,25 +168,25 @@
 - For example, bank account having the tables, pan card and debit card holder. Each inidividual can have a unique pan card number and on the basis of it, that person could be in a one-to-one model relationship. Or several different accounts in different banks (one-to-many).
 
 #### Different types of Cardinality
-1. One to One
+1. **One to One**
     - If one occurrence of object **A** can relate to one and only one occurrence of object **B**.
     
 
         ![](assets/images/cardinality_one_to_one.png)
 
-2. One to Many
+2. **One to Many**
     - If one occurrence of object **A** can relate to more than one occurrence of object **B**.
     
 
         ![](assets/images/cardinality_one_to_many.png)
 
-3. Many to One
+3. **Many to One**
     - If more than one occurrence of object **A** can relate to one occurrence of object **B**.
     
 
         ![](assets/images/cardinality_many_to_one.png)
 
-4. Many to Many
+4. **Many to Many**
     - If more than one occurrence of object **A** can relate to more than one occurrence of object **B**.
     
 
@@ -216,7 +216,8 @@
             - Uniquely identifies an entity among the entity set.
             - Can be an attibute or a collection fo attributes.
             - Example: roll number of a student: 2K19/BIT/003
-            > @todo: image here
+            
+                ![](assets/images/er_key_attribute.png)
 
             > Note: key attribute cannot be sub-divided
         2. Composite attribute
@@ -224,17 +225,25 @@
             - Another name is compound attribute.
             - This attribute can be sub-divided.
             - Example: student address
-            > @todo: image here
+            
+                ![](assets/images/er_composite_attribute.png)
+
         3. Single-valued / multi-valued attribute
             - Single-valued attribute contains a single value only.
             - Example: election ID, national ID
 
             - Multi-valued attribute can have more than one value.
             - In ER diagram, multi-valued attributes are denoted by double ellipse.
-            > @todo: image here
+
+                ![](assets/images/er_multivalued_attribute.png)
+
         4. Derived attribute
             - These are attributes that does not exist in the physical database.
             - Their values are derived from other attributes present in the database.
+            - Derived attributes are represented by dashed ellipse.
+
+                ![](assets/images/er_derived_attribute.png)
+
 2. Entity and entity sets
     - An entitiy set is a collection of related types of entities.
     - An entity set may include entities with attributes sharing similar values.
@@ -243,7 +252,12 @@
 3. Relationship
     - The association among entities are known as relationships.
     - They are represented by diamond shaped boxes.
-    > @todo: image here
+
+        ![](assets/images/er_relationship_example.png)
+
+
+    ![](assets/images/er_example.png)
+
 
 ### Degree of a relationship
 - The number of participating entities in a relationship describes the degree of a relationship.
