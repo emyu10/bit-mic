@@ -171,22 +171,26 @@
 1. One to One
     - If one occurrence of object **A** can relate to one and only one occurrence of object **B**.
     
-    ![](assets/images/cardinality_one_to_one.png)
+
+        ![](assets/images/cardinality_one_to_one.png)
 
 2. One to Many
     - If one occurrence of object **A** can relate to more than one occurrence of object **B**.
     
-    ![](assets/images/cardinality_one_to_many.png)
+
+        ![](assets/images/cardinality_one_to_many.png)
 
 3. Many to One
     - If more than one occurrence of object **A** can relate to one occurrence of object **B**.
     
-    ![](assets/images/cardinality_many_to_one.png)
+
+        ![](assets/images/cardinality_many_to_one.png)
 
 4. Many to Many
     - If more than one occurrence of object **A** can relate to more than one occurrence of object **B**.
     
-    ![](assets/images/cardinality_many_to_many.png)
+
+        ![](assets/images/cardinality_many_to_many.png)
 
 ### Modality
 - Modality is completely different from cardinality.
