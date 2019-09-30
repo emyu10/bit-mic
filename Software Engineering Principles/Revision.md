@@ -313,7 +313,25 @@
 
 
 # 7) Maintenance
-> not found
+- It is a process of modifying a software after it has been delivered to the client.
+- The main purpose of software maintenance is to modify and update software application after delivery to correct faults and to improve performance.
+
+## Categories of Software Maintenance
+### 1. Corrective Maintenance
+- It is concerned with fixing errors that are observed when software is in use.
+- It is concerned with enhancing the system whn software is in use.
+
+### 2. Adaptive Maintenance
+- It is concerned with the change in the software that take place to make the software adapt to the new environment such as run in a new operating system.
+
+### 3. Perfective Maintenance
+- It is concerned with change in the software that occurs while adding new functionalities.
+- A software product needed to support new features that users want to maintain or modify with the new features comes under perfective maintenance.
+
+### 4. Preventive Maintenance
+- This type of maintenance includes modifications and updations to prevent future problems of the software.
+- It involves implementing changes to prevent the occurence of errors.
+- It goals to attend problems which are not significant at this moment but may cause serious issues in future.
 
 # 8) Computer Aided Software Engineering (CASE)
 > not found
