@@ -615,6 +615,14 @@ There are so many design concepts which make a system reliable.
 - It is a process of modifying a software after it has been delivered to the client.
 - The main purpose of software maintenance is to modify and update software application after delivery to correct faults and to improve performance.
 
+## Need for Maintenance
+- Correct faults
+- Improve design
+- Implement enhancement
+- Interface with other systems
+- Migrate legacy software
+- Accommodate programs so that different hardware, software and telecommunication facilities can be used.
+
 ## Categories of Software Maintenance
 ### 1. Corrective Maintenance
 - It is concerned with fixing errors that are observed when software is in use.
@@ -742,15 +750,74 @@ When two modules interact with each other by passing data as arguments.
 - Under this type of approach, both bottom-up and top-down are done concurrently.
 - This approach is time consuming.
 
+## Implementation
+- In this stage, physical system specifications are converted into a working solution.
+- Implementation phase includes
 
-## Software Maintenance
-- It's the process of modifying a software product after it has been delivered to the customer.
-- The main purpose of software maintenance is to modity and update software application after delivery to correct faults and to improve performance.
+#### 1. Coding
+- Includes implementation of the design specified in the design document into executable programming language code.
+- The output of the coding phase is the source code for the software that act as input to the testing and maintenance phase.
 
-### Need for Maintenance
-- Correct faults
-- Improve design
-- Implement enhancement
-- Interface with other systems
-- Migrate legacy software
-- Accommodate programs so that different hardware, software and telecommunication facilities can be used.
+#### 2. Integration and Testing
+- Includes detection of errors in software.
+- The testing process will start with a test plan that recognise test related activities for testing.
+- The output of the testing phase is the test report containing errors that occurred while testing the application.
+
+#### 3. Installation
+- The new system is installed and previous system is replaced completely.
+
+### Trainings Under Implementation
+- System operators must be trained properly so that they can handle all possible operations.
+- The oprator should be trained in what common functions may occur, how to recognise them, and what steps to take when an error comes.
+- End-user training is an important part of the computer based information system which must be provided to employees to enable them to do their own problem solving.
+- User training involves how to operate the system, troubleshooting the system, check whether a problem that arises is caused by the equipment or software.
+
+#### Training Methods
+##### 1. Instructor-lead training
+- It involves both trainers and trainees, who have meet at the same time, but not necessarily at the same place.
+    1. Visual Classroom
+        - Trainers must meet the trainees at the same time, but not required to be at the same place.
+        - The primary tool used here are video conferencing, text based, internet relay chat or virtual reality.
+    2. Normal Classroom
+        - The trainers must meet the trainees at the same time and place.
+        - The primary tools used here are blackboard, projectors.
+##### 2. Self-paced training
+- It needs trainers and trainees, who do not meet at the same location or at the same time.
+- The trainees learn the skills themselves by accessing the courses at their own convenience.
+- It is divided into
+    1. Multimedia training
+        - Courses are presented as multimedia format and shared on CD ROM.
+        - It minimizes the cost in developing on in-house training course without assistance from external programmers.
+    2. Web based
+        - Courses are often presented in hypermedia format and developed to support internet and intranet.
+        - Provides just-in-time training for end-users.
+
+### Conversion
+- A process of migrating from the old system to the new system.
+- There are 4 types of conversion methods.
+    1. **Parallel Conversion**
+        - Old and new systems are used simultaneously.
+        - Both old and new system results are compared.
+        - Only if the organization accepts, old system is gradually replaced by the new system.
+        - Provides a fallback when new system fails.
+        - If all functions are properly working, new system will slowly take over the business.
+        - *Advantages*
+            - Offers great security.
+            - Small minor errors can be easily seen.
+            - Companies are able to fix any problems with the new system before ending the previous system.
+    2. **Direct cut over conversion**
+        - New system is implemented and old system is completely replaced.
+        - Less costly.
+        - Not time consuming.
+        - Focuses users to make new system work.
+        - Disadvantage is that no backtracking, if any problems arises.
+        - Requires most careful planning.
+    3. **Pilot conversion**
+        - Supports phased approach that gradually implements system across all user.
+        - Used for testing the new system in different environments.
+        - Helpful for organizations which have several physical locations.
+        - Risk is reduced.
+        - Allows training and installations without unnecessary use of resources.
+    4. **Phase-in method**
+        - Working version of system is implemented in one part of the organization and based on feedback, it is installed throughout the organization all at once or stage by stage.
+        - Different from pilot as pilot conversion tests one location and then implements in whole, module by module.
