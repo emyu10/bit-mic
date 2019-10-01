@@ -1,6 +1,62 @@
 # 1) Introduction to Software Engineering
+- Composed of 2 words, *software* and *engineering*.
+- *Software* is more than just a program code.
+- A program is an executable code, with some computational purpose.
+- Software is considered to be a collection of executable programming code,
+- *Engineering* on the other hand, is all about *developing products*, using *well-defined*, *scientific principles* and *methods*.
+
+## Automation
+- Changing of manual processes and tasks to computerized processes.
+- All user activities are done through computerized method.
+- Reduces user errors.
+- Automation has 2 sections
+    1. Frontend
+    2. Backend
+- The UI is commonly known as frontend.
+- In frontend, user can interact with the system by forms and windows or the CLI (command line interface).
+
+## The Need for the Software Engineering Discipline
+- It arises because of higher rate of change in
+    - user requirements and
+    - environments on which software is working
+
+1. **Large Software**
+    - Programmers have to study the software carefully.
+2. **Scalability**
+    - If SE is not properly done, programmers cannot scale the existing software.
+3. **Cost**
+    - Costs can increase if proper process is not adopted.
+4. **Dynamic Nature**
+    - Due to the rapid changing nature of software, programmers have to seek new methodologies.
+5. **Quality Management**
+    - To ensure quality of software.
+
+## DBMS Advantages
+1. Redundancy can be avoided
+    - Redundancy means duplication.
+    - Duplicated values cannot be inserted/updated into the database.
+    - Using the concept of "primary key", user can block repeating the of data.
+    - Example: username
+2. Inconsistency can be avoided
+    - Various copies of same data may no longer agree in DB.
+    - If user deletes/modifies records from master table, that change will be reflected in all sub tables.
+    - Copies will not be kept in sub tables.
+3. Integrity
+    - The data values stored in the database must satisfy some conditions. Such conditions are known as integrity.
+    - Example: Minimum balance of bank account = 500
+4. Concurrent access anomalies
+    - Multiple users can access the same database at once.
+    - This is same technique as www.
+    - User can access the database anywhere in the world and can do updates.
+5. Atomicity
+    - It means either operation is completely done or cancel the whole we did. (:p)
+6. Security
+    - There will be so many security measurements under DB.
+    - When compared to file system, DB is rich in security.
+
 ## Software Problems
 > Incomplete
+
 ## Characteristics of Good Software
 ### 1. Operational
 1. **Budget**: cost effective software
@@ -28,30 +84,45 @@
 ## Characteristics of the Software as a Product
 > not found
 
-## The Need for the Software Engineering Discipline
-- It arises because of higher rate of change in
-    - user requirements and
-    - environments on which software is working
-
-1. Large Software
-    - Programmers have to study the software carefully.
-2. Scalability
-    - If SE is not properly done, programmers cannot scale the existing software.
-3. Cost
-    - Costs can increase if proper process is not adapted.
-4. Dynamic Nature
-    - Due to the rapid changing nature of software, programmers have to seek new methodologies.
-5. Quality Management
-    - To ensure quality of software.
-
 ---
 
 # 2) Software Development
 ## Software Engineering Goals
-> not found
+- The goals are easy to understand, but not easy to meet these goals.
+- Because there are many ways to approach software engineering.
+- The goals are to ensure that software is:
+    - Readable
+    - Correct
+    - Reliable
+    - Reusable
+    - Extendable
+    - Flexible
+    - Efficient
 
-## Importance of a phased approach to software development
-> not found
+
+## Importance of Software Engineering
+### 1. Reduces complexity
+- Big software are always complex and difficult to develop.
+- Software Engineering divides big problems into smaller problems.
+- Small problems are dealt with one by one and independent of each other.
+
+### 2. To minimize software cost
+- Requires a lot of hard work by highly paid professionals.
+- Reduce tasks that are not required.
+
+### 3. To decrease time
+- No plan, wastes time.
+- Software engineering has well defined plans for every aspect of the process.
+
+### 4. Handling big projects
+- To handle big projects without problems.
+
+### 5. Reliable software
+- Software should work according to the requirements.
+- Bugs are fixed in testing and maintenance phase in software engineering.
+
+### 6. Effectiveness
+- Standards are defined to create effective software.
 
 ## Phases or Stages of Software Development Process
 ### 1. Planning
@@ -692,38 +763,6 @@ When multiple modules share common data structures, it is called stamp coupling.
 #### 5. Data coupling
 When two modules interact with each other by passing data as arguments.
 
-
-## Automation
-- It means manual process changed to computerized formats.
-- All user activities are done through computerized method. It is known as automation.
-- Automation has 2 sections
-    1. Frontend
-    2. Backend
-- The UI is commonly known as frontend.
-- In frontend, user can interact with the system by forms and windows or the CLI (command line interface).
-
-## DBMS Advantages
-1. Redundancy can be avoided
-    - Redundancy means duplication.
-    - Duplicated values cannot be inserted/updated into the database.
-    - Using the concept of "primary key", user can block repeating the redundancy.
-    - Example: username
-2. Inconsistency can be avoided
-    - Various copies of same data may no longer agree in DB.
-    - If user deletes/modifies records from master table, that change will be reflected in all sub tables.
-    - Copies will not be kept in sub tables.
-3. Integrity
-    - The data values stored in the database must satisfy some conditions. Such conditions are known as integrity.
-    - Example: Minimum balance of bank account = 500
-4. Concurrent access anomalies
-    - Multiple users can access the same database at once.
-    - This is same technique as www.
-    - User can access the database anywhere in the world and can do updates.
-5. Atomicity
-    - It means either operation is completely done or cancel the whole we did. (:p)
-6. Security
-    - There will be so many security measurements under DB.
-    - When compared to file system, DB is rich in security.
 
 ## Integration Test Approaches
 - There are 4 types of integration test approaches.
