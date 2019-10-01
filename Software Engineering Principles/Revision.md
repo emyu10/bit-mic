@@ -247,6 +247,29 @@ The analyst must have foresight envision, so that they can factor in the future 
 #### 10. System testing
 - It is a type fo testing in which client side will check the software works fine for different operating systems.
 - Client will check the outputs without focusing on the internal workings.
+
+## Debugging
+- When errors are identified, it is necessary to identify the program statements responsible for errors and fix them.
+- There are 4 types of debugging approaches.
+
+### Types of debugging approaches
+#### 1. Brute forece debugging
+- It is the most common method but the least effective method.
+- The program is loaded with print statements to print the intermediate values with the hope that some of the intermediate value will help us to catch the error.
+- This approach becomes more systematic.
+- Values of varibles can be easily checked and can set break points.
+
+#### 2. Backtracking debugging
+- This is also fairly common approach.
+- Beginning from the statement at which an error is found, the source code is traced backwards until the error is discovered.
+- Unfortunately, as the number of source lines to be traced back is increased, the number of potential backward path increases and may become unmanageable.
+
+#### 3. Cause elimination debugging
+- In this approach, a list of causes which could possibly have contributed to the error symptom, is developed and tests are conducted to eliminate each.
+
+#### 4. Program slicing
+- This technique is similar to backtracking.
+- A slice of a program for a particular variable at a particular statement is the set of source lines preceding this statement that can influence the value of that variable.
 ---
 
 # 5) Data Modeling
@@ -488,8 +511,13 @@ The analyst must have foresight envision, so that they can factor in the future 
     E - error<br>
     H - home screen
 
-## Control Flow Model
-> Not found
+## Control Flow Graph
+- A control flow graph is a graphical representation of control flow or computation during the execution of a program.
+- Control flow graph is process-oriented.
+- Control flow graph shows all the paths that can be traversed during program execution.
+
+### General Control Flow Graph
+#### 1. if-else
 
 ---
 
