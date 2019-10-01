@@ -519,6 +519,23 @@ The analyst must have foresight envision, so that they can factor in the future 
 ### General Control Flow Graph
 #### 1. if-else
 
+![](assets/images/cfg_if_else.jpg)
+> Image Reference: https://www.geeksforgeeks.org/software-engineering-control-flow-graph-cfg/
+
+#### 2. while
+
+![](assets/images/cfg_while.jpg)
+> Image Reference: https://www.geeksforgeeks.org/software-engineering-control-flow-graph-cfg/
+
+#### 3. do-while
+
+![](assets/images/cfg_do_while.jpg)
+> Image Reference: https://www.geeksforgeeks.org/software-engineering-control-flow-graph-cfg/
+
+#### 4. for
+
+![](assets/images/cfg_for_loop.jpg)
+> Image Reference: https://www.geeksforgeeks.org/software-engineering-control-flow-graph-cfg/
 ---
 
 # 6) Software Design Concepts
@@ -699,3 +716,41 @@ When two modules interact with each other by passing data as arguments.
 6. Security
     - There will be so many security measurements under DB.
     - When compared to file system, DB is rich in security.
+
+## Integration Test Approaches
+- There are 4 types of integration test approaches.
+
+### 1. Big Bang Approach
+- It is the simplest integration approach.
+- All modules are tested in a single step.
+- In other words, all modules are put together and tested at the same time to check for errors.
+- The disadvantage is that if user finds an error, it is very difficult to localize the error.
+- Debugging errors during big bang is difficult.
+
+### 2. Top-down Approach
+- Top-down integration testing starts with the main routine and one or two sub routines in the system.
+- After this has been completed, system will check if there is any level 2.
+- Top-down integration testing requires the use of program modules to simulate the effect of lower level routines that are called by the routines under test.
+
+### 3. Bottom-up Approach
+- In bottom-up testing, each subsystem is tested separately and then full system is tested.
+- A subsystem might consist of many modules which communicate among each other through well defined interfaces.
+- Both control and data interfaces are tested.
+
+### 4. Mixed Approach
+- It's rarely used integration approach.
+- Under this type of approach, both bottom-up and top-down are done concurrently.
+- This approach is time consuming.
+
+
+## Software Maintenance
+- It's the process of modifying a software product after it has been delivered to the customer.
+- The main purpose of software maintenance is to modity and update software application after delivery to correct faults and to improve performance.
+
+### Need for Maintenance
+- Correct faults
+- Improve design
+- Implement enhancement
+- Interface with other systems
+- Migrate legacy software
+- Accommodate programs so that different hardware, software and telecommunication facilities can be used.
