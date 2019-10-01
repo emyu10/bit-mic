@@ -192,6 +192,61 @@ The analyst must have foresight envision, so that they can factor in the future 
 ### 8. Implementation
 ### 9. Maintenance
 
+## Testing
+- Testing is a process of executing a program with the aim of finding errors.
+- To make our software perform well, it should be error free.
+- If testing is done successfully, it will remove all the errors from the program.
+
+### Types of testing
+#### 1. Unit testing
+- It focuses on smallest unit of software design.
+- Testers will check an individual unit or inter-related units.
+- It is often done by the programmer.
+- Software module is validated here.
+- To make unit testing possible, program should be modular.
+
+#### 2. Integrated testing
+- Modules that pass unit testing are merged and done a complete system test.
+- Integrated testing is divided into 2
+    1. Top down
+    2. Bottom up
+- In top down, higher modules  are compared first. After that, it will move to the next level until it reaches the lowest level.
+- In bottom up, lowest level modules are executed and checked and moves to the next higher level until the highest level is reached.
+
+#### 3. Regression testing
+- This type of testing make sure that whole components works properly even after addeing components (modules) to the complete system.
+- If testing is failed, it will be rolled back to the previous state.
+- If testing is successful, it will overwrite the system state.
+
+#### 4. Alpha testing
+- It is a validation testing.
+- It is a type of acceptance testing which is done before product is released to the customer.
+- Alpha test is done by developers.
+
+#### 5. Beta testing
+- This testing is done at client side to check the final output is error free or not.
+- Beta test is conducted at one or more customer sites by the end user of the software.
+
+#### 6. Browser compatibility test
+- This type of testing is done at customer site.
+- Customer will check all browsers are compatible with the new system.
+
+#### 7. Back-end test
+- This type fo testing is done at customer site.
+- Customer will check all data are properly storing onto tables.
+
+#### 8. Security testing
+- It is a type of testing performed by a special team of testers.
+- Security testing is done to check how software or application or website is secure from internal and external threats.
+- It includes how much software is secure from malicious program, virus ... etc.
+
+#### 9. Perfomance testing
+- It is a type of testing in which client side will check the performance of the software within the context of the integrated system.
+- It is used to test speed and effectiveness of the software.
+
+#### 10. System testing
+- It is a type fo testing in which client side will check the software works fine for different operating systems.
+- Client will check the outputs without focusing on the internal workings.
 ---
 
 # 5) Data Modeling
@@ -585,3 +640,34 @@ When multiple modules share common data structures, it is called stamp coupling.
 When two modules interact with each other by passing data as arguments.
 
 
+## Automation
+- It means manual process changed to computerized formats.
+- All user activities are done through computerized method. It is known as automation.
+- Automation has 2 sections
+    1. Frontend
+    2. Backend
+- The UI is commonly known as frontend.
+- In frontend, user can interact with the system by forms and windows or the CLI (command line interface).
+
+## DBMS Advantages
+1. Redundancy can be avoided
+    - Redundancy means duplication.
+    - Duplicated values cannot be inserted/updated into the database.
+    - Using the concept of "primary key", user can block repeating the redundancy.
+    - Example: username
+2. Inconsistency can be avoided
+    - Various copies of same data may no longer agree in DB.
+    - If user deletes/modifies records from master table, that change will be reflected in all sub tables.
+    - Copies will not be kept in sub tables.
+3. Integrity
+    - The data values stored in the database must satisfy some conditions. Such conditions are known as integrity.
+    - Example: Minimum balance of bank account = 500
+4. Concurrent access anomalies
+    - Multiple users can access the same database at once.
+    - This is same technique as www.
+    - User can access the database anywhere in the world and can do updates.
+5. Atomicity
+    - It means either operation is completely done or cancel the whole we did. (:p)
+6. Security
+    - There will be so many security measurements under DB.
+    - When compared to file system, DB is rich in security.
