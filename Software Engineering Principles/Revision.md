@@ -341,6 +341,7 @@ The analyst must have foresight envision, so that they can factor in the future 
 #### 4. Program slicing
 - This technique is similar to backtracking.
 - A slice of a program for a particular variable at a particular statement is the set of source lines preceding this statement that can influence the value of that variable.
+
 ---
 
 # 5) Data Modeling
@@ -632,6 +633,47 @@ There are so many design concepts which make a system reliable.
 - It is the concept of separation and related to the concept of modularity.
 - The functional independence is assessed using 2 criteria, cohesion and coupling.
 
+### Coupling
+Coupling is a measure that defines the level of inter-dependability among modules of a program.
+It tells at what level, modules interfere & interact with each other.
+
+#### Types of coupling
+##### 1. Content coupling
+When module can directly access, modify, refer to the other module contents, it is called content coupling.
+##### 2. Common coupling
+When multiple modules have read/write permission to global data is called common coupling.
+##### 3. Control coupling
+Two modules are control coupled if one of then decides the function of another one.
+##### 4. Stamp coupling
+When multiple modules share common data structures, it is called stamp coupling.
+##### 5. Data coupling
+When two modules interact with each other by passing data as arguments.
+
+### Cohesion
+Cohesion is a measure that defines the degree of intra dependability within elements of a module. The greater the cohesion, the better is the program design.
+
+#### Types of Cohesion
+##### 1. Co-incidental
+It happens when big programs are divided into modules, for reducing the complexity of the program.
+
+##### 2. Logical cohesion
+When Logically categorized elements are categorized are put together into a module its in logical cohesion.
+
+##### 3. Temporal cohesion
+When elements of module are organized such that there process at a similar point in time it is called Temporal cohesion.
+
+##### 4. Procedural cohesion
+When elements of modules are grouped together which are executed sequentially in order to perform a task, it is called Procedural Cohesion.
+
+##### 5. Communicational cohesion
+When elements of modules are grouped together which are executed sequentially and work on same data it is called communication Cohesion.
+
+##### 6. Sequential cohesion
+When elements of modules are grouped together, the output of one serves as input to another, it is called sequential Cohesion.
+
+##### 7. Functional cohesion
+It is considered to be the highest degree of cohesion. Element of module functional cohesion are grouped because they all contribute to a single well defined function. It can also be reused.
+
 ## 5. Refinement
 - It is the top down design approach.
 - It is a process of elaboration.
@@ -711,84 +753,6 @@ There are so many design concepts which make a system reliable.
 - It involves implementing changes to prevent the occurrence of errors.
 - It goals to attend problems which are not significant at this moment but may cause serious issues in future.
 
----
-
-# 8) Computer Aided Software Engineering (CASE)
-> not found
-
-
----
-
-> Will put this part to somewhere later
-## Requirement Analysis & Specification
-The process of gathering the software requirements from the client.
-
-It has 4 steps
-1. Feasibility Study: Feasibility study is used to select a feasibile solution which follows all the user requirements.
-
-The output of this phase should be a feasible output report which contains all user requirements.
-
-2. Requirement gathering: getting information from client.
-Types of information gathering
-    1. Interview
-        - a. One to One interview
-        - b. Written interview
-        - c. Oral interview
-        - d. Group interview
-    2. Surveys: Organization may conduct surveys about their expectations and needs from the upcoming system.
-    3. Questionnaires: A document with a predefined set of objective questions and respective options is used to get information from the client.
-    4. Brainstorming: An informational debate is held among the organization. Inputs are stored onto the database during this procedure.
-    5. Prototype: It is building user interface without adding detail functionality. It helps use to give a better idea about the system. Using prototype model, user will understand the system working in a rough way.
-
-3. Software Requirement Validation: After requirement specifications are developed, the requirements mentioned in the document are validated.
-    - All features can be practically implemented or not.
-    - All features are clear and complete.
-4. Requirement Elicitation Process:
-    - System Analyst will get information from the client and they prioritize and arrange the requirements in order of importance and urgency.
-    - All these requirments are discussed with the organization and then be changed the priority of requirements.
-
-## Coupling
-Coupling is a measure that defines the level of inter-dependability among modules of a program.
-It tells at what level, modules interfere & interact with each other.
-
-### Types of coupling
-#### 1. Content coupling
-When module can directly access, modify, refer to the other module contents, it is called content coupling.
-#### 2. Common coupling
-When multiple modules have read/write permission to global data is called common coupling.
-#### 3. Control coupling
-Two modules are control coupled if one of then decides the function of another one.
-#### 4. Stamp coupling
-When multiple modules share common data structures, it is called stamp coupling.
-#### 5. Data coupling
-When two modules interact with each other by passing data as arguments.
-
-
-## Integration Test Approaches
-- There are 4 types of integration test approaches.
-
-### 1. Big Bang Approach
-- It is the simplest integration approach.
-- All modules are tested in a single step.
-- In other words, all modules are put together and tested at the same time to check for errors.
-- The disadvantage is that if user finds an error, it is very difficult to localize the error.
-- Debugging errors during big bang is difficult.
-
-### 2. Top-down Approach
-- Top-down integration testing starts with the main routine and one or two sub routines in the system.
-- After this has been completed, system will check if there is any level 2.
-- Top-down integration testing requires the use of program modules to simulate the effect of lower level routines that are called by the routines under test.
-
-### 3. Bottom-up Approach
-- In bottom-up testing, each subsystem is tested separately and then full system is tested.
-- A subsystem might consist of many modules which communicate among each other through well defined interfaces.
-- Both control and data interfaces are tested.
-
-### 4. Mixed Approach
-- It's rarely used integration approach.
-- Under this type of approach, both bottom-up and top-down are done concurrently.
-- This approach is time consuming.
-
 ## Implementation
 - In this stage, physical system specifications are converted into a working solution.
 - Implementation phase includes
@@ -860,3 +824,63 @@ When two modules interact with each other by passing data as arguments.
     4. **Phase-in method**
         - Working version of system is implemented in one part of the organization and based on feedback, it is installed throughout the organization all at once or stage by stage.
         - Different from pilot as pilot conversion tests one location and then implements in whole, module by module.
+
+## Integration Test Approaches
+- There are 4 types of integration test approaches.
+
+### 1. Big Bang Approach
+- It is the simplest integration approach.
+- All modules are tested in a single step.
+- In other words, all modules are put together and tested at the same time to check for errors.
+- The disadvantage is that if user finds an error, it is very difficult to localize the error.
+- Debugging errors during big bang is difficult.
+
+### 2. Top-down Approach
+- Top-down integration testing starts with the main routine and one or two sub routines in the system.
+- After this has been completed, system will check if there is any level 2.
+- Top-down integration testing requires the use of program modules to simulate the effect of lower level routines that are called by the routines under test.
+
+### 3. Bottom-up Approach
+- In bottom-up testing, each subsystem is tested separately and then full system is tested.
+- A subsystem might consist of many modules which communicate among each other through well defined interfaces.
+- Both control and data interfaces are tested.
+
+### 4. Mixed Approach
+- It's rarely used integration approach.
+- Under this type of approach, both bottom-up and top-down are done concurrently.
+- This approach is time consuming.
+---
+
+# 8) Computer Aided Software Engineering (CASE)
+> not found
+
+
+---
+
+> Will put this part to somewhere later
+## Requirement Analysis & Specification
+The process of gathering the software requirements from the client.
+
+It has 4 steps
+1. Feasibility Study: Feasibility study is used to select a feasibile solution which follows all the user requirements.
+
+The output of this phase should be a feasible output report which contains all user requirements.
+
+2. Requirement gathering: getting information from client.
+Types of information gathering
+    1. Interview
+        - a. One to One interview
+        - b. Written interview
+        - c. Oral interview
+        - d. Group interview
+    2. Surveys: Organization may conduct surveys about their expectations and needs from the upcoming system.
+    3. Questionnaires: A document with a predefined set of objective questions and respective options is used to get information from the client.
+    4. Brainstorming: An informational debate is held among the organization. Inputs are stored onto the database during this procedure.
+    5. Prototype: It is building user interface without adding detail functionality. It helps use to give a better idea about the system. Using prototype model, user will understand the system working in a rough way.
+
+3. Software Requirement Validation: After requirement specifications are developed, the requirements mentioned in the document are validated.
+    - All features can be practically implemented or not.
+    - All features are clear and complete.
+4. Requirement Elicitation Process:
+    - System Analyst will get information from the client and they prioritize and arrange the requirements in order of importance and urgency.
+    - All these requirments are discussed with the organization and then be changed the priority of requirements.
