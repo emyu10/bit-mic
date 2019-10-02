@@ -214,9 +214,40 @@ The analyst must have foresight envision, so that they can factor in the future 
 
 ---
 
-# 3) Software Development Process Model
-> not found
+# 3) Software Development Process Model / Classical Waterfall Model
+- Basic software development life cycle model.
+- Simple but idealistic.
+- Not used anymore.
+- It is still important because all other models are based on this model.
+- Divides the cycle into phases.
+- One phase can only be started after the completion of the previous phase.
+- The output of one phase will be the input to the next phase.
 
+## Phases of Classical Waterfall Model
+### 1. Feasibility Study
+- The main goal of this phase is to determine whether it would be financially and technically feasible to develop the software.
+- The feasibility study involves understanding the problem and then determine the various possible strategies to solve the problem.
+- These different identified solutions are analyzed based on their benefits and drawbacks.
+### 2. Requirements Analysis and Specification
+### 3. Design
+### 4. Coding and Unit Testing
+### 5. Integration and System Testing
+### 6. Maintenance
+
+## Advantages
+Some advantages are:
+1. This model is very simple and easy to understand.
+2. Phases in this model are processed one at a time.
+3. each stage in the model is clearly defined.
+4. This model has very clear and well understood milestones.
+5. Process, actions and results are very well documented.
+6. Reinforces good habits: define-before-design, design-before-code.
+7. This model works for smaller projects and projects where requirements are well understood.
+
+## Drawbacks
+1. **No feedback path**: In this model, evolution of a software from one phase to another phase is like a waterfall. It assumes that no error is ever committed by developers during any phases. It does not incorporate any mechanisms for error correction.
+2. **Difficult to accommodate change requests**: This model assumes that all the customer requirements can be completely and correctly defined at the beginning of the project, but actually customers’ requirements keep on changing with time. It is difficult to accommodate any change requests after the requirements specification phase is complete.
+3. **No overlapping of phases**: This model recommends that new phase can start only after the completion of the previous phase. But in real projects, this can’t be maintained. To increase the efficiency and reduce the cost, phases may overlap
 ---
 
 # 4) Software Development Life Cycle (SDLC)
