@@ -54,9 +54,6 @@
     - There will be so many security measurements under DB.
     - When compared to file system, DB is rich in security.
 
-## Software Problems
-> Incomplete
-
 ## Characteristics of Good Software
 ### 1. Operational
 1. **Budget**: cost effective software
@@ -77,12 +74,6 @@
 2. **Maintainability**:
     - A failed equipment, machine or system can be restored to its normal operable state within a given timeframe.
 3. **Flexibility**: Ability to change or changed according to the situation.
-
-## Characteristics of the Software as a Process
-> not found
-
-## Characteristics of the Software as a Product
-> not found
 
 ---
 
@@ -425,9 +416,6 @@ Some advantages are:
 ---
 
 # 5) Data Modeling
-## System Elements
-> Incomplete
-
 ## Cardinality and Modality
 ### Cardinality
 - Cardinality describes that a data model must be able to represent the number of occurrences of an object in a relationship.
@@ -929,7 +917,3 @@ It is considered to be the highest degree of cohesion. Element of module functio
 - It's rarely used integration approach.
 - Under this type of approach, both bottom-up and top-down are done concurrently.
 - This approach is time consuming.
----
-
-# 8) Computer Aided Software Engineering (CASE)
-> not found
