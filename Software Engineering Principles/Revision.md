@@ -228,11 +228,60 @@ The analyst must have foresight envision, so that they can factor in the future 
 - The main goal of this phase is to determine whether it would be financially and technically feasible to develop the software.
 - The feasibility study involves understanding the problem and then determine the various possible strategies to solve the problem.
 - These different identified solutions are analyzed based on their benefits and drawbacks.
+- The best solution is chosen and all the other phases are carried out as per this solution strategy.
+
 ### 2. Requirements Analysis and Specification
+The process of gathering the software requirements from the client.
+
+It has 4 steps
+1. Feasibility Study: Feasibility study is used to select a feasibile solution which follows all the user requirements.
+
+The output of this phase should be a feasible output report which contains all user requirements.
+
+2. Requirement gathering: getting information from client.
+Types of information gathering
+    1. Interview
+        - a. One to One interview
+        - b. Written interview
+        - c. Oral interview
+        - d. Group interview
+    2. Surveys: Organization may conduct surveys about their expectations and needs from the upcoming system.
+    3. Questionnaires: A document with a predefined set of objective questions and respective options is used to get information from the client.
+    4. Brainstorming: An informational debate is held among the organization. Inputs are stored onto the database during this procedure.
+    5. Prototype: It is building user interface without adding detail functionality. It helps use to give a better idea about the system. Using prototype model, user will understand the system working in a rough way.
+
+3. Software Requirement Validation: After requirement specifications are developed, the requirements mentioned in the document are validated.
+    - All features can be practically implemented or not.
+    - All features are clear and complete.
+4. Requirement Elicitation Process:
+    - System Analyst will get information from the client and they prioritize and arrange the requirements in order of importance and urgency.
+    - All these requirments are discussed with the organization and then be changed the priority of requirements.
+
 ### 3. Design
+- The aim of the design phase is to transform the requirements specified in the SRS document into a structure that is suitable for implementation in some programming language.
+
 ### 4. Coding and Unit Testing
+- Software design is translated into source code using any suitable programming language.
+- Thus each designed module is coded.
+- The aim of the unit testing phase is to check whether each module is working properly or not.
+
 ### 5. Integration and System Testing
+- Integration of different modules are undertaken soon after they have been coded and unit tested.
+- Integration of various modules is carried out incrementally over a number of steps.
+- During each integration step, previously planned modules are added to the partially integrated system and the resultant system is tested.
+- Finally, after all the modules have been successfully integrated and tested, the full working system is obtained and system testing is carried out on this.
+- System testing consists three different kinds of testing activities as described below :
+    - **α-testing**: α-testing is the system testing performed by the development team.
+    - **β-testing**: β-testing is the system testing performed by a friendly set of customers.
+    - **Acceptance testing**: After the software has been delivered, the customer performed the acceptance testing to determine whether to accept the delivered software or to reject it.
+
 ### 6. Maintenance
+- Maintenance is the most important phase of a software life cycle.
+- The effort spent on maintenance is the 60% of the total effort spent to develop a full software.
+- There are basically three types of maintenance:
+    - **Corrective Maintenance**: This type of maintenance is carried out to correct errors that were not discovered during the product development phase.
+    - **Perfective Maintenance**: This type of maintenance is carried out to enhance the functionalities of the system based on the customer’s request.
+    - **Adaptive Maintenance**: Adaptive maintenance is usually required for porting the software to work in a new environment such as work on a new computer platform or with a new operating system.
 
 ## Advantages
 Some advantages are:
@@ -884,34 +933,3 @@ It is considered to be the highest degree of cohesion. Element of module functio
 
 # 8) Computer Aided Software Engineering (CASE)
 > not found
-
-
----
-
-> Will put this part to somewhere later
-## Requirement Analysis & Specification
-The process of gathering the software requirements from the client.
-
-It has 4 steps
-1. Feasibility Study: Feasibility study is used to select a feasibile solution which follows all the user requirements.
-
-The output of this phase should be a feasible output report which contains all user requirements.
-
-2. Requirement gathering: getting information from client.
-Types of information gathering
-    1. Interview
-        - a. One to One interview
-        - b. Written interview
-        - c. Oral interview
-        - d. Group interview
-    2. Surveys: Organization may conduct surveys about their expectations and needs from the upcoming system.
-    3. Questionnaires: A document with a predefined set of objective questions and respective options is used to get information from the client.
-    4. Brainstorming: An informational debate is held among the organization. Inputs are stored onto the database during this procedure.
-    5. Prototype: It is building user interface without adding detail functionality. It helps use to give a better idea about the system. Using prototype model, user will understand the system working in a rough way.
-
-3. Software Requirement Validation: After requirement specifications are developed, the requirements mentioned in the document are validated.
-    - All features can be practically implemented or not.
-    - All features are clear and complete.
-4. Requirement Elicitation Process:
-    - System Analyst will get information from the client and they prioritize and arrange the requirements in order of importance and urgency.
-    - All these requirments are discussed with the organization and then be changed the priority of requirements.
