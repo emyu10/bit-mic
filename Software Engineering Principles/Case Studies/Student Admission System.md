@@ -101,8 +101,16 @@ A prototype of the full system will be made to demonstrate the process of studen
 ![](../assets/images/case_study1_add_address_form.png)
 
 ## Implementation
-## Maintenance
+In the implementation process, the system is tested for errors before installing in the school.
 
+A server will be purchased for use as the backend and the backend software is installed.
+
+Frontend software will be installed on the computer systems in student services department.
+
+Office staffs will be trained to use the system and all records on books will be entered into the system with the help of office staffs.
+
+## Maintenance
+During the course of the system usage, it will be maintained by the development team to fix errors and to enhance its functionality. These are applied as updates or patches. The users will report errors and also provide feedback and suggestions on how they want to improve the system.
 ---
 
 # <center>Shop Management System</center>
