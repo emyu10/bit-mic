@@ -89,9 +89,11 @@ A prototype of the full system will be made to demonstrate the process of studen
 | room | char(1) |
 
 **add class form**
+
 ![](../assets/images/case_study1_add_class_form.png)
 
 **add student form**
+
 ![](../assets/images/case_study1_add_student_form.png)
 
 ## Implementation
