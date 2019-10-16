@@ -60,6 +60,7 @@ A prototype of the full system will be made to demonstrate the process of studen
 
 ## Tables & Forms
 **student table**
+
 | NAME | DATA TYPE |
 | --- | --- |
 | student_id | int |
@@ -68,6 +69,7 @@ A prototype of the full system will be made to demonstrate the process of studen
 | dob | datetime |
 
 **address table**
+
 | NAME | DATA TYPE |
 | --- | --- |
 | address_id | int |
@@ -78,6 +80,7 @@ A prototype of the full system will be made to demonstrate the process of studen
 | type | varchar(20) |
 
 **class table**
+
 | NAME | DATA TYPE |
 | --- | --- |
 | class_id | int |
