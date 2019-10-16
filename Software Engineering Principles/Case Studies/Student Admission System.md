@@ -96,6 +96,10 @@ A prototype of the full system will be made to demonstrate the process of studen
 
 ![](../assets/images/case_study1_add_student_form.png)
 
+**add address form**
+
+![](../assets/images/case_study1_add_address_form.png)
+
 ## Implementation
 ## Maintenance
 
