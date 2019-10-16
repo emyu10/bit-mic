@@ -186,6 +186,7 @@ A prototype of the full system will be made to demonstrate the process of stocki
 | price | number(19,4) |
 
 **sale table**
+
 | NAME | DATA TYPE |
 | --- | --- |
 | saleid | int |
