@@ -1,5 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
+import java.io.File;
+import java.io.IOException;
 
 public class Calculator extends JFrame {
     private NumberButton numOne = new NumberButton(this,"1");
@@ -52,6 +54,7 @@ public class Calculator extends JFrame {
         display.setForeground(new Color(77, 115, 138));
         display.setBorder(BorderFactory.createLineBorder(Color.DARK_GRAY, 5));
         display.setFont(new Font("sans-serif", Font.BOLD, 40));
+
         add(display);
 
         JPanel rowOne = new JPanel(new GridLayout(1, 4));
