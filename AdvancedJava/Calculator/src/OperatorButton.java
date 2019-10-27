@@ -20,6 +20,7 @@ public class OperatorButton extends Button {
         if (isCalcOperator) {
             parent.setOperandOne(parent.getDisplay().getText());
             parent.setOperator(pressed);
+            parent.setOperatorPressed(true);
         }
         if (pressed.equals(Calculator.Operator.OP_DOT)) {
             if (parent.getDisplay().getText().indexOf('.') == -1) {

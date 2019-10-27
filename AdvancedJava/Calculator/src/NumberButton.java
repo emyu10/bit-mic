@@ -20,10 +20,11 @@ public class NumberButton extends Button {
     public void actionPerformed(ActionEvent actionEvent) {
         JTextField display = parent.getDisplay();
         String currentText = display.getText();
-        if (currentText.equals("0") || parent.isOperandOneSet()) {
+        if (currentText.equals("0") || parent.isOperatorPressed()) {
             display.setText(this.getText());
         } else {
             display.setText(currentText + this.getText());
         }
+        parent.setOperatorPressed(false);
     }
 }

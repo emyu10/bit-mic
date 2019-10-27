@@ -22,9 +22,10 @@ public class Calculator extends JFrame {
 
     private JTextField display = new JTextField("0");
 
-    private String opOne = null;
-    private String opTwo = null;
-    private String operator = null;
+    private String opOne = "";
+    private String opTwo = "";
+    private String operator = "";
+    private boolean operatorPressed = false;
 
     private Calculator() {
         super("Calculator");
@@ -32,7 +33,7 @@ public class Calculator extends JFrame {
     }
 
     private void showWindow() {
-        setSize(300, 235);
+        setSize(500, 500);
         setResizable(false);
         setVisible(true);
     }
@@ -50,7 +51,7 @@ public class Calculator extends JFrame {
         display.setBackground(new Color(206, 220, 185));
         display.setForeground(new Color(77, 115, 138));
         display.setBorder(BorderFactory.createLineBorder(Color.DARK_GRAY, 5));
-        display.setFont(new Font("Operator Mono", Font.BOLD, 20));
+        display.setFont(new Font("sans-serif", Font.BOLD, 40));
         add(display);
 
         JPanel rowOne = new JPanel(new GridLayout(1, 4));
@@ -81,13 +82,16 @@ public class Calculator extends JFrame {
         rowFour.add(opPlus);
         add(rowFour);
 
-//        display.setBounds(0, 0, 300, 30);
         display.setEditable(false);
         display.setHorizontalAlignment(JTextField.RIGHT);
     }
 
-    public boolean isOperandOneSet() {
-        return opOne != null;
+    boolean isOperatorPressed() {
+        return operatorPressed;
+    }
+
+    void setOperatorPressed(boolean pressed) {
+        operatorPressed = pressed;
     }
 
     void setOperandOne(String operandOne) {
@@ -122,7 +126,15 @@ public class Calculator extends JFrame {
             default:
                 result = 0;
         }
-        display.setText(String.valueOf(result));
+        String resultAsString = String.valueOf(result);
+        System.out.println(resultAsString);
+
+        if (Long.parseLong(resultAsString.substring(resultAsString.indexOf('.') + 1)) > 0) {
+            display.setText(String.valueOf(result));
+        } else {
+            display.setText(String.valueOf((int) result));
+        }
+        setOperatorPressed(false);
     }
 
     public static void main(String[] args) {
