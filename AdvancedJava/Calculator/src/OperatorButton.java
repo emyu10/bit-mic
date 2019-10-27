@@ -6,6 +6,7 @@ public class OperatorButton extends Button {
     OperatorButton(Calculator parent, String text) {
         super(text);
         this.parent = parent;
+        addActionListener(this);
         setBackground(new Color(77, 115, 138));
         //setBackground(Color.DARK_GRAY);
         setForeground(Color.WHITE);
@@ -14,6 +15,16 @@ public class OperatorButton extends Button {
 
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
-
+        String pressed = actionEvent.getActionCommand();
+        boolean isCalcOperator = pressed.equals(Calculator.Operator.OP_PLUS) ||  pressed.equals(Calculator.Operator.OP_MINUS) || pressed.equals(Calculator.Operator.OP_TIMES) || pressed.equals(Calculator.Operator.OP_DIVIDE);
+        if (isCalcOperator) {
+            parent.setOperandOne(parent.getDisplay().getText());
+            parent.setOperator(pressed);
+        }
+        if (pressed.equals(".")) {
+            if (parent.getDisplay().getText().indexOf('.') == -1) {
+                parent.getDisplay().setText(parent.getDisplay().getText() + ".");
+            }
+        }
     }
 }

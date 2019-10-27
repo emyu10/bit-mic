@@ -13,14 +13,18 @@ public class Calculator extends JFrame {
     private NumberButton numNine = new NumberButton(this, "9");
     private NumberButton numZero = new NumberButton(this,"0");
 
-    private OperatorButton opDivide = new OperatorButton(this, "÷");
-    private OperatorButton opTimes = new OperatorButton(this, "×");
-    private OperatorButton opMinus = new OperatorButton(this, "−");
-    private OperatorButton opPlus = new OperatorButton(this, "+");
-    private OperatorButton opDot = new OperatorButton(this, ".");
-    private OperatorButton opEqual = new OperatorButton(this, "=");
+    private OperatorButton opDivide = new OperatorButton(this, Operator.OP_DIVIDE);
+    private OperatorButton opTimes = new OperatorButton(this, Operator.OP_TIMES);
+    private OperatorButton opMinus = new OperatorButton(this, Operator.OP_MINUS);
+    private OperatorButton opPlus = new OperatorButton(this, Operator.OP_PLUS);
+    private OperatorButton opDot = new OperatorButton(this, Operator.OP_DOT);
+    private OperatorButton opEqual = new OperatorButton(this, Operator.OP_EQUALS);
 
     private JTextField display = new JTextField("0");
+
+    private String opOne = null;
+    private String opTwo = null;
+    private String operator = null;
 
     private Calculator() {
         super("Calculator");
@@ -82,10 +86,33 @@ public class Calculator extends JFrame {
         display.setHorizontalAlignment(JTextField.RIGHT);
     }
 
+    public boolean isOperandOneSet() {
+        return opOne != null;
+    }
+
+    public void setOperandOne(String operandOne) {
+        this.opOne = operandOne;
+    }
+
+    public void setOperandTwo(String operandTwo) {
+        this.opTwo = operandTwo;
+    }
+
+    public void setOperator(String operator) {
+        this.operator = operator;
+    }
+
     public static void main(String[] args) {
         Calculator c = new Calculator();
         c.showWindow();
     }
 
-
+    public final class Operator {
+        final static String OP_PLUS = "+";
+        final static String OP_MINUS = "−";
+        final static String OP_TIMES = "×";
+        final static String OP_DIVIDE = "÷";
+        final static String OP_DOT = ".";
+        final static String OP_EQUALS = "=";
+    }
 }
