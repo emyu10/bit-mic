@@ -90,16 +90,39 @@ public class Calculator extends JFrame {
         return opOne != null;
     }
 
-    public void setOperandOne(String operandOne) {
+    void setOperandOne(String operandOne) {
         this.opOne = operandOne;
     }
 
-    public void setOperandTwo(String operandTwo) {
+    void setOperandTwo(String operandTwo) {
         this.opTwo = operandTwo;
     }
 
-    public void setOperator(String operator) {
+    void setOperator(String operator) {
         this.operator = operator;
+    }
+
+    void calculate() {
+        double o1 = Double.parseDouble(opOne);
+        double o2 = Double.parseDouble(opTwo);
+        double result;
+        switch (operator) {
+            case Operator.OP_PLUS:
+                result = o1 + o2;
+                break;
+            case Operator.OP_MINUS:
+                result = o1 - o2;
+                break;
+            case Operator.OP_TIMES:
+                result = o1 * o2;
+                break;
+            case Operator.OP_DIVIDE:
+                result = o1 / o2;
+                break;
+            default:
+                result = 0;
+        }
+        display.setText(String.valueOf(result));
     }
 
     public static void main(String[] args) {

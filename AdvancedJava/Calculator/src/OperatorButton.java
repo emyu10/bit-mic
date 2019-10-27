@@ -21,10 +21,14 @@ public class OperatorButton extends Button {
             parent.setOperandOne(parent.getDisplay().getText());
             parent.setOperator(pressed);
         }
-        if (pressed.equals(".")) {
+        if (pressed.equals(Calculator.Operator.OP_DOT)) {
             if (parent.getDisplay().getText().indexOf('.') == -1) {
                 parent.getDisplay().setText(parent.getDisplay().getText() + ".");
             }
+        }
+        if (pressed.equals(Calculator.Operator.OP_EQUALS)) {
+            parent.setOperandTwo(parent.getDisplay().getText());
+            parent.calculate();
         }
     }
 }
