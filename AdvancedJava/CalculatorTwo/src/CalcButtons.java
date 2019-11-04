@@ -119,28 +119,30 @@ public class CalcButtons extends JFrame{
 
             public void actionPerformed(ActionEvent e) {
                 op2 = tf.getText();
-                Double.parseDouble(op1);
-                Double.parseDouble(op2);
-                //result = Double.parseDouble(op1) + Double.parseDouble(op2);
+                double o1 = Double.parseDouble(op1);
+                double o2 = Double.parseDouble(op2);
 
                 switch (operator){
                     case "-":
-                        result = Double.parseDouble(op1) - Double.parseDouble(op2);
+                        result = o1 - o2;
                         break;
                     case "+":
-                        result = Double.parseDouble(op1) + Double.parseDouble(op2);
+                        result = o1 + o2;
                         break;
-                    case "*":
-                        result = Double.parseDouble(op1) * Double.parseDouble(op2);
+                    case "X":
+                        result = o1 * o2;
                         break;
                     case "/":
-                        result = Double.parseDouble(op1) / Double.parseDouble(op2);
+                        result = o1 / o2;
                         break;
                     case "%":
-                        //result = (Double.parseDouble(op1) + Double.parseDouble(op2))*100;
-                        //default:
+                        result = o1 * (o2 / 100);
+                        break;
+                    case "GST":
+                        result = o1 + (o1 * (o2 / 100));
+                        break;
+                    default:
                         result = 0;
-
                 }
 
                 tf.setText(String.valueOf(result));
@@ -154,9 +156,9 @@ public class CalcButtons extends JFrame{
 
 
         JButton bgst = new JButton ("GST");
-        //bgst.addActionListener(gstper);
         JButton bpercent = new JButton ("%");
         bgst.addActionListener(operation);
+        bpercent.addActionListener(operation);
 
 
 
