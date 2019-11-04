@@ -94,6 +94,16 @@ public class CalcButtons extends JFrame{
 
 
         JButton bcls = new JButton ("CLS");
+        bcls.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                tf.setText("");
+                op1 = "";
+                op2 = "";
+                operator = "";
+                startOp2 = false;
+            }
+        });
         JButton bc = new JButton ("C");
 
 
