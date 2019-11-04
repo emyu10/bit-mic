@@ -105,6 +105,14 @@ public class CalcButtons extends JFrame{
             }
         });
         JButton bc = new JButton ("C");
+        bc.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                String tfText = tf.getText();
+                int end = tfText.length() == 0 ? 0 : tfText.length() - 1;
+                tf.setText(tfText.substring(0, end));
+            }
+        });
 
 
         ActionListener equal = new ActionListener() {
