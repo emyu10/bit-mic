@@ -1,21 +1,19 @@
-import java.io.*;
-import java.util.*;
+import javax.swing.event.TableModelListener;
+import javax.swing.table.AbstractTableModel;
+import javax.swing.table.TableModel;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Scanner;
 
-/**
- * This program scans a series of letters from the user
- * and generates a list of words that can be made from those letters.
- * @author Mohamed Usman
- * @version 1.0
- * @since 2019-09-17
- * @docRoot
- */
-public class Generator {
-    /**
-     * Entry point to the program.
-     * @param String[] args an array of strings
-     * @return void
-     */
-    public static void main(String[] args) {
+public class Generator extends AbstractTableModel {
+    private ArrayList<String> words = new ArrayList<>();
+    private String letters;
+    private String originalLetters;
+
+    void generate(String letters) {
+        this.letters = letters;
+        this.originalLetters = letters;
         try {
             // to read the file which contains the word list
             FileInputStream in = new FileInputStream("words_dictionary");
@@ -23,23 +21,13 @@ public class Generator {
             // to ease going through each word
             Scanner fileScanner = new Scanner(in);
 
-            // to get user input letters
-            Scanner input = new Scanner(System.in);
-
-            // scans the user input letters
-            System.out.print("Enter letters: ");
-            String originalLetters = input.nextLine();
-
-            // to store all valid words to print later
-            ArrayList<String> words = new ArrayList<String>();
-
             // while loop goes through all the words in the word list file
             while (fileScanner.hasNext()) {
                 // gets the next word from the file
                 String word = fileScanner.nextLine();
 
                 // resets the letters to the original one, the user input
-                String letters = originalLetters;
+                letters = originalLetters;
 
                 // to track if the current word from the file is valid
                 boolean valid = true;
@@ -68,14 +56,27 @@ public class Generator {
                     words.add(word);
                 }
             }
-
-            // printing the valid word list
-            System.out.println("Generated words.\n----------------------");
-            for (String w : words) {
-                System.out.println(w);
-            }
         } catch (FileNotFoundException e) {
             System.out.println("Could not find file");
         }
+    }
+
+    @Override
+    public int getRowCount() {
+        return words.size();
+    }
+
+    @Override
+    public int getColumnCount() {
+        return 1;
+    }
+
+    @Override
+    public String getValueAt(int i, int i1) {
+        return words.get(i);
+    }
+
+    public Generator newInstance() {
+        return this;
     }
 }
