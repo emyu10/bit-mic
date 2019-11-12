@@ -3,7 +3,7 @@ package boxlayoutexamples;
 import javax.swing.*;
 import java.awt.*;
 
-public class BoxLayoutExample2 extends JFrame {
+public class BoxLayoutExample2 extends Frame {
     Button buttons[];
 
     public BoxLayoutExample2() {
