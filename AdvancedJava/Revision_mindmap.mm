@@ -834,8 +834,146 @@
 </node>
 </node>
 </node>
-<node CREATED="1573616459521" ID="ID_1538216105" MODIFIED="1573969995816" POSITION="right" TEXT="3. User Interface Components with Swing">
+<node COLOR="#338800" CREATED="1573616459521" ID="ID_1538216105" MODIFIED="1574135864274" POSITION="right" TEXT="3. User Interface Components with Swing">
 <font NAME="DejaVu Sans" SIZE="12"/>
+<node CREATED="1574138176491" ID="ID_948938097" MODIFIED="1574138187775" TEXT="characteristics of a component">
+<node CREATED="1574138188867" ID="ID_721925751" MODIFIED="1574138194047" TEXT="contents"/>
+<node CREATED="1574138202003" ID="ID_1825491702" MODIFIED="1574138208247" TEXT="visual appearance"/>
+<node CREATED="1574138209651" ID="ID_1092314513" MODIFIED="1574138220631" TEXT="behavior"/>
+</node>
+<node CREATED="1574138330266" ID="ID_639459412" MODIFIED="1574138343558" TEXT="model-view-controller">
+<node CREATED="1574138345682" ID="ID_605339893" MODIFIED="1574138388070" TEXT="model - stores the contents"/>
+<node CREATED="1574138358994" ID="ID_1599873584" MODIFIED="1574138380822" TEXT="view - displays the contents"/>
+<node CREATED="1574138390290" ID="ID_718068899" MODIFIED="1574138402549" TEXT="controller - handles user input"/>
+</node>
+<node CREATED="1574140935779" ID="ID_1042880161" MODIFIED="1574140939151" TEXT="layout managers">
+<node CREATED="1574140941539" ID="ID_887960913" MODIFIED="1574140947991" TEXT="java.awt.BorderLayout">
+<node CREATED="1574141124626" ID="ID_238539152" MODIFIED="1574141148590" TEXT="arrange components in five regions">
+<node CREATED="1574141149762" ID="ID_1456391274" MODIFIED="1574141196758" TEXT="north - public static final int NORTH"/>
+<node CREATED="1574141153594" ID="ID_917788335" MODIFIED="1574141208710" TEXT="south - public static final int SOUTH"/>
+<node CREATED="1574141158018" ID="ID_836667480" MODIFIED="1574141221853" TEXT="east - public static final int EAST"/>
+<node CREATED="1574141161778" ID="ID_62138584" MODIFIED="1574141236789" TEXT="west - public static final int WEST"/>
+<node CREATED="1574141165642" ID="ID_870260412" MODIFIED="1574141253437" TEXT="center - public static final int CENTER"/>
+</node>
+<node CREATED="1574141290289" ID="ID_1862297468" MODIFIED="1574141293428" TEXT="constructors">
+<node CREATED="1574141300577" ID="ID_433584246" MODIFIED="1574141326269" TEXT="BorderLayout() with no gaps"/>
+<node CREATED="1574141328368" ID="ID_661220368" MODIFIED="1574141352397" TEXT="JBorderLayout(int hgap, int vgap) - with given horizontal and vertical gaps"/>
+</node>
+<node CREATED="1574141402056" ID="ID_1229180684" MODIFIED="1574141464699" TEXT="setHgap(int hgap) - sets horizontal gap"/>
+<node CREATED="1574141466768" ID="ID_663372294" MODIFIED="1574141477604" TEXT="setVgap(int vgap) - sets vertical gap"/>
+</node>
+<node CREATED="1574140950379" ID="ID_125055657" MODIFIED="1574140958871" TEXT="java.awt.FlowLayout">
+<node CREATED="1574141484944" ID="ID_138265569" MODIFIED="1574141506436" TEXT="the default layout"/>
+<node CREATED="1574141513208" ID="ID_1880956606" MODIFIED="1574141525868" TEXT="puts components in a row"/>
+<node CREATED="1574141527256" ID="ID_243444227" MODIFIED="1574141565867" TEXT="fill one row, components goes to the next"/>
+<node CREATED="1574141577447" ID="ID_1297025580" MODIFIED="1574141585739" TEXT="rows are center aligned by default"/>
+<node CREATED="1574141587159" ID="ID_460782026" MODIFIED="1574141599747" TEXT="default gap is 5px"/>
+<node CREATED="1574141606975" ID="ID_179748330" MODIFIED="1574141617187" TEXT="default orientation is left to right"/>
+<node CREATED="1574141767854" ID="ID_1369155409" MODIFIED="1574141789482" TEXT="left align - new FlowLayout(FlowLayout.LEFT)"/>
+<node CREATED="1574141792158" ID="ID_1224597256" MODIFIED="1574141809801" TEXT="right align - new FlowLayout(FlowLayout.RIGHT)"/>
+<node CREATED="1574141848614" ID="ID_606182080" MODIFIED="1574141916089" TEXT="right to left orientation - public void Frame.setComponentOrientation(ComponentOrientation.RIGHT_TO_LEFT)"/>
+</node>
+<node CREATED="1574140960475" ID="ID_1285851332" MODIFIED="1574140966639" TEXT="java.awt.GridLayout"/>
+<node CREATED="1574140967995" ID="ID_526703742" MODIFIED="1574140976439" TEXT="java.awt.CardLayout"/>
+<node CREATED="1574140977883" ID="ID_19069777" MODIFIED="1574140989902" TEXT="java.awt.GridBagLayout"/>
+<node CREATED="1574140991395" ID="ID_863213960" MODIFIED="1574141067638" TEXT="javax.swing.BoxLayout"/>
+<node CREATED="1574141000787" ID="ID_1175640310" MODIFIED="1574141056190" TEXT="javax.swing.GroupLayout"/>
+<node CREATED="1574141008842" ID="ID_375350364" MODIFIED="1574141045270" TEXT="javax.swing.ScrollPaneLayout"/>
+<node CREATED="1574141018515" ID="ID_398398689" MODIFIED="1574141033534" TEXT="javax.swing.SpringLayout"/>
+</node>
+<node CREATED="1574141945317" ID="ID_577555560" MODIFIED="1574141949585" TEXT="form fields">
+<node CREATED="1574141950669" ID="ID_660041383" MODIFIED="1574141965009" TEXT="Swing - JButton">
+<node CREATED="1574141969413" ID="ID_494095813" MODIFIED="1574141981961" TEXT="platform independent buttons"/>
+<node CREATED="1574141983429" ID="ID_1608142575" MODIFIED="1574142000673" TEXT="common methods">
+<node CREATED="1574142005725" ID="ID_1276448859" MODIFIED="1574142025297" TEXT="void setText(String s) - sets specified text to button"/>
+<node CREATED="1574142027013" ID="ID_1873682833" MODIFIED="1574142039017" TEXT="String getText() - return the text of the button"/>
+<node CREATED="1574142041373" ID="ID_927075009" MODIFIED="1574142061041" TEXT="void setEnabled(boolean b) - enable or disable the button"/>
+<node CREATED="1574142069629" ID="ID_734208467" MODIFIED="1574142083720" TEXT="void setIcon(Icon b) - sets icon to the button"/>
+<node CREATED="1574142085140" ID="ID_810372183" MODIFIED="1574142102024" TEXT="Icon getIcon() - return the icon of the button"/>
+<node CREATED="1574142103316" ID="ID_144289302" MODIFIED="1574142125344" TEXT="void setMnemonic(int a) - sets mnemonic on the button"/>
+<node CREATED="1574142126908" ID="ID_1318399574" MODIFIED="1574142154984" TEXT="void addActionListener(ActionListener a) - add an action listener to the button"/>
+</node>
+</node>
+<node CREATED="1574142304027" ID="ID_592051990" MODIFIED="1574142308271" TEXT="Swing - JLabel">
+<node CREATED="1574142313123" ID="ID_1695803825" MODIFIED="1574142324407" TEXT="for placing text in a container"/>
+<node CREATED="1574142330563" ID="ID_228532197" MODIFIED="1574142336671" TEXT="single line of read-only text"/>
+<node CREATED="1574142344187" ID="ID_1551591994" MODIFIED="1574142352526" TEXT="can be changed by an application"/>
+<node CREATED="1574142354019" ID="ID_1651807326" MODIFIED="1574142363551" TEXT="user cannot change it directly"/>
+<node CREATED="1574142369669" ID="ID_421821107" MODIFIED="1574142377654" TEXT="inherits from JComponent"/>
+<node CREATED="1574142410450" ID="ID_476967094" MODIFIED="1574142416751" TEXT="common methods">
+<node CREATED="1574142417763" ID="ID_1687578725" MODIFIED="1574142432622" TEXT="String getText() - returns the text in the label"/>
+<node CREATED="1574142434074" ID="ID_1051575816" MODIFIED="1574142454070" TEXT="void setText(String text) - sets a text in the label"/>
+<node CREATED="1574142462322" ID="ID_801643980" MODIFIED="1574142493582" TEXT="void setHorizontalAlignment(int alignment) - aligns the text along X axis"/>
+<node CREATED="1574142495730" ID="ID_1487760732" MODIFIED="1574142516678" TEXT="Icon getIcon() - returns the graphic image of the label"/>
+<node CREATED="1574142518210" ID="ID_1701302613" MODIFIED="1574142537894" TEXT="int getHorizontalAlignment() - returns the alignment of the text"/>
+</node>
+</node>
+<node CREATED="1574142562682" ID="ID_1371920767" MODIFIED="1574142570774" TEXT="Swing - JTextField">
+<node CREATED="1574142576305" ID="ID_1581687" MODIFIED="1574142584509" TEXT="text component"/>
+<node CREATED="1574142585825" ID="ID_594660752" MODIFIED="1574142596325" TEXT="allows editing of a single line text"/>
+<node CREATED="1574142597697" ID="ID_774447042" MODIFIED="1574142612653" TEXT="inherits from JTextComponent"/>
+<node CREATED="1574142618625" ID="ID_1545502975" MODIFIED="1574142621621" TEXT="common methods">
+<node CREATED="1574142622697" ID="ID_297064627" MODIFIED="1574142648429" TEXT="void addActionListener(ActionListener l) - adds an action listener"/>
+<node CREATED="1574142649825" ID="ID_1217338964" MODIFIED="1574142680309" TEXT="Action getAction() - returns currently set action for this ActionEvent source"/>
+<node CREATED="1574142686673" ID="ID_1072282998" MODIFIED="1574142705973" TEXT="void setFont(Font f) - used to set the current font"/>
+<node CREATED="1574142707441" ID="ID_1082675208" MODIFIED="1574142737701" TEXT="void removeActionListener(ActionListener l) - remove the specified action listener"/>
+</node>
+</node>
+<node CREATED="1574142768424" ID="ID_1100448238" MODIFIED="1574142776085" TEXT="Swing - JTextArea">
+<node CREATED="1574142780312" ID="ID_685980793" MODIFIED="1574142791364" TEXT="multiline region that displays text"/>
+<node CREATED="1574142792752" ID="ID_349471957" MODIFIED="1574142802812" TEXT="allows editing"/>
+<node CREATED="1574142804408" ID="ID_1510627815" MODIFIED="1574142813741" TEXT="inherits from JTextComponent"/>
+<node CREATED="1574142823376" ID="ID_220324489" MODIFIED="1574142827244" TEXT="common methods">
+<node CREATED="1574142828120" ID="ID_1147023666" MODIFIED="1574142843868" TEXT="void setRows(int rows) - specify the number of rows"/>
+<node CREATED="1574142845392" ID="ID_865236067" MODIFIED="1574142861700" TEXT="void setColumns(int cols) - specify the number of columns"/>
+<node CREATED="1574142863128" ID="ID_127546802" MODIFIED="1574142873940" TEXT="void setFont(Font f) - set a font"/>
+<node CREATED="1574142875600" ID="ID_1466509468" MODIFIED="1574142906788" TEXT="void insert(String s, int position) - insert text on a specified position"/>
+<node CREATED="1574142909096" ID="ID_1934994081" MODIFIED="1574142925467" TEXT="void append(String s) - append text at the end"/>
+</node>
+</node>
+<node CREATED="1574142945007" ID="ID_733220194" MODIFIED="1574142954691" TEXT="Swing - JPasswordField">
+<node CREATED="1574142956760" ID="ID_159109336" MODIFIED="1574142969355" TEXT="text component for password entry"/>
+<node CREATED="1574142970903" ID="ID_956819417" MODIFIED="1574142983523" TEXT="allows editing of a single line of text"/>
+<node CREATED="1574142984871" ID="ID_1999895785" MODIFIED="1574142994627" TEXT="inherits from JTextField"/>
+</node>
+<node CREATED="1574143004223" ID="ID_294771379" MODIFIED="1574143011451" TEXT="Swing - JCheckBox">
+<node CREATED="1574143012679" ID="ID_264080027" MODIFIED="1574143020163" TEXT="create a checkbox"/>
+<node CREATED="1574143024415" ID="ID_848075661" MODIFIED="1574143037930" TEXT="to turn an option on (true) or off (false)"/>
+<node CREATED="1574143039615" ID="ID_1252494232" MODIFIED="1574143051491" TEXT="clicking on it, changes its state"/>
+<node CREATED="1574143054287" ID="ID_1427055199" MODIFIED="1574143062227" TEXT="inherits from JToggleButton"/>
+<node CREATED="1574143067543" ID="ID_656962903" MODIFIED="1574143071026" TEXT="common methods">
+<node CREATED="1574143072063" ID="ID_1623390689" MODIFIED="1574143103547" TEXT="AccessibleContext getAccessibleContext() - get the AccessibleContext associated with the checkbox"/>
+<node CREATED="1574143105287" ID="ID_1144862001" MODIFIED="1574143129698" TEXT="protected String paramString() - returns a string representation of the checkbox"/>
+</node>
+</node>
+<node CREATED="1574143149830" ID="ID_448772611" MODIFIED="1574143156579" TEXT="Swing - JRadioButton">
+<node CREATED="1574143159510" ID="ID_1798315579" MODIFIED="1574143167154" TEXT="create a radio button"/>
+<node CREATED="1574143168742" ID="ID_1178810241" MODIFIED="1574143186186" TEXT="choose one option from a group of options"/>
+<node CREATED="1574143194814" ID="ID_997945815" MODIFIED="1574143219625" TEXT="should be added in a ButtonGroup to select only one radio button"/>
+<node CREATED="1574143222262" ID="ID_192986932" MODIFIED="1574143225938" TEXT="common methods">
+<node CREATED="1574143226918" ID="ID_141895525" MODIFIED="1574143246250" TEXT="void setText(String s) - set a text on the button"/>
+<node CREATED="1574143247629" ID="ID_810301448" MODIFIED="1574143258994" TEXT="String getText() - get the text on the button"/>
+<node CREATED="1574143260293" ID="ID_1859815985" MODIFIED="1574143278265" TEXT="void setEnabled(boolean b) - enable or disable it"/>
+<node CREATED="1574143280086" ID="ID_1576692658" MODIFIED="1574143293697" TEXT="void setIcon(Icon b) - sets an icon on it"/>
+<node CREATED="1574143295421" ID="ID_1779027351" MODIFIED="1574143305529" TEXT="Icon getIcon() - get the icon on it"/>
+<node CREATED="1574143311333" ID="ID_1422316975" MODIFIED="1574143334473" TEXT="void setMnemonic(int a) - sets a mnemonic on the button"/>
+<node CREATED="1574143336189" ID="ID_834231968" MODIFIED="1574143359849" TEXT="void addActionListener(ActionListener a) - add an action listener to the button"/>
+</node>
+</node>
+<node CREATED="1574143394573" ID="ID_454710333" MODIFIED="1574143401897" TEXT="Swing - JComboBox">
+<node CREATED="1574143405221" ID="ID_1406936443" MODIFIED="1574143417632" TEXT="popup menu of choices"/>
+<node CREATED="1574143442085" ID="ID_1345030599" MODIFIED="1574143450440" TEXT="selected choice is shown at the top"/>
+<node CREATED="1574143453380" ID="ID_1452458705" MODIFIED="1574143459528" TEXT="inherits JComponent"/>
+<node CREATED="1574143481573" ID="ID_955577173" MODIFIED="1574143486112" TEXT="common methods">
+<node CREATED="1574143491052" ID="ID_1214848800" MODIFIED="1574143509784" TEXT="void addItem(Object anObject) - add an item to the list"/>
+<node CREATED="1574143511212" ID="ID_519212885" MODIFIED="1574143532968" TEXT="void removeItem(Object anObject) - removes the specified item from the list"/>
+<node CREATED="1574143537076" ID="ID_981830766" MODIFIED="1574143551888" TEXT="void removeAllItems() - remove all the items from the list"/>
+<node CREATED="1574143553292" ID="ID_839735138" MODIFIED="1574143586224" TEXT="void setEditable(boolean b) - determine if the list should be editable by the user"/>
+<node CREATED="1574143590644" ID="ID_1167379308" MODIFIED="1574143611480" TEXT="void addActionListener(ActionListener a) - add an action listener"/>
+<node CREATED="1574143612940" ID="ID_918528930" MODIFIED="1574143640167" TEXT="void addItemListener(ItemListener i) - add an item listener"/>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1573616483903" ID="ID_1623269740" MODIFIED="1573969995816" POSITION="left" TEXT="4. User Interface Components with Swing II">
 <font NAME="DejaVu Sans" SIZE="12"/>
