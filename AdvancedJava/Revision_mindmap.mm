@@ -1177,6 +1177,66 @@
 <node CREATED="1574310240100" ID="ID_305830084" MODIFIED="1574310286472" TEXT="static int DEFAULT_SIZE - indicates the size from the component or gap should be used for a particular range value"/>
 <node CREATED="1574310288188" ID="ID_1531694090" MODIFIED="1574310327743" TEXT="static int PREFERRED_SIZE - inidicates the preferred size from the component or gap should be used for a particular range size"/>
 </node>
+<node CREATED="1574314133349" ID="ID_1761749622" MODIFIED="1574314137633" TEXT="methods">
+<node CREATED="1574314138701" ID="ID_1974088814" MODIFIED="1574314160321" TEXT="void addLayoutComponent(Component component, Object constraints)"/>
+<node CREATED="1574314161717" ID="ID_433867150" MODIFIED="1574314178233" TEXT="void addLayoutComponent(String name, Component component)"/>
+<node CREATED="1574314180085" ID="ID_1420582957" MODIFIED="1574314216697" TEXT="GroupLayout.ParallelGroup createBaselineGroup(boolean resizable, boolean anchorBaselineToTop)"/>
+<node CREATED="1574314218565" ID="ID_1640058244" MODIFIED="1574314236673" TEXT="GroupLayout.ParallelGroup createParallelGroup()"/>
+<node CREATED="1574314238124" ID="ID_16563955" MODIFIED="1574314262752" TEXT="GroupLayout.ParallelGroup(GroupLayout.Alignment alignment)"/>
+<node CREATED="1574314270053" ID="ID_102273217" MODIFIED="1574314306552" TEXT="GroupLayout.ParallelGroup createParallelGroup(GroupLayout.Alignment alignment, boolean resizable)"/>
+<node CREATED="1574314309100" ID="ID_337516736" MODIFIED="1574314327312" TEXT="GroupLayout.SequentialGroup createSequentialGroup()"/>
+<node CREATED="1574314328812" ID="ID_1818865491" MODIFIED="1574314343696" TEXT="boolean getAutoCreateContainerGaps()"/>
+<node CREATED="1574314345116" ID="ID_1149672008" MODIFIED="1574314362055" TEXT="boolean getAutoCreateGaps()"/>
+<node CREATED="1574314363372" ID="ID_1541436328" MODIFIED="1574314373648" TEXT="boolean getHonorsVisibility()"/>
+<node CREATED="1574314375020" ID="ID_1614375550" MODIFIED="1574314388847" TEXT="float getLayoutAlignmentX(Container parent)"/>
+<node CREATED="1574314390380" ID="ID_993404539" MODIFIED="1574314404592" TEXT="float getLayoutAlignmentY(Container parent)"/>
+<node CREATED="1574314416124" ID="ID_1740676168" MODIFIED="1574314431143" TEXT="Dimension maximumLayoutSize(Container parent)"/>
+</node>
+</node>
+<node CREATED="1574314447907" ID="ID_1464057777" MODIFIED="1574314454519" TEXT="ScrollPaneLayout">
+<node CREATED="1574314560435" ID="ID_1670599873" MODIFIED="1574314573015" TEXT="layout manager used by JScrollPane"/>
+<node CREATED="1574314582155" ID="ID_510672674" MODIFIED="1574314599591" TEXT="JScrollPaneLayout is responsible for 9 components">
+<node CREATED="1574314614699" ID="ID_929945551" MODIFIED="1574314619902" TEXT="a viewport"/>
+<node CREATED="1574314621651" ID="ID_1454619332" MODIFIED="1574314627142" TEXT="two scrollbars"/>
+<node CREATED="1574314629330" ID="ID_1215297498" MODIFIED="1574314633398" TEXT="a row header"/>
+<node CREATED="1574314635146" ID="ID_655087004" MODIFIED="1574314639838" TEXT="a column header"/>
+<node CREATED="1574314644602" ID="ID_144558633" MODIFIED="1574314651334" TEXT="four corner components"/>
+</node>
+<node CREATED="1574314666090" ID="ID_90363751" MODIFIED="1574314670094" TEXT="nested classes">
+<node CREATED="1574314671442" ID="ID_115491918" MODIFIED="1574314683263" TEXT="static class ScrollPaneLayout.UIResource"/>
+</node>
+<node CREATED="1574314705322" ID="ID_618640473" MODIFIED="1574314709525" TEXT="fields">
+<node CREATED="1574314710370" ID="ID_917818488" MODIFIED="1574314725806" TEXT="protected JViewport colHead - column header child"/>
+<node CREATED="1574314727122" ID="ID_371484919" MODIFIED="1574314746966" TEXT="protected JScrollBar hsb - horizontal scrollbar"/>
+<node CREATED="1574314748410" ID="ID_613215750" MODIFIED="1574314766334" TEXT="protected int hsbPolicy - policy for horizontal scrollbar"/>
+<node CREATED="1574314767690" ID="ID_369029077" MODIFIED="1574314792301" TEXT="protected Component lowerLeft - lower left corner"/>
+<node CREATED="1574314794041" ID="ID_533960106" MODIFIED="1574314808837" TEXT="protected Component lowerRight - lower right corner"/>
+<node CREATED="1574314810297" ID="ID_1987754217" MODIFIED="1574314827269" TEXT="protected JViewport rowHead - row header"/>
+<node CREATED="1574314828705" ID="ID_1901762803" MODIFIED="1574314845821" TEXT="protected Component upperLeft - upper left corner"/>
+<node CREATED="1574314847217" ID="ID_276635803" MODIFIED="1574314861445" TEXT="protected Component upperRight - upper right corner"/>
+<node CREATED="1574314865233" ID="ID_825892205" MODIFIED="1574314890157" TEXT="protected JViewport viewport - scollpane&apos;s viewport"/>
+<node CREATED="1574314891505" ID="ID_1316078443" MODIFIED="1574314905605" TEXT="protected JScrollBar vsb - vertical scrollbar"/>
+<node CREATED="1574314907049" ID="ID_967682192" MODIFIED="1574314927164" TEXT="protected int vsbPolicty - policy for vertical scrollbar"/>
+</node>
+<node CREATED="1574314936193" ID="ID_1675826585" MODIFIED="1574314938404" TEXT="methods">
+<node CREATED="1574314940096" ID="ID_1343041765" MODIFIED="1574314968300" TEXT="void addLayoutComponent(String s, Component c) - adds specified component to the layout"/>
+<node CREATED="1574314969944" ID="ID_1678996944" MODIFIED="1574315007356" TEXT="protected Component addSingletonComponent(Component oldC, Component newC) - removes an existing component"/>
+<node CREATED="1574315008864" ID="ID_1375627111" MODIFIED="1574315037916" TEXT="JViewport getColumnHeader() - returns the column header"/>
+<node CREATED="1574315039480" ID="ID_1904617014" MODIFIED="1574315065100" TEXT="Component getCorner(String key) - returns the component at the specified corner"/>
+<node CREATED="1574315069552" ID="ID_1108842579" MODIFIED="1574315087524" TEXT="JScrollBer getHorizontalScrollBar() - returns the horizontal scrollbar"/>
+<node CREATED="1574315089367" ID="ID_1163816230" MODIFIED="1574315107252" TEXT="int getHorizontalScollBarPolicy() - return horizontal scrollbar policy"/>
+<node CREATED="1574315108776" ID="ID_531904461" MODIFIED="1574315128315" TEXT="JViewport getRowHeader() - returns the row header"/>
+<node CREATED="1574315129783" ID="ID_386989372" MODIFIED="1574315151811" TEXT="JScrollBar getVerticalScrollBar() - returns vertical scrollbar"/>
+<node CREATED="1574315221127" ID="ID_1812904117" MODIFIED="1574315251331" TEXT="int getVerticalScrollBarPolicy() - returns vertical scrollbar policy"/>
+<node CREATED="1574315254255" ID="ID_1913541677" MODIFIED="1574315287707" TEXT="JViewport getViewport() - returns the viewport which displays the scollable content"/>
+</node>
+</node>
+<node CREATED="1574315305255" ID="ID_1448883027" MODIFIED="1574315311563" TEXT="SpringLayout">
+<node CREATED="1574315312958" ID="ID_723380320" MODIFIED="1574315337858" TEXT="arranges children of its associated container according to a set of constraints"/>
+<node CREATED="1574315339638" ID="ID_32796040" MODIFIED="1574315363106" TEXT="constraints are horizontal and vertical distance between 2 component edges"/>
+<node CREATED="1574315375990" ID="ID_1505879794" MODIFIED="1574315394226" TEXT="every constraint is represented by SpringLayout.Constraint object"/>
+<node CREATED="1574315410045" ID="ID_856493909" MODIFIED="1574315446026" TEXT="each child in the container, as well as the container has exactly one set of constraints associated"/>
+<node CREATED="1574315448621" ID="ID_1488082542" MODIFIED="1574315539433" TEXT="each edge position is dependent on the position of the other edge"/>
 </node>
 </node>
 </node>
