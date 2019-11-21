@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#000000" CREATED="1573616286117" ID="ID_1161789306" MODIFIED="1573969995831" STYLE="fork" TEXT="Advance Programming in Java">
 <font NAME="DejaVu Sans" SIZE="12"/>
-<node CREATED="1573616409386" ID="ID_417755403" MODIFIED="1573969995831" POSITION="right" TEXT="1. Graphics Programming">
+<node CREATED="1573616409386" FOLDED="true" ID="ID_417755403" MODIFIED="1574232608836" POSITION="right" TEXT="1. Graphics Programming">
 <font NAME="DejaVu Sans" SIZE="12"/>
 <node CREATED="1573616742377" ID="ID_697600504" MODIFIED="1573969995831" TEXT="Abstract Window Toolkit (AWT)">
 <font NAME="DejaVu Sans" SIZE="12"/>
@@ -548,9 +548,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1573616421049" ID="ID_1730170301" MODIFIED="1573969995818" POSITION="left" TEXT="2. Event Handling">
+<node CREATED="1573616421049" FOLDED="true" ID="ID_1730170301" MODIFIED="1574232604232" POSITION="left" TEXT="2. Event Handling">
 <font NAME="DejaVu Sans" SIZE="12"/>
-<node CREATED="1573963066796" ID="ID_565113842" MODIFIED="1573969995818" TEXT="Intro">
+<node CREATED="1573963066796" ID="ID_565113842" MODIFIED="1574232576542" TEXT="Intro">
 <font NAME="DejaVu Sans" SIZE="12"/>
 <node CREATED="1573962803822" ID="ID_723482858" MODIFIED="1573969995818" TEXT="GUI environments monitors events">
 <font NAME="DejaVu Sans" SIZE="12"/>
@@ -574,7 +574,7 @@
 <font NAME="DejaVu Sans" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1573963514001" ID="ID_657761001" MODIFIED="1573969995818" TEXT="AWT Events">
+<node CREATED="1573963514001" ID="ID_657761001" MODIFIED="1574232079893" TEXT="AWT Events">
 <font NAME="DejaVu Sans" SIZE="12"/>
 <node CREATED="1573963520497" ID="ID_1775540555" MODIFIED="1573969995818" TEXT="listener objects implement a listener interface">
 <font NAME="DejaVu Sans" SIZE="12"/>
@@ -646,7 +646,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1573967022877" ID="ID_242194675" MODIFIED="1573969995817" TEXT="Swing Events">
+<node CREATED="1573967022877" ID="ID_242194675" MODIFIED="1574232579105" TEXT="Swing Events">
 <font NAME="DejaVu Sans" SIZE="12"/>
 <node CREATED="1573967031365" ID="ID_1650475926" MODIFIED="1573969995817" TEXT="some components more types">
 <font NAME="DejaVu Sans" SIZE="12"/>
@@ -658,7 +658,7 @@
 <font NAME="DejaVu Sans" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1573968889178" ID="ID_909693403" MODIFIED="1573969995817" TEXT="Event object">
+<node CREATED="1573968889178" ID="ID_909693403" MODIFIED="1574232580099" TEXT="Event object">
 <font NAME="DejaVu Sans" SIZE="12"/>
 <node CREATED="1573968899170" ID="ID_181549182" MODIFIED="1573969995817" TEXT="encapsulates information about the event">
 <font NAME="DejaVu Sans" SIZE="12"/>
@@ -767,7 +767,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1573969811645" ID="ID_938048570" MODIFIED="1573970080059" TEXT="listener interfaces in java.awt.event package">
+<node CREATED="1573969811645" ID="ID_938048570" MODIFIED="1574232583585" TEXT="listener interfaces in java.awt.event package">
 <font NAME="DejaVu Sans" SIZE="12"/>
 <node CREATED="1573969827965" ID="ID_218364625" MODIFIED="1573969995817" TEXT="ActionListener">
 <font NAME="DejaVu Sans" SIZE="12"/>
@@ -803,7 +803,7 @@
 <font NAME="DejaVu Sans" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1573970088363" ID="ID_1427477250" MODIFIED="1573970114391" TEXT="adapter classes">
+<node CREATED="1573970088363" ID="ID_1427477250" MODIFIED="1574232586148" TEXT="adapter classes">
 <node CREATED="1573970117259" ID="ID_1010186801" MODIFIED="1573970122863" TEXT="ComponentAdapter"/>
 <node CREATED="1573970124427" ID="ID_1295184735" MODIFIED="1573970130543" TEXT="ContainerAdapter"/>
 <node CREATED="1573970132003" ID="ID_813750445" MODIFIED="1573970136271" TEXT="FocusAdapter"/>
@@ -812,12 +812,12 @@
 <node CREATED="1573970150371" ID="ID_963099854" MODIFIED="1573970154526" TEXT="MouseMotionAdapter"/>
 <node CREATED="1573970156235" ID="ID_733255852" MODIFIED="1573970159934" TEXT="WindowAdapter"/>
 </node>
-<node CREATED="1573971942953" ID="ID_699561231" MODIFIED="1573971950221" TEXT="Multicasting">
+<node CREATED="1573971942953" ID="ID_699561231" MODIFIED="1574232588727" TEXT="Multicasting">
 <node CREATED="1573971972481" ID="ID_115314856" MODIFIED="1573971983140" TEXT="sending an event to multiple listeners"/>
 <node CREATED="1573971991552" ID="ID_197789908" MODIFIED="1573972009444" TEXT="if an event is of interest to multiple listeners"/>
 <node CREATED="1573972019200" ID="ID_1983932682" MODIFIED="1573972040908" TEXT="add multiple listeners to an event source"/>
 </node>
-<node CREATED="1573972075799" ID="ID_197558157" MODIFIED="1573972081539" TEXT="The Event Queue">
+<node CREATED="1573972075799" ID="ID_197558157" MODIFIED="1574232590172" TEXT="The Event Queue">
 <node CREATED="1573972104568" ID="ID_752484539" MODIFIED="1573972118108" TEXT="operating environment generates events"/>
 <node CREATED="1573972119800" ID="ID_198980934" MODIFIED="1573972141763" TEXT="AWT converts the events into AWT events"/>
 <node CREATED="1573972150431" ID="ID_1802463594" MODIFIED="1573972161235" TEXT="AWT deposits the event to a queue"/>
@@ -834,8 +834,8 @@
 </node>
 </node>
 </node>
-<node COLOR="#338800" CREATED="1573616459521" ID="ID_1538216105" MODIFIED="1574135864274" POSITION="right" TEXT="3. User Interface Components with Swing">
-<font NAME="DejaVu Sans" SIZE="12"/>
+<node CREATED="1573616459521" FOLDED="true" ID="ID_1538216105" MODIFIED="1574232615353" POSITION="right" TEXT="3. User Interface Components with Swing">
+<font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1574138176491" ID="ID_948938097" MODIFIED="1574138187775" TEXT="characteristics of a component">
 <node CREATED="1574138188867" ID="ID_721925751" MODIFIED="1574138194047" TEXT="contents"/>
 <node CREATED="1574138202003" ID="ID_1825491702" MODIFIED="1574138208247" TEXT="visual appearance"/>
@@ -977,6 +977,208 @@
 </node>
 <node CREATED="1573616483903" ID="ID_1623269740" MODIFIED="1573969995816" POSITION="left" TEXT="4. User Interface Components with Swing II">
 <font NAME="DejaVu Sans" SIZE="12"/>
+<node CREATED="1574144374519" ID="ID_797005465" MODIFIED="1574144389315" TEXT="JMenuBar, JMenu, JMenuItem">
+<node CREATED="1574144440207" ID="ID_456577217" MODIFIED="1574144460027" TEXT="JMenuBar is used to display a menu bar on a window or frame"/>
+<node CREATED="1574144478542" ID="ID_1076952993" MODIFIED="1574144493266" TEXT="JMenuBar may have several menus"/>
+<node CREATED="1574152432288" ID="ID_1085313116" MODIFIED="1574152442436" TEXT="object of JMenu is a pulldown menu"/>
+<node CREATED="1574152462344" ID="ID_1559314507" MODIFIED="1574152481492" TEXT="JMenuItem adds a simple labeled menu item"/>
+<node CREATED="1574152531480" ID="ID_1322635131" MODIFIED="1574152961881" TEXT="JMenu">
+<node CREATED="1574152541776" ID="ID_1227688032" MODIFIED="1574152570531" TEXT="JMenu(String label) - label of the menu in the menu bar or parent menu"/>
+<node CREATED="1574152607831" ID="ID_1905076267" MODIFIED="1574152641579" TEXT="JMenuItem add(JMenuitem item) - adds a menu item (or a menu)"/>
+<node CREATED="1574152643967" ID="ID_961754600" MODIFIED="1574152662051" TEXT="JMenuItem add(String label) - adds a menu item"/>
+<node CREATED="1574152663991" ID="ID_252063511" MODIFIED="1574152689491" TEXT="JMenuItem add(Action a) - adds a menu item and associates an action with it"/>
+<node CREATED="1574152691327" ID="ID_271470387" MODIFIED="1574152713258" TEXT="void addSeparator() - adds a separator line"/>
+<node CREATED="1574152714951" ID="ID_1114552441" MODIFIED="1574152763122" TEXT="JMenuItem insert(JMenuItem menu, int index) - adds a new menu item (or menu) to the menu at an index"/>
+<node CREATED="1574152768886" ID="ID_1588939957" MODIFIED="1574152806834" TEXT="JMenuItem insert(Action a, int index) - adds an item with an action to a specified position"/>
+<node CREATED="1574152809870" ID="ID_1123490550" MODIFIED="1574152838402" TEXT="void insertSeparator(int index) - inserts a separator to the specified position"/>
+<node CREATED="1574152840430" ID="ID_1143735051" MODIFIED="1574152861210" TEXT="void remove(int index) - removes an item at the specified index"/>
+<node CREATED="1574152864558" ID="ID_718574130" MODIFIED="1574152882442" TEXT="void remove(JMenuItem item) - removes a specific item"/>
+</node>
+<node CREATED="1574152972829" ID="ID_1698597387" MODIFIED="1574152981425" TEXT="JMenuItem">
+<node CREATED="1574153113060" ID="ID_1513174876" MODIFIED="1574153157680" TEXT="JMenuItem(String label) - constructs with a label"/>
+<node CREATED="1574153132364" ID="ID_760839864" MODIFIED="1574153175224" TEXT="JMenuItem(Action a) - constructs with an action"/>
+</node>
+<node CREATED="1574185858750" ID="ID_630276625" MODIFIED="1574185863866" TEXT="Icons">
+<node CREATED="1574186184452" ID="ID_1551912378" MODIFIED="1574186203648" TEXT="menu items are similar to buttons"/>
+<node CREATED="1574186205228" ID="ID_714958473" MODIFIED="1574186233296" TEXT="use constructors JMenuItem(String, Icon) or JMenuItem(Icon) to set icons"/>
+<node CREATED="1574186235276" ID="ID_583976245" MODIFIED="1574186253816" TEXT="use setIcon(Icon) method to set an icon later"/>
+</node>
+<node CREATED="1574186431563" ID="ID_469841056" MODIFIED="1574186440255" TEXT="checkbox and radio buttons">
+<node CREATED="1574186445587" ID="ID_1194479872" MODIFIED="1574186459975" TEXT="displays a checkbox or a radio button on the menu item"/>
+<node CREATED="1574186474339" ID="ID_1439975117" MODIFIED="1574186504358" TEXT="when the menu item is selected, the item toggles checked or unchecked"/>
+<node CREATED="1574186532642" ID="ID_173788172" MODIFIED="1574186543903" TEXT="JCheckBoxMenuItem"/>
+<node CREATED="1574186548138" ID="ID_64653775" MODIFIED="1574186553494" TEXT="JRadioButtonMenuItem"/>
+</node>
+</node>
+<node CREATED="1574186600090" ID="ID_1348739485" MODIFIED="1574186605541" TEXT="JPopupMenu">
+<node CREATED="1574222692081" ID="ID_277576364" MODIFIED="1574222711564" TEXT="dynamically popped up at specific position"/>
+<node CREATED="1574222714656" ID="ID_918141664" MODIFIED="1574222720452" TEXT="inherits JComponent"/>
+<node CREATED="1574222754584" ID="ID_1305408494" MODIFIED="1574222800780" TEXT="constructors">
+<node CREATED="1574222759512" ID="ID_1767395225" MODIFIED="1574222793075" TEXT="JPopupMenu() - without an &quot;invoker&quot;"/>
+<node CREATED="1574222803096" ID="ID_1905188012" MODIFIED="1574222819156" TEXT="JPopupMenu(String label) - with a specified label"/>
+</node>
+</node>
+<node CREATED="1574222860391" ID="ID_298624834" MODIFIED="1574222869339" TEXT="Tool bars">
+<node CREATED="1574222872895" ID="ID_749830801" MODIFIED="1574222881667" TEXT="a button bar"/>
+<node CREATED="1574222883063" ID="ID_1209067204" MODIFIED="1574222898099" TEXT="gives quick access to most commonly used commands"/>
+<node CREATED="1574222906743" ID="ID_556825740" MODIFIED="1574222912291" TEXT="can be moved"/>
+<node CREATED="1574222934727" ID="ID_1467306741" MODIFIED="1574222947947" TEXT="can even be detached from the frame"/>
+<node CREATED="1574223205861" ID="ID_911155690" MODIFIED="1574223212650" TEXT="add components to the tool bar"/>
+<node CREATED="1574223216637" ID="ID_339810205" MODIFIED="1574223233921" TEXT="or add actions to the tool bar"/>
+<node CREATED="1574223250045" ID="ID_1970494564" MODIFIED="1574223265417" TEXT="separate groups of buttons with a separator"/>
+<node CREATED="1574223274749" ID="ID_868339232" MODIFIED="1574223283864" TEXT="add the tool bar itself to the container"/>
+<node CREATED="1574223296309" ID="ID_1815666449" MODIFIED="1574223311464" TEXT="add a title to a tool bar to be displayed when detached"/>
+<node CREATED="1574223320989" ID="ID_620156520" MODIFIED="1574223326113" TEXT="default, horizontal"/>
+<node CREATED="1574223340005" ID="ID_664729241" MODIFIED="1574223359200" TEXT="no restriction on the type of components that can be added"/>
+<node CREATED="1574223378828" ID="ID_1618257647" MODIFIED="1574223399936" TEXT="use tool tips to give hints of the commands in the tool bar"/>
+<node CREATED="1574230471675" ID="ID_1645008728" MODIFIED="1574230480103" TEXT="javax.swing.JToolBar">
+<node CREATED="1574230481059" ID="ID_1696882247" MODIFIED="1574230486287" TEXT="JToolBar()"/>
+<node CREATED="1574230488267" ID="ID_665537940" MODIFIED="1574230497759" TEXT="JToolBar(String title)"/>
+<node CREATED="1574230499707" ID="ID_250195325" MODIFIED="1574230509759" TEXT="JToolBar(int orientation)"/>
+<node CREATED="1574230511291" ID="ID_1354235849" MODIFIED="1574230546975" TEXT="JToolBar(String title, int orientation) - toolbar with given title and orientation"/>
+<node CREATED="1574230628978" ID="ID_858256684" MODIFIED="1574230657574" TEXT="JButton add(Action a) - constructs and add a button to a toolbar"/>
+<node CREATED="1574230682994" ID="ID_1884675283" MODIFIED="1574230702558" TEXT="void addSeparator() - adds a separator"/>
+</node>
+<node CREATED="1574230709634" ID="ID_1447806121" MODIFIED="1574230718166" TEXT="javax.swing.JComponent">
+<node CREATED="1574231533421" ID="ID_1202063158" MODIFIED="1574231559017" TEXT="void setToolTipText(String text) - sets the tooltip text on a component"/>
+</node>
+</node>
+<node CREATED="1574231573740" ID="ID_1081844467" MODIFIED="1574231590000" TEXT="Sophisticated Layout Management">
+<node CREATED="1574260838235" ID="ID_1556300055" MODIFIED="1574260874591" TEXT="with layout manager, the layout comes with instructions about the relationship between the components"/>
+<node CREATED="1574260918507" ID="ID_838111660" MODIFIED="1574260938862" TEXT="border layout and flow layout is not enough for complex layouts"/>
+<node CREATED="1574260990386" ID="ID_651105017" MODIFIED="1574261032733" TEXT="sophisticated layout manager + combination of multiple panels = complete control over how application will look"/>
+<node CREATED="1574261043634" ID="ID_941918141" MODIFIED="1574261057445" TEXT="components are laid out inside containers"/>
+<node CREATED="1574261070994" ID="ID_1808358755" MODIFIED="1574261092237" TEXT="components like buttons, textfields extend the class Component"/>
+<node CREATED="1574261144825" ID="ID_715864655" MODIFIED="1574261160589" TEXT="containers like panels can be placed inside other containers"/>
+<node CREATED="1574261169025" ID="ID_968732223" MODIFIED="1574261181509" TEXT="the class Container is derived from Component"/>
+<node CREATED="1574261255705" ID="ID_1387451002" MODIFIED="1574261271604" TEXT="inhitance hierarchy for Component">
+<node CREATED="1574261273536" ID="ID_196666848" MODIFIED="1574261275548" TEXT="Object">
+<node CREATED="1574261276656" ID="ID_670321096" MODIFIED="1574261279740" TEXT="Component">
+<node CREATED="1574261281464" ID="ID_1006965497" MODIFIED="1574261284693" TEXT="Container">
+<node CREATED="1574261293648" ID="ID_248239547" MODIFIED="1574261295860" TEXT="Window">
+<node CREATED="1574261307536" ID="ID_11938147" MODIFIED="1574261309509" TEXT="Frame">
+<node CREATED="1574261318216" ID="ID_1455928080" MODIFIED="1574261319836" TEXT="JFrame"/>
+</node>
+<node CREATED="1574261311392" ID="ID_1810848530" MODIFIED="1574261313364" TEXT="Dialog">
+<node CREATED="1574261324008" ID="ID_107329929" MODIFIED="1574261326396" TEXT="JDialog"/>
+</node>
+</node>
+<node CREATED="1574261297376" ID="ID_1299553089" MODIFIED="1574261303068" TEXT="JComponent">
+<node CREATED="1574261338056" ID="ID_913784009" MODIFIED="1574261341204" TEXT="JPanel"/>
+<node CREATED="1574261342584" ID="ID_1888629458" MODIFIED="1574261346907" TEXT="JTextComponent">
+<node CREATED="1574261452927" ID="ID_1821534832" MODIFIED="1574261457227" TEXT="JTextField"/>
+<node CREATED="1574261458559" ID="ID_1293355484" MODIFIED="1574261462483" TEXT="JTextArea"/>
+</node>
+<node CREATED="1574261348528" ID="ID_1907643314" MODIFIED="1574261352844" TEXT="JLabel"/>
+<node CREATED="1574261354112" ID="ID_1220533873" MODIFIED="1574261357412" TEXT="JScrollBar"/>
+<node CREATED="1574261424655" ID="ID_1969068598" MODIFIED="1574261430147" TEXT="JComboBox"/>
+<node CREATED="1574261431615" ID="ID_147382020" MODIFIED="1574261438307" TEXT="AbstractButton">
+<node CREATED="1574261509263" ID="ID_1152811462" MODIFIED="1574261513379" TEXT="JButton"/>
+<node CREATED="1574261514615" ID="ID_1620145451" MODIFIED="1574261521931" TEXT="JToggleButton"/>
+<node CREATED="1574261522958" ID="ID_1538378886" MODIFIED="1574261526290" TEXT="JMenuItem"/>
+</node>
+<node CREATED="1574261439727" ID="ID_1472992618" MODIFIED="1574261444219" TEXT="JMenuBar"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1574261539087" ID="ID_1416339333" MODIFIED="1574261544331" TEXT="GridLayout">
+<node CREATED="1574261548071" ID="ID_338700122" MODIFIED="1574261569978" TEXT="arrange components in a rectangular grid"/>
+<node CREATED="1574261571463" ID="ID_783081127" MODIFIED="1574261585570" TEXT="one component in each rectangle"/>
+<node CREATED="1574261589294" ID="ID_1855240527" MODIFIED="1574261593026" TEXT="constructors">
+<node CREATED="1574261594063" ID="ID_800605033" MODIFIED="1574261625586" TEXT="GridLayout() - with one column per component in a row"/>
+<node CREATED="1574261628742" ID="ID_249347025" MODIFIED="1574261654058" TEXT="GridLayout(int rows, int cols) - with given number of rows and cols"/>
+</node>
+</node>
+<node CREATED="1574271933579" ID="ID_468027829" MODIFIED="1574271939014" TEXT="Cardlayout">
+<node CREATED="1574272023906" ID="ID_946926133" MODIFIED="1574272043022" TEXT="only one component is visible at a time"/>
+<node CREATED="1574272046866" ID="ID_1659781687" MODIFIED="1574272055909" TEXT="treats each component as a card"/>
+<node CREATED="1574272060409" ID="ID_656578005" MODIFIED="1574272071550" TEXT="constructors and methods">
+<node CREATED="1574272072858" ID="ID_685530020" MODIFIED="1574272092645" TEXT="CardLayout() - with zero horizontal and vertical gap"/>
+<node CREATED="1574272094401" ID="ID_40397987" MODIFIED="1574272118725" TEXT="CardLayout(int hgap, int vgap) - with given horizontal and vertical gap"/>
+<node CREATED="1574272121337" ID="ID_1784935717" MODIFIED="1574272139829" TEXT="public void next(Container parent) - flip to the next card"/>
+<node CREATED="1574272141393" ID="ID_225317985" MODIFIED="1574272161389" TEXT="public void previous(Container parent) - flip to the next card"/>
+<node CREATED="1574272221793" ID="ID_1032670214" MODIFIED="1574272237268" TEXT="public void first(Container parent) - flip to the first card"/>
+<node CREATED="1574272238713" ID="ID_339019443" MODIFIED="1574272256364" TEXT="public void last(Container parent) - flip to the last card"/>
+<node CREATED="1574272258064" ID="ID_362585716" MODIFIED="1574272289924" TEXT="public void show(Container parent, String name) - flip to the specified card with given name"/>
+</node>
+</node>
+<node CREATED="1574308677981" ID="ID_1495681875" MODIFIED="1574308682049" TEXT="GridBagLayout">
+<node CREATED="1574308684285" ID="ID_1962031276" MODIFIED="1574308713961" TEXT="align components vertically, horizontally, along their baseline"/>
+<node CREATED="1574308718461" ID="ID_583069835" MODIFIED="1574308729897" TEXT="components does not have to be of same size"/>
+<node CREATED="1574308739517" ID="ID_506558476" MODIFIED="1574308753945" TEXT="maintains a dynamic, rectangular grid of cells"/>
+<node CREATED="1574308759956" ID="ID_214178477" MODIFIED="1574308770544" TEXT="each component occupies one or more cells"/>
+<node CREATED="1574308780532" ID="ID_1884143486" MODIFIED="1574308802680" TEXT="each component associates an instance of GridBagConstraints"/>
+<node CREATED="1574308822436" ID="ID_1818227432" MODIFIED="1574308848456" TEXT="manages each component&apos;s minimum and preferred size to determine component&apos;s size"/>
+<node CREATED="1574308921436" ID="ID_1661274074" MODIFIED="1574308923535" TEXT="fields">
+<node CREATED="1574308925380" ID="ID_1306660489" MODIFIED="1574308936559" TEXT="double[] columnWeights"/>
+<node CREATED="1574308937948" ID="ID_748079849" MODIFIED="1574308949839" TEXT="int[] columnWidths"/>
+<node CREATED="1574308951268" ID="ID_1898592576" MODIFIED="1574308982743" TEXT="protected HashTable&lt;Component, GridBagConstraints&gt; comptable"/>
+<node CREATED="1574308985787" ID="ID_1417054432" MODIFIED="1574309007159" TEXT="protected GridBagConstraints defaultConstraints"/>
+<node CREATED="1574309008795" ID="ID_538855357" MODIFIED="1574309028966" TEXT="protected GridBagLayoutInfo layoutInfo"/>
+<node CREATED="1574309030467" ID="ID_1953062471" MODIFIED="1574309049191" TEXT="protected static int MAXGRIDSIZE"/>
+<node CREATED="1574309051187" ID="ID_880501622" MODIFIED="1574309060854" TEXT="protected static int MINSiZE"/>
+<node CREATED="1574309062298" ID="ID_618763110" MODIFIED="1574309075367" TEXT="protected static int PREFERREDSIZE"/>
+<node CREATED="1574309076907" ID="ID_648676650" MODIFIED="1574309086127" TEXT="int[] rowHeights"/>
+<node CREATED="1574309087778" ID="ID_1072609593" MODIFIED="1574309096775" TEXT="double[] rowWeights"/>
+</node>
+<node CREATED="1574309099530" ID="ID_119199310" MODIFIED="1574309103486" TEXT="methods">
+<node CREATED="1574309114546" ID="ID_1098659746" MODIFIED="1574309141062" TEXT="void addLayoutComponent(Component c, Object constraints)"/>
+<node CREATED="1574309142602" ID="ID_115314685" MODIFIED="1574309161438" TEXT="void addLayoutComponent(String name, Component c)"/>
+<node CREATED="1574309162970" ID="ID_379910394" MODIFIED="1574309195142" TEXT="protected void adjustForGravity(GridBagConstraints c, Rectangle r)"/>
+<node CREATED="1574309198138" ID="ID_362140549" MODIFIED="1574309235213" TEXT="protected void arrangeGrid(Container parent)"/>
+<node CREATED="1574309236881" ID="ID_1959340659" MODIFIED="1574309265486" TEXT="GridBagConstraints getConstraints(Component comp)"/>
+<node CREATED="1574309275962" ID="ID_90228428" MODIFIED="1574309289341" TEXT="float getLayoutAlignmentX(Container parent)"/>
+<node CREATED="1574309290394" ID="ID_229497992" MODIFIED="1574309302021" TEXT="float getLayoutAlignmentY(Container parent)"/>
+<node CREATED="1574309303273" ID="ID_242004374" MODIFIED="1574309315757" TEXT="int[][] getLayoutDimensions()"/>
+<node CREATED="1574309317153" ID="ID_1295510164" MODIFIED="1574309346773" TEXT="protected GridBagLayoutInfo getLayoutInfo(Container parent, int sizeflag)"/>
+<node CREATED="1574309349649" ID="ID_1038229022" MODIFIED="1574309360285" TEXT="Point getLayoutOrigin()"/>
+<node CREATED="1574309361809" ID="ID_867634505" MODIFIED="1574309374013" TEXT="double[][] getLayoutWeights()"/>
+<node CREATED="1574309375473" ID="ID_432165976" MODIFIED="1574309398701" TEXT="protected Dimension getMinSize(Container parent, GridBagLayoutInfo info)"/>
+</node>
+</node>
+<node CREATED="1574309457160" ID="ID_435074667" MODIFIED="1574309461204" TEXT="BoxLayout">
+<node CREATED="1574309464257" ID="ID_1815365117" MODIFIED="1574309482820" TEXT="arrange components either vertically or horizontally"/>
+<node CREATED="1574309520016" ID="ID_26894393" MODIFIED="1574309532652" TEXT="found in javax.swing package"/>
+<node CREATED="1574309534056" ID="ID_196304881" MODIFIED="1574309540459" TEXT="provides 4 constants">
+<node CREATED="1574309546240" ID="ID_1437150499" MODIFIED="1574309558788" TEXT="public static final int X_AXIS"/>
+<node CREATED="1574309560264" ID="ID_778312185" MODIFIED="1574309572028" TEXT="public static final int Y_AXIS"/>
+<node CREATED="1574309573792" ID="ID_1121688812" MODIFIED="1574309587724" TEXT="public static final int LINE_AXIS"/>
+<node CREATED="1574309595136" ID="ID_151342343" MODIFIED="1574309607635" TEXT="public static final int PAGE_AXIS"/>
+</node>
+<node CREATED="1574309617152" ID="ID_1840274142" MODIFIED="1574309633003" TEXT="constructor: BoxLayout(Container c, int axis)"/>
+</node>
+<node CREATED="1574309651127" ID="ID_1327105151" MODIFIED="1574309655411" TEXT="GroupLayout">
+<node CREATED="1574309657415" ID="ID_849817414" MODIFIED="1574309668331" TEXT="groups components"/>
+<node CREATED="1574309669591" ID="ID_1573653140" MODIFIED="1574309684067" TEXT="places them in a Container hierarchically"/>
+<node CREATED="1574309689520" ID="ID_1694242293" MODIFIED="1574309707179" TEXT="grouping done by instances of the Group class"/>
+<node CREATED="1574309713015" ID="ID_170146634" MODIFIED="1574309741835" TEXT="Group">
+<node CREATED="1574309743047" ID="ID_1803492710" MODIFIED="1574309751363" TEXT="is an abstract class"/>
+<node CREATED="1574309796630" ID="ID_1843096933" MODIFIED="1574309810106" TEXT="implemented by concrete classes">
+<node CREATED="1574309752990" ID="ID_1201718986" MODIFIED="1574309891474" TEXT="SequentialGroup - positions child sequentially one after the other"/>
+<node CREATED="1574309773542" ID="ID_1480346298" MODIFIED="1574309911633" TEXT="ParallelGroup - aligns children on top of each other"/>
+</node>
+</node>
+<node CREATED="1574309923861" ID="ID_1159081474" MODIFIED="1574309933978" TEXT="to create groups">
+<node CREATED="1574309934950" ID="ID_204375798" MODIFIED="1574309953770" TEXT="createSequentialGroup()"/>
+<node CREATED="1574309955126" ID="ID_1304255175" MODIFIED="1574309964241" TEXT="createParallelGroup()"/>
+</node>
+<node CREATED="1574309986854" ID="ID_1190957885" MODIFIED="1574309999353" TEXT="treats each axis independently"/>
+<node CREATED="1574310020565" ID="ID_1646019199" MODIFIED="1574310052561" TEXT="there is a group representing the horizontal axis and a group representing the vertical axis"/>
+<node CREATED="1574310055333" ID="ID_229386774" MODIFIED="1574310068009" TEXT="each component must exist in both groups"/>
+<node CREATED="1574310094260" ID="ID_105013552" MODIFIED="1574310098929" TEXT="nested classes">
+<node CREATED="1574310099837" ID="ID_1770893440" MODIFIED="1574310139521" TEXT="static class GroupLayout.Alignment - enumeration of the possible ways parallel group can align its children"/>
+<node CREATED="1574310141924" ID="ID_1023591041" MODIFIED="1574310191536" TEXT="class GroupLayout.Group"/>
+<node CREATED="1574310158916" ID="ID_403132231" MODIFIED="1574310183416" TEXT="class GroupLayout.ParallelGroup"/>
+<node CREATED="1574310194532" ID="ID_1289327136" MODIFIED="1574310210768" TEXT="class GroupLayout.SequentialGroup"/>
+</node>
+<node CREATED="1574310235276" ID="ID_1284649737" MODIFIED="1574310238480" TEXT="fields">
+<node CREATED="1574310240100" ID="ID_305830084" MODIFIED="1574310286472" TEXT="static int DEFAULT_SIZE - indicates the size from the component or gap should be used for a particular range value"/>
+<node CREATED="1574310288188" ID="ID_1531694090" MODIFIED="1574310327743" TEXT="static int PREFERRED_SIZE - inidicates the preferred size from the component or gap should be used for a particular range size"/>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1573616596012" ID="ID_21910840" MODIFIED="1573969995816" POSITION="right" TEXT="5. Applets">
 <font NAME="DejaVu Sans" SIZE="12"/>
