@@ -13,9 +13,6 @@ public class UserPane extends JScrollPane {
         viewport = getViewport();
         container.setLayout(new BoxLayout(container, BoxLayout.Y_AXIS));
 
-        for (int i = 0; i < 100; i++) {
-            container.add(new UserView("emyu" + i, "127.0.0." + i));
-        }
         viewport.setMinimumSize(new Dimension(200, parent.getHeight()));
         viewport.setMaximumSize(new Dimension(200, parent.getHeight()));
         viewport.add(container);
@@ -24,5 +21,9 @@ public class UserPane extends JScrollPane {
         JLabel headerLabel = new JLabel("Online Users");
         headerLabel.setFont(new Font("sans-serif", Font.BOLD, 20));
         setColumnHeaderView(headerLabel);
+    }
+
+    public void add(UserView user) {
+        this.container.add(user);
     }
 }

@@ -3,6 +3,7 @@ package splitpane;
 import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
+import java.awt.*;
 
 public class SplitPaneFrame extends JFrame {
     private Planet[] planets = {

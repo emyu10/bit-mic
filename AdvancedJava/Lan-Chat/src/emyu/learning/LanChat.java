@@ -3,19 +3,16 @@ package emyu.learning;
 import emyu.learning.network.BroadcastClientThread;
 import emyu.learning.network.BroadcastServerThread;
 import emyu.learning.network.ClientThread;
-import emyu.learning.network.ServerThread;
+import emyu.learning.network.OnReceiveBroadcastListener;
 import emyu.learning.ui.ChatPane;
 import emyu.learning.ui.UserPane;
+import emyu.learning.ui.UserView;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.WindowEvent;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.net.*;
 import java.util.Enumeration;
-import java.util.Scanner;
 
 public class LanChat extends JFrame {
     private JSplitPane appPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT);
@@ -23,6 +20,7 @@ public class LanChat extends JFrame {
     private ChatPane chatPane = new ChatPane();
     private InetAddress broadcastIp;
     private InetAddress localIp;
+    private String name;
 
     /**
      * The constructor.
@@ -61,8 +59,22 @@ public class LanChat extends JFrame {
 
 
     private void startBroadcasting() {
-        (new BroadcastServerThread(broadcastIp)).start();
-        (new BroadcastClientThread(localIp)).start();
+        this.name = JOptionPane.showInputDialog(this, "Enter your preferred username");
+        // construct a UserView with broadcast IP because the server needs to send to the broadcast ip
+        (new BroadcastServerThread(new UserView(this.name, broadcastIp))).start();
+
+        // broadcast client
+        BroadcastClientThread thread = new BroadcastClientThread(localIp);
+        thread.setOnReceiveBroadcastListener(new OnReceiveBroadcastListener() {
+            @Override
+            public void onReceive(DatagramPacket dp) {
+                String name = new String(dp.getData(), 0, dp.getLength());
+                InetAddress ip  = dp.getAddress();
+                UserView user = new UserView(name, ip);
+                userPane.add(user);
+            }
+        });
+        thread.start();
     }
 
     /**

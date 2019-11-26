@@ -1,23 +1,27 @@
 package emyu.learning.network;
 
-import java.io.IOException;
+import emyu.learning.AppConstants;
+import emyu.learning.ui.UserView;
+
 import java.net.*;
 
 public class BroadcastServerThread extends Thread {
-    MulticastSocket ds;
+    private MulticastSocket ds;
     private InetAddress ip;
+    private String username;
 
-    public BroadcastServerThread(InetAddress ip) {
-        this.ip = ip;
+    public BroadcastServerThread(UserView user) {
+        this.username = user.getName();
+        this.ip = user.getIp();
     }
 
     @Override
     public void run() {
         while (true) {
             try {
-                int port = 50381;
+                int port = AppConstants.BROADCAST_PORT;
                 ds = new MulticastSocket(port);
-                String broadcastMessage = "broadcasting";
+                String broadcastMessage = this.username;
                 DatagramPacket dp = new DatagramPacket(broadcastMessage.getBytes(), broadcastMessage.length(), ip, port);
                 ds.send(dp);
                 Thread.sleep(1000);
