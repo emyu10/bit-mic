@@ -1,9 +1,7 @@
 package emyu.learning;
 
-import emyu.learning.network.BroadcastClientThread;
 import emyu.learning.network.BroadcastServerThread;
 import emyu.learning.network.ClientThread;
-import emyu.learning.network.OnReceiveBroadcastListener;
 import emyu.learning.ui.ChatPane;
 import emyu.learning.ui.UserPane;
 import emyu.learning.ui.UserView;
@@ -13,6 +11,8 @@ import java.awt.*;
 import java.awt.event.WindowEvent;
 import java.net.*;
 import java.util.Enumeration;
+import java.util.HashMap;
+import java.util.List;
 
 public class LanChat extends JFrame {
     private JSplitPane appPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT);
@@ -21,6 +21,7 @@ public class LanChat extends JFrame {
     private InetAddress broadcastIp;
     private InetAddress localIp;
     private String name;
+    private HashMap<InetAddress, UserView> users = new HashMap<>();
 
     /**
      * The constructor.
@@ -59,22 +60,41 @@ public class LanChat extends JFrame {
 
 
     private void startBroadcasting() {
+//        userPane.addUser(new UserView("emyu", localIp));
         this.name = JOptionPane.showInputDialog(this, "Enter your preferred username");
         // construct a UserView with broadcast IP because the server needs to send to the broadcast ip
         (new BroadcastServerThread(new UserView(this.name, broadcastIp))).start();
 
-        // broadcast client
-        BroadcastClientThread thread = new BroadcastClientThread(localIp);
-        thread.setOnReceiveBroadcastListener(new OnReceiveBroadcastListener() {
+        SwingWorker<Void, DatagramPacket> broadcastClient = new SwingWorker<Void, DatagramPacket>() {
             @Override
-            public void onReceive(DatagramPacket dp) {
-                String name = new String(dp.getData(), 0, dp.getLength());
-                InetAddress ip  = dp.getAddress();
-                UserView user = new UserView(name, ip);
-                userPane.add(user);
+            protected Void doInBackground() throws Exception {
+                while (true) {
+                    MulticastSocket ds = new MulticastSocket(AppConstants.BROADCAST_PORT);
+                    byte[] buf = new byte[1024];
+                    DatagramPacket dp = new DatagramPacket(buf, 1024);
+                    ds.receive(dp);
+                    if (!dp.getAddress().equals(localIp)) {
+                        publish(dp);
+                    }
+                }
             }
-        });
-        thread.start();
+
+            @Override
+            protected void process(List<DatagramPacket> chunks) {
+                for (DatagramPacket dp: chunks) {
+                    String name = new String(dp.getData(), 0, dp.getLength());
+                    InetAddress ip  = dp.getAddress();
+                    UserView user = new UserView(name, ip);
+                    if (!users.containsKey(ip)) {
+                        users.put(ip, user);
+                        userPane.addUser(user);
+                        System.out.println(user);
+                    }
+                }
+            }
+        };
+
+        broadcastClient.execute();
     }
 
     /**

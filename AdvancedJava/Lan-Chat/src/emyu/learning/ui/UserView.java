@@ -12,7 +12,7 @@ public class UserView extends JButton {
         setName(name);
         setIp(ip);
         JLabel lblName = new JLabel(name);
-        JLabel lblIp = new JLabel(ip.toString());
+        JLabel lblIp = new JLabel(ip == null ? "" : ip.toString());
         lblName.setFont(new Font("sans-serif", Font.BOLD, 16));
         lblIp.setForeground(Color.GRAY);
 
@@ -40,5 +40,9 @@ public class UserView extends JButton {
 
     public InetAddress getIp() {
         return ip;
+    }
+
+    public String toString() {
+        return this.name + " (" + this.ip.toString() + ")";
     }
 }

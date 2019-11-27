@@ -25,7 +25,7 @@ public class BroadcastServerThread extends Thread {
                 DatagramPacket dp = new DatagramPacket(broadcastMessage.getBytes(), broadcastMessage.length(), ip, port);
                 ds.send(dp);
                 Thread.sleep(1000);
-                System.out.println("server running on: " + ip + ":" + port);
+//                System.out.println("server running on: " + ip + ":" + port);
             } catch (Exception e) {
                 System.out.println("from broadcast server: " + e.getMessage());
             } finally {
