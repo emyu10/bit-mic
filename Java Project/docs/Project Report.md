@@ -1,8 +1,8 @@
 # Project Report
-## Project Charter
-## Introduction
-## Purpose of Project Management Plan
-## Executive Summary of Project Charter
+## 1. Introduction
+### 1.1 Project Charter
+### 1.2 Purpose of Project Management Plan
+### 1.3 Executive Summary of Project Charter
 ## Assumptions / Constraints
 ## Project Objectives
 ## Work Breakdown Structure
