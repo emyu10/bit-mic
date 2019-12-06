@@ -3,7 +3,11 @@
 ### 1.1 Project Charter
 ### 1.2 Purpose of Project Management Plan
 ### 1.3 Executive Summary of Project Charter
-## Assumptions / Constraints
+## 2. Assumptions / Constraints
+### 2.1 Assumptions
+### 2.2 Constraints
+### 2.3 Related Projects
+### 2.4 Critical Barriers
 ## Project Objectives
 ## Work Breakdown Structure
 ## Deployment Plan
