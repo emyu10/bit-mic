@@ -88,6 +88,7 @@
 After first four topics, a case study based on the topic will be given. Each case study will contain a rang of questions covering the topic. The students are expected to analyse the case and answer it.
 
 Quizzes will be administered according to the following table.
+
 | CASE STUDY | TOPICS COVERED |
 | --- | --- |
 | Case Study 1 | From topics 1 to 4 |
