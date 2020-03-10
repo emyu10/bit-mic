@@ -25,6 +25,24 @@
 > - over a network
 
 > **1969**
+> - ARPANET: one of the first networks to use packet switching.
+> - ARPANET development started in 1966.
+> - First 2 nodes, UCLA and SRI (Stanford Research Institute) were connected,
+>   - officially starting ARPANET in 1969.
+> ---
+> - The first RFC surfaced in April 1969,
+> - as a document to define and provide information about
+>   - computer communications,
+>   - network protocols,
+>   - and procedures.
+> ---
+> - First network switch and IMP (Interface Message Processor) was sent to UCLA on August 29.
+> - It was used to send the first data transmission on ARPANET.
+> ---
+> - The Internet was officially born,
+> - with the first data trasmission being sent between UCLA and SRI on October 29 at 10:30pm.
+
+> **1970**
 > - 
 ## Unit 2: Edi
 ## Unit 3: Economy Scale
