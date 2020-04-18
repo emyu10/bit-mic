@@ -1,33 +1,56 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1587147611136" ID="ID_399754108" MODIFIED="1587147993625" TEXT="Management Information Systems">
-<node CREATED="1587148008839" ID="ID_1564572443" MODIFIED="1587148019705" POSITION="right" TEXT="Unit 1: Basic Concepts of MIS">
-<node CREATED="1587152550323" ID="ID_390345771" MODIFIED="1587152553244" TEXT="Data">
-<node CREATED="1587152599975" ID="ID_882793315" MODIFIED="1587152611445" TEXT="information entered and stored in a computer"/>
-<node CREATED="1587198576971" ID="ID_1544561854" MODIFIED="1587198580328" TEXT="plain facts"/>
-<node CREATED="1587198588443" ID="ID_1519508930" MODIFIED="1587198595994" TEXT="plural for &quot;datum&quot;"/>
-<node CREATED="1587198840694" ID="ID_1156346871" MODIFIED="1587198847336" TEXT="simple to understand"/>
-<node CREATED="1587198859077" ID="ID_145411889" MODIFIED="1587198863061" TEXT="anything like">
-<node CREATED="1587198864162" ID="ID_1910432094" MODIFIED="1587198868574" TEXT="name of a person"/>
-<node CREATED="1587198870229" ID="ID_1242538276" MODIFIED="1587198872933" TEXT="place"/>
-<node CREATED="1587198875180" ID="ID_108393704" MODIFIED="1587198877437" TEXT="number"/>
+<node COLOR="#006633" CREATED="1587147611136" ID="ID_399754108" MODIFIED="1587207199361">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="5">Management Information Systems</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node COLOR="#669900" CREATED="1587148008839" ID="ID_1564572443" MODIFIED="1587206986459" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>Basic Concepts of MIS</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="full-1"/>
+<node CREATED="1587152550323" ID="ID_390345771" MODIFIED="1587207065634" STYLE="fork" TEXT="Data">
+<node CREATED="1587152599975" ID="ID_882793315" MODIFIED="1587207061447" TEXT="information entered and stored in a computer"/>
+<node CREATED="1587198576971" ID="ID_1544561854" MODIFIED="1587207061448" TEXT="plain facts"/>
+<node CREATED="1587198588443" ID="ID_1519508930" MODIFIED="1587207061448" TEXT="plural for &quot;datum&quot;"/>
+<node CREATED="1587198840694" ID="ID_1156346871" MODIFIED="1587207061448" TEXT="simple to understand"/>
+<node CREATED="1587198859077" ID="ID_145411889" MODIFIED="1587207061448" TEXT="anything like">
+<node CREATED="1587198864162" ID="ID_1910432094" MODIFIED="1587207061449" TEXT="name of a person"/>
+<node CREATED="1587198870229" ID="ID_1242538276" MODIFIED="1587207061449" TEXT="place"/>
+<node CREATED="1587198875180" ID="ID_108393704" MODIFIED="1587207061449" TEXT="number"/>
 </node>
-<node CREATED="1587198954961" ID="ID_1185116245" MODIFIED="1587198963240" TEXT="name given to basic facts"/>
-<node CREATED="1587198973376" ID="ID_1093208898" MODIFIED="1587198982624" TEXT="main examples of data:">
-<node CREATED="1587198988586" ID="ID_391857175" MODIFIED="1587198992017" TEXT="weights"/>
-<node CREATED="1587198993504" ID="ID_925119891" MODIFIED="1587198995571" TEXT="prices"/>
-<node CREATED="1587199000770" ID="ID_286574892" MODIFIED="1587199002739" TEXT="costs"/>
-<node CREATED="1587199004307" ID="ID_422146272" MODIFIED="1587199021619" TEXT="numbers of items sold"/>
-<node CREATED="1587199034453" ID="ID_1944852157" MODIFIED="1587199037862" TEXT="employee names"/>
-<node CREATED="1587199043289" ID="ID_1770738166" MODIFIED="1587199046765" TEXT="product names"/>
-<node CREATED="1587199052566" ID="ID_1544685238" MODIFIED="1587199055679" TEXT="addresses"/>
-<node CREATED="1587199061412" ID="ID_194920045" MODIFIED="1587199064919" TEXT="tax codes"/>
-<node CREATED="1587199072255" ID="ID_1183425230" MODIFIED="1587199078370" TEXT="registration marks"/>
+<node CREATED="1587198954961" ID="ID_1185116245" MODIFIED="1587207061449" TEXT="name given to basic facts"/>
+<node CREATED="1587198973376" ID="ID_1093208898" MODIFIED="1587207061450" TEXT="main examples of data:">
+<node CREATED="1587198988586" ID="ID_391857175" MODIFIED="1587207061450" TEXT="weights"/>
+<node CREATED="1587198993504" ID="ID_925119891" MODIFIED="1587207061450" TEXT="prices"/>
+<node CREATED="1587199000770" ID="ID_286574892" MODIFIED="1587207061450" TEXT="costs"/>
+<node CREATED="1587199004307" ID="ID_422146272" MODIFIED="1587207061450" TEXT="numbers of items sold"/>
+<node CREATED="1587199034453" ID="ID_1944852157" MODIFIED="1587207061451" TEXT="employee names"/>
+<node CREATED="1587199043289" ID="ID_1770738166" MODIFIED="1587207061451" TEXT="product names"/>
+<node CREATED="1587199052566" ID="ID_1544685238" MODIFIED="1587207061451" TEXT="addresses"/>
+<node CREATED="1587199061412" ID="ID_194920045" MODIFIED="1587207061451" TEXT="tax codes"/>
+<node CREATED="1587199072255" ID="ID_1183425230" MODIFIED="1587207061452" TEXT="registration marks"/>
 </node>
-<node CREATED="1587199093150" ID="ID_221922530" MODIFIED="1587199116151" TEXT="raw material that can be processed by any computing machine"/>
-<node CREATED="1587199153475" ID="ID_563427236" MODIFIED="1587199175258" TEXT="can be represented in the form of:">
-<node CREATED="1587199184702" ID="ID_369310187" MODIFIED="1587199189458" TEXT="numbers and words"/>
-<node CREATED="1587199196028" ID="ID_1267915705" MODIFIED="1587199214858" TEXT="which can be stored in computer&apos;s language"/>
+<node CREATED="1587199093150" ID="ID_221922530" MODIFIED="1587207061452" TEXT="raw material that can be processed by any computing machine"/>
+<node CREATED="1587199153475" ID="ID_563427236" MODIFIED="1587207061452" TEXT="can be represented in the form of:">
+<node CREATED="1587199184702" ID="ID_369310187" MODIFIED="1587207061452" TEXT="numbers and words"/>
+<node CREATED="1587199196028" ID="ID_1267915705" MODIFIED="1587207061452" TEXT="which can be stored in computer&apos;s language"/>
 </node>
 </node>
 <node CREATED="1587152557018" ID="ID_1580979783" MODIFIED="1587152559696" TEXT="Information">
@@ -131,31 +154,6 @@
 <node CREATED="1587154265689" ID="ID_902286975" MODIFIED="1587154270224" TEXT="up to date"/>
 </node>
 </node>
-<node CREATED="1587154288069" ID="ID_170558232" MODIFIED="1587154295422" TEXT="Classification of Information">
-<node CREATED="1587154302975" ID="ID_1941091262" MODIFIED="1587154312864" TEXT="Action vs No-action">
-<node CREATED="1587197303427" ID="ID_1686328450" MODIFIED="1587197318057" TEXT="action information: maintain a stock ledger"/>
-<node CREATED="1587197328858" ID="ID_612618391" MODIFIED="1587197348744" TEXT="no-action information: stock balances"/>
-</node>
-<node CREATED="1587154321495" ID="ID_198858199" MODIFIED="1587154329843" TEXT="Recurring vs Non-recurring">
-<node CREATED="1587197630976" ID="ID_1148305396" MODIFIED="1587197644635" TEXT="recurring: monthly sales report"/>
-</node>
-<node CREATED="1587154413772" ID="ID_725292896" MODIFIED="1587154419993" TEXT="Internal vs External">
-<node CREATED="1587197672491" ID="ID_965658154" MODIFIED="1587197720157" TEXT="internal: information with orgnizational details like employee work schedule"/>
-<node CREATED="1587197726494" ID="ID_1080058160" MODIFIED="1587197753703" TEXT="external: contains information from external sources like government records"/>
-</node>
-<node CREATED="1587154430302" ID="ID_1457180104" MODIFIED="1587154437269" TEXT="Planning information">
-<node CREATED="1587197852184" ID="ID_770487866" MODIFIED="1587197870295" TEXT="useful for planning like time standards and SOPs"/>
-</node>
-<node CREATED="1587154443286" ID="ID_1944032474" MODIFIED="1587154450167" TEXT="Control information">
-<node CREATED="1587197911976" ID="ID_1172400571" MODIFIED="1587197942251" TEXT="information reported through a feedback mechanism"/>
-</node>
-<node CREATED="1587154450325" ID="ID_1484747541" MODIFIED="1587154471391" TEXT="Knowledge">
-<node CREATED="1587197969269" ID="ID_343980601" MODIFIED="1587197975759" TEXT="collection of information"/>
-<node CREATED="1587197978504" ID="ID_600239017" MODIFIED="1587197997628" TEXT="library reports and research studies"/>
-<node CREATED="1587198003446" ID="ID_1326312243" MODIFIED="1587198009806" TEXT="knowledge base"/>
-<node CREATED="1587198011652" ID="ID_636495937" MODIFIED="1587198016972" TEXT="helps decision making"/>
-</node>
-</node>
 <node CREATED="1587198065341" ID="ID_1448594588" MODIFIED="1587198073246" TEXT="Value of Information">
 <node CREATED="1587198092550" ID="ID_142915369" MODIFIED="1587198109465" TEXT="information has a perceived value in terms of decision making"/>
 <node CREATED="1587198121356" ID="ID_683027885" MODIFIED="1587198135507" TEXT="value should remove uncertainty in decision making"/>
@@ -214,8 +212,180 @@
 </richcontent>
 </node>
 </node>
+<node CREATED="1587205869164" ID="ID_1594658495" MODIFIED="1587205876140" TEXT="Driving forces">
+<node CREATED="1587205894965" ID="ID_439394553" MODIFIED="1587205914879" TEXT="KM is not an alternative or a luxury"/>
+<node CREATED="1587205916537" ID="ID_1144039504" MODIFIED="1587205957546" TEXT="KM is a necessity due to demand of customer centric business intiatives"/>
+<node CREATED="1587205965900" ID="ID_778697848" MODIFIED="1587205977107" TEXT="KM is steady and customer centric process"/>
+<node CREATED="1587205996340" ID="ID_356608084" MODIFIED="1587206002233" TEXT="1. External forces">
+<node CREATED="1587206044935" ID="ID_844669255" MODIFIED="1587206067075" TEXT="business organizations perform in environments that they cannot control"/>
+<node CREATED="1587206079376" ID="ID_1361840372" MODIFIED="1587206090940" TEXT="success depends on how they deal with these forces"/>
+<node CREATED="1587206101117" ID="ID_419697016" MODIFIED="1587206106144" TEXT="Issues related are">
+<node CREATED="1587206110437" ID="ID_886807022" MODIFIED="1587206118776" TEXT="Globalization of business"/>
+<node CREATED="1587206124156" ID="ID_385072746" MODIFIED="1587206130031" TEXT="Demanding customers"/>
+<node CREATED="1587206136141" ID="ID_234622817" MODIFIED="1587206144280" TEXT="Innovative competitors"/>
+<node CREATED="1587206149668" ID="ID_1854657123" MODIFIED="1587206155830" TEXT="Resourceful vendors"/>
 </node>
 </node>
+<node CREATED="1587206007891" ID="ID_393920129" MODIFIED="1587206015258" TEXT="2. Internal forces">
+<node CREATED="1587206202210" ID="ID_1221328585" MODIFIED="1587206211903" TEXT="impact with internal part of organization"/>
+<node CREATED="1587206253195" ID="ID_445499193" MODIFIED="1587206263695" TEXT="necessary to control the negative impact"/>
+<node CREATED="1587206312109" ID="ID_1727115637" MODIFIED="1587206323480" TEXT="effected by internal forces are">
+<node CREATED="1587206328111" ID="ID_33899152" MODIFIED="1587206335990" TEXT="Bottlenecks in effectiveness"/>
+<node CREATED="1587206341109" ID="ID_1178343902" MODIFIED="1587206349055" TEXT="Technological capabilities"/>
+<node CREATED="1587206360095" ID="ID_991328153" MODIFIED="1587206377361" TEXT="Understanding of human cognitive functions"/>
+</node>
+</node>
+</node>
+<node CREATED="1587206434186" ID="ID_1196627014" MODIFIED="1587206445350" TEXT="Key aspects of KM">
+<node CREATED="1587206454095" ID="ID_959717325" MODIFIED="1587206476700" TEXT="1. Accelerating knowledge creating and application"/>
+<node CREATED="1587206485161" ID="ID_635923956" MODIFIED="1587206501754" TEXT="2. Converting tacit knowledge into explicit knowledge"/>
+<node CREATED="1587206508892" ID="ID_795201737" MODIFIED="1587206517756" TEXT="3. Build knowledge assets"/>
+<node CREATED="1587206535713" ID="ID_1341083178" MODIFIED="1587206561100" TEXT="4. In summary KM involves">
+<node CREATED="1587206566392" ID="ID_952896620" MODIFIED="1587206580272" TEXT="knowledge generation through creation"/>
+<node CREATED="1587206587054" ID="ID_559913341" MODIFIED="1587206621242" TEXT="acquisition through">
+<node CREATED="1587206622810" ID="ID_830747109" MODIFIED="1587206624519" TEXT="integration"/>
+<node CREATED="1587206631844" ID="ID_1724804284" MODIFIED="1587206635303" TEXT="pooling"/>
+<node CREATED="1587206636739" ID="ID_1601702545" MODIFIED="1587206639197" TEXT="storage"/>
+<node CREATED="1587206644178" ID="ID_1695152691" MODIFIED="1587206648984" TEXT="identification"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1587219018915" ID="ID_298985273" MODIFIED="1587219027406" TEXT="Business Intelligence">
+<node CREATED="1587219050881" ID="ID_1466272597" MODIFIED="1587219063878" TEXT="sum total of gathering and processing data"/>
+<node CREATED="1587219072755" ID="ID_1481639153" MODIFIED="1587219085435" TEXT="building rich, relevant information"/>
+<node CREATED="1587219097091" ID="ID_1579102427" MODIFIED="1587219108333" TEXT="and maintain it live and up to date"/>
+<node CREATED="1587219180434" ID="ID_88991984" MODIFIED="1587219233998" TEXT="used for timely, effective decision and better plan for future"/>
+<node CREATED="1587219245978" ID="ID_1753770036" MODIFIED="1587219270062" TEXT="it is an outcome of turning raw data into intelligent information">
+<node CREATED="1587225832923" ID="ID_523423666" MODIFIED="1587225852060" TEXT="by analyzing and rearranging data"/>
+<node CREATED="1587225857851" ID="ID_728478023" MODIFIED="1587225934678" STYLE="fork" TEXT="according to relationship between data item"/>
+<node CREATED="1587225943083" ID="ID_1385454974" MODIFIED="1587225960625" TEXT="and actual subject oriented analysis"/>
+</node>
+<node CREATED="1587225982419" ID="ID_723955267" MODIFIED="1587225988604" TEXT="BI is dependent on">
+<node CREATED="1587225997005" ID="ID_642434421" MODIFIED="1587226007286" TEXT="Technology and software infrastructure"/>
+<node CREATED="1587226041655" ID="ID_1070922394" MODIFIED="1587226049524" TEXT="Databases, data warehouses"/>
+<node CREATED="1587226069941" ID="ID_435479501" MODIFIED="1587226111004" TEXT="Develops and maintains knowledge databases for all core functions and business"/>
+</node>
+</node>
+<node CREATED="1587226293496" ID="ID_1590426439" MODIFIED="1587226300487" TEXT="Classification of information">
+<node CREATED="1587226400139" ID="ID_1468956913" MODIFIED="1587226458330" TEXT="Classification by Characteristics">
+<node CREATED="1587226605940" ID="ID_371839667" MODIFIED="1587226619388" TEXT="Action vs No action information">
+<node CREATED="1587197303427" ID="ID_1686328450" MODIFIED="1587197318057" TEXT="action information: maintain a stock ledger"/>
+<node CREATED="1587197328858" ID="ID_612618391" MODIFIED="1587197348744" TEXT="no-action information: stock balances"/>
+</node>
+<node CREATED="1587226627975" ID="ID_1888460246" MODIFIED="1587226637531" TEXT="Recurring vs non recurring information">
+<node CREATED="1587227437443" ID="ID_247414961" MODIFIED="1587227439298" TEXT="recurring: monthly sales report"/>
+</node>
+<node CREATED="1587226644094" ID="ID_1693963444" MODIFIED="1587226653446" TEXT="Internal vs external information">
+<node CREATED="1587227497107" ID="ID_123991807" MODIFIED="1587227499531" TEXT="internal: information with orgnizational details like employee work schedule"/>
+<node CREATED="1587227516988" ID="ID_1876181452" MODIFIED="1587227519315" TEXT="external: contains information from external sources like government records"/>
+</node>
+<node CREATED="1587227162100" ID="ID_312359442" MODIFIED="1587227191992" TEXT="Anthony&apos;s classification">
+<icon BUILTIN="forward"/>
+<node CREATED="1587227199532" ID="ID_1261218654" MODIFIED="1587227207437" TEXT="Strategic information">
+<node CREATED="1587227737978" ID="ID_671723499" MODIFIED="1587227757236" TEXT="concerned with long term policy decisions"/>
+<node CREATED="1587227765265" ID="ID_533519851" MODIFIED="1587227775114" TEXT="that defines the objectives of a business"/>
+<node CREATED="1587227783176" ID="ID_1094599845" MODIFIED="1587227801508" TEXT="and checks how well these objectives are met"/>
+</node>
+<node CREATED="1587227213392" ID="ID_655338013" MODIFIED="1587227217820" TEXT="Tactical information">
+<node CREATED="1587227836216" ID="ID_287432590" MODIFIED="1587227909294" TEXT="concerned with information needed for exercising control over business resources like">
+<node CREATED="1587227915039" ID="ID_1768864282" MODIFIED="1587227918432" TEXT="budgeting"/>
+<node CREATED="1587227920034" ID="ID_928276195" MODIFIED="1587227924328" TEXT="quality control"/>
+<node CREATED="1587227929587" ID="ID_1268763621" MODIFIED="1587227933001" TEXT="service level"/>
+<node CREATED="1587227939363" ID="ID_1603323367" MODIFIED="1587227943168" TEXT="inventory level"/>
+<node CREATED="1587227949009" ID="ID_672452187" MODIFIED="1587227954542" TEXT="productivity level"/>
+</node>
+</node>
+<node CREATED="1587227233457" ID="ID_1239740337" MODIFIED="1587227243559" TEXT="Operational information">
+<node CREATED="1587227983315" ID="ID_257263874" MODIFIED="1587228004881" TEXT="concerned with plan/business level information"/>
+<node CREATED="1587228023141" ID="ID_892863488" MODIFIED="1587228072545" TEXT="and is used to ensure proper conduction of specific operational tasks as intended"/>
+</node>
+</node>
+</node>
+<node CREATED="1587226414437" ID="ID_1358449640" MODIFIED="1587226431652" TEXT="Classification by Application">
+<node CREATED="1587226757758" ID="ID_412666105" MODIFIED="1587226764021" TEXT="Planning information">
+<node CREATED="1587227549299" ID="ID_193977984" MODIFIED="1587227551050" TEXT="useful for planning like time standards and SOPs"/>
+<node CREATED="1587229808821" ID="ID_1501673078" MODIFIED="1587229854891" TEXT="needed for establishing standard norms and specifications in an organization"/>
+<node CREATED="1587229865406" ID="ID_1138171705" MODIFIED="1587229867888" TEXT="used in">
+<node CREATED="1587229877392" ID="ID_964668438" MODIFIED="1587229881907" TEXT="strategic"/>
+<node CREATED="1587229883714" ID="ID_587008866" MODIFIED="1587229887019" TEXT="tactical"/>
+<node CREATED="1587229895096" ID="ID_69571999" MODIFIED="1587229905385" TEXT="and operational planning of any activity"/>
+</node>
+</node>
+<node CREATED="1587226768829" ID="ID_723438721" MODIFIED="1587226773149" TEXT="Control information">
+<node CREATED="1587227566868" ID="ID_417816658" MODIFIED="1587227568317" TEXT="information reported through a feedback mechanism"/>
+<node CREATED="1587229970906" ID="ID_1250421114" MODIFIED="1587230007758" TEXT="needed for establishing control over all business activities"/>
+<node CREATED="1587230038707" ID="ID_1381568724" MODIFIED="1587230041884" TEXT="used for">
+<node CREATED="1587230042809" ID="ID_1434351422" MODIFIED="1587230049602" TEXT="controlling attainment"/>
+<node CREATED="1587230059850" ID="ID_478297384" MODIFIED="1587230081975" TEXT="nature and utilization of important process in a system"/>
+</node>
+</node>
+<node CREATED="1587226777831" ID="ID_835628038" MODIFIED="1587226783920" TEXT="Knowledge information">
+<node CREATED="1587230400292" ID="ID_1957621467" MODIFIED="1587230406114" TEXT="information about information"/>
+<node CREATED="1587230413929" ID="ID_1895817142" MODIFIED="1587230425293" TEXT="acquired through experience and learning"/>
+<node CREATED="1587230434977" ID="ID_1990216346" MODIFIED="1587230453496" TEXT="collected through archival data and research studies"/>
+</node>
+<node CREATED="1587230481148" ID="ID_1294338293" MODIFIED="1587230489361" TEXT="Organizational information">
+<node CREATED="1587230500792" ID="ID_951599558" MODIFIED="1587230534676" TEXT="deals with an organizational environment and culture in the light of its objectives"/>
+<node CREATED="1587230588645" ID="ID_1412626629" MODIFIED="1587230625261" TEXT="Karl Weick&apos;s Organizational Information Theory emphasizes">
+<node CREATED="1587230627407" ID="ID_1560932142" MODIFIED="1587230670892" TEXT="that an organization reduces its equivocality or uncertainty"/>
+<node CREATED="1587230649970" ID="ID_1430535372" MODIFIED="1587230678453" TEXT="by collecting, managing and using these information prudently"/>
+</node>
+<node CREATED="1587230743472" ID="ID_245766947" MODIFIED="1587230756697" TEXT="used by everybody in the organization"/>
+<node CREATED="1587230759328" ID="ID_573949764" MODIFIED="1587230781466" TEXT="example: payroll and employee information"/>
+</node>
+<node CREATED="1587230802804" ID="ID_1201378181" MODIFIED="1587230811662" TEXT="Functional / Operational information">
+<node CREATED="1587230873067" ID="ID_362560531" MODIFIED="1587230881783" TEXT="operation specific information"/>
+<node CREATED="1587230905443" ID="ID_929678320" MODIFIED="1587230908690" TEXT="examples">
+<node CREATED="1587230918222" ID="ID_1542962887" MODIFIED="1587230929561" TEXT="daily schedules in a manufacturing plant"/>
+<node CREATED="1587230945222" ID="ID_1426120766" MODIFIED="1587230954440" TEXT="duty roster of various personnel"/>
+</node>
+<node CREATED="1587230963111" ID="ID_646707584" MODIFIED="1587230971110" TEXT="mostly internal to the organization"/>
+</node>
+<node CREATED="1587231008946" ID="ID_523919535" MODIFIED="1587231014136" TEXT="Database information">
+<node CREATED="1587231086153" ID="ID_656821151" MODIFIED="1587234584748" TEXT="constructs large quantities of data"/>
+<node CREATED="1587234590825" ID="ID_957059375" MODIFIED="1587234601495" TEXT="that has multiple usage and application"/>
+<node CREATED="1587234641313" ID="ID_479180437" MODIFIED="1587234664444" TEXT="such information is stored, retrieved and managed to create a database"/>
+</node>
+</node>
+<node CREATED="1587226437798" ID="ID_1588761269" MODIFIED="1587226449715" TEXT="Classification by Management Hierarchy">
+<node CREATED="1587226932230" ID="ID_215901251" MODIFIED="1587226942323" TEXT="Supervisor level information"/>
+<node CREATED="1587226947365" ID="ID_1595738751" MODIFIED="1587226952839" TEXT="Middle level information"/>
+<node CREATED="1587226957290" ID="ID_975003865" MODIFIED="1587226963996" TEXT="Top level information"/>
+</node>
+</node>
+</node>
+<node COLOR="#669900" CREATED="1587207117182" ID="ID_683490147" MODIFIED="1587207153285" POSITION="left">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>System Concepts</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="full-2"/>
+</node>
+<node COLOR="#669900" CREATED="1587207200608" ID="ID_1955557097" MODIFIED="1587207252183" POSITION="right">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4"><b>Management Information System(MIS) </b></font>
+    </p>
+    <p>
+      <font size="4"><b>and Information Technology(IT)&#160;</b></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="full-3"/>
 </node>
 </node>
 </map>
