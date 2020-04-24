@@ -830,9 +830,6 @@
 </node>
 </node>
 </node>
-<node CREATED="1587584765835" ID="ID_413284122" MODIFIED="1587630824591" TEXT="Specification of Information Systems">
-<font NAME="Liberation Sans" SIZE="12"/>
-</node>
 <node CREATED="1587628812810" ID="ID_1721263897" MODIFIED="1587630824591" TEXT="What is a system?">
 <font NAME="Liberation Sans" SIZE="12"/>
 <node CREATED="1587628830106" ID="ID_295403416" MODIFIED="1587630824591" TEXT="The word system is derived from the Greek work Systema">
@@ -963,10 +960,35 @@
 <node CREATED="1587636220838" ID="ID_874948209" MODIFIED="1587636265403" TEXT="The knowledge of the boundaries of a given system is crucial in determining the nature of its interface with other systems for successful design."/>
 </node>
 </node>
+<node CREATED="1587636338033" ID="ID_1685699854" MODIFIED="1587636352054" TEXT="Types of Systems">
+<node CREATED="1587726707227" ID="ID_1260093386" MODIFIED="1587726719138" TEXT="Physical or Abstract Systems">
+<node CREATED="1587748442827" ID="ID_1124602715" MODIFIED="1587748459287" TEXT="Physical systems are tangible entities. We can touch and feel them."/>
+<node CREATED="1587748461499" ID="ID_1855998598" MODIFIED="1587748494423" TEXT="Physical system may be static or dynamic in nature."/>
+<node CREATED="1587748498123" ID="ID_142069587" MODIFIED="1587748538519" TEXT="Abstract systems are non-physical entities or conceptual that may be formulas, representation or model of a real system."/>
+</node>
+<node CREATED="1587726721433" ID="ID_1909819171" MODIFIED="1587726732996" TEXT="Open or Closed Systems">
+<node CREATED="1587748641258" ID="ID_1363751262" MODIFIED="1587748684487" TEXT="An open system must interact with its environmen. It receives inputs from and delivers outputs fr the outside of the system."/>
+<node CREATED="1587748686571" ID="ID_232228273" MODIFIED="1587748717207" TEXT="A closed system does not interact with its environment. It is isolated from environmental influences."/>
+</node>
+<node CREATED="1587748217499" ID="ID_1984662254" MODIFIED="1587748230118" TEXT="Adaptvie and Non adaptive Systems"/>
+<node CREATED="1587748236220" ID="ID_578432774" MODIFIED="1587748244679" TEXT="Permanent or Temporary Systems"/>
+<node CREATED="1587748251307" ID="ID_1750028391" MODIFIED="1587748264980" TEXT="Natural and Manufactured Systems"/>
+<node CREATED="1587748273004" ID="ID_757116993" MODIFIED="1587748288650" TEXT="Deterministic or Probabilistic Systems"/>
+<node CREATED="1587748292130" ID="ID_1232930514" MODIFIED="1587748308631" TEXT="Social, Human-Machine, Machine Systems"/>
+<node CREATED="1587748315962" ID="ID_647854497" MODIFIED="1587748323942" TEXT="Man-Made Information Systems"/>
+</node>
+<node CREATED="1587748365627" ID="ID_1608383211" MODIFIED="1587748376101" TEXT="Systems Models">
+<node CREATED="1587748392395" ID="ID_247881131" MODIFIED="1587748398247" TEXT="Schematic Models"/>
+<node CREATED="1587748399546" ID="ID_576151482" MODIFIED="1587748405383" TEXT="Flow System Models"/>
+<node CREATED="1587748406699" ID="ID_24901824" MODIFIED="1587748413335" TEXT="Static System Models"/>
+<node CREATED="1587748415355" ID="ID_141016879" MODIFIED="1587748425911" TEXT="Dynamic System Models"/>
+</node>
 <node CREATED="1587584746119" ID="ID_1447279173" MODIFIED="1587630824591" TEXT="Types of Information Systems">
 <font NAME="Liberation Sans" SIZE="12"/>
 </node>
-<node CREATED="1587636338033" ID="ID_1685699854" MODIFIED="1587636352054" TEXT="Types of Systems"/>
+<node CREATED="1587584765835" ID="ID_413284122" MODIFIED="1587630824591" TEXT="Specification of Information Systems">
+<font NAME="Liberation Sans" SIZE="12"/>
+</node>
 </node>
 <node COLOR="#669900" CREATED="1587207200608" ID="ID_1955557097" MODIFIED="1587630824579" POSITION="right">
 <richcontent TYPE="NODE"><html>
