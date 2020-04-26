@@ -970,18 +970,79 @@
 <node CREATED="1587748641258" ID="ID_1363751262" MODIFIED="1587748684487" TEXT="An open system must interact with its environmen. It receives inputs from and delivers outputs fr the outside of the system."/>
 <node CREATED="1587748686571" ID="ID_232228273" MODIFIED="1587748717207" TEXT="A closed system does not interact with its environment. It is isolated from environmental influences."/>
 </node>
-<node CREATED="1587748217499" ID="ID_1984662254" MODIFIED="1587748230118" TEXT="Adaptvie and Non adaptive Systems"/>
-<node CREATED="1587748236220" ID="ID_578432774" MODIFIED="1587748244679" TEXT="Permanent or Temporary Systems"/>
-<node CREATED="1587748251307" ID="ID_1750028391" MODIFIED="1587748264980" TEXT="Natural and Manufactured Systems"/>
-<node CREATED="1587748273004" ID="ID_757116993" MODIFIED="1587748288650" TEXT="Deterministic or Probabilistic Systems"/>
-<node CREATED="1587748292130" ID="ID_1232930514" MODIFIED="1587748308631" TEXT="Social, Human-Machine, Machine Systems"/>
-<node CREATED="1587748315962" ID="ID_647854497" MODIFIED="1587748323942" TEXT="Man-Made Information Systems"/>
+<node CREATED="1587748217499" ID="ID_1984662254" MODIFIED="1587748230118" TEXT="Adaptvie and Non adaptive Systems">
+<node CREATED="1587825949874" ID="ID_1950187681" MODIFIED="1587825995212" TEXT="Adaptive system responds to the change in the environment in a way to imporve their performance and to survive."/>
+<node CREATED="1587825997184" ID="ID_1807490671" MODIFIED="1587826024110" TEXT="Non adaptive system is the system which does not respond to the environment."/>
+</node>
+<node CREATED="1587748236220" ID="ID_578432774" MODIFIED="1587748244679" TEXT="Permanent or Temporary Systems">
+<node CREATED="1587826094913" ID="ID_1144652727" MODIFIED="1587826115183" TEXT="Permanent system persists for long time."/>
+<node CREATED="1587826116450" ID="ID_1368717119" MODIFIED="1587826149566" TEXT="Temporary system is made for specified time and after that they are demolished."/>
+</node>
+<node CREATED="1587748251307" ID="ID_1750028391" MODIFIED="1587748264980" TEXT="Natural and Manufactured Systems">
+<node CREATED="1587826155267" ID="ID_1906001875" MODIFIED="1587826170351" TEXT="Natural systems are created by the nature."/>
+<node CREATED="1587826172274" ID="ID_1127772795" MODIFIED="1587826185822" TEXT="Manufactured system is the man-made system."/>
+</node>
+<node CREATED="1587748273004" ID="ID_757116993" MODIFIED="1587748288650" TEXT="Deterministic or Probabilistic Systems">
+<node CREATED="1587826207619" ID="ID_966646201" MODIFIED="1587826250799" TEXT="Deterministic system operates in a predictable manner and the interaction between system components is known with certainty."/>
+<node CREATED="1587826252307" ID="ID_606035690" MODIFIED="1587826282319" TEXT="Probabilistic system shows uncertain behavior. The exact output is not known."/>
+</node>
+<node CREATED="1587748292130" ID="ID_1232930514" MODIFIED="1587748308631" TEXT="Social, Human-Machine, Machine Systems">
+<node CREATED="1587826355011" ID="ID_1450221647" MODIFIED="1587826366079" TEXT="Social system is made up of people."/>
+<node CREATED="1587826367507" ID="ID_1543899052" MODIFIED="1587826394559" TEXT="In Human-Machine system, both human and machines are involved to perform a particular task."/>
+<node CREATED="1587826396947" ID="ID_1034482295" MODIFIED="1587826428079" TEXT="Machine system is where human interference is neglected. All the tasks are performed by the machine."/>
+</node>
+<node CREATED="1587748315962" ID="ID_647854497" MODIFIED="1587826661843" TEXT="Man-Made Information Systems">
+<node CREATED="1587826663588" ID="ID_1622139264" MODIFIED="1587826699072" TEXT="It is an interconnected set of information resources to manage data for particular organization, under Direct Management Control (DMC)."/>
+<node CREATED="1587826704564" ID="ID_457620150" MODIFIED="1587826741712" TEXT="This system includes hardware, software, communication, data and application for producing information according to the need of an organization."/>
+<node CREATED="1587826811459" ID="ID_472666043" MODIFIED="1587826832910" TEXT="Man-made information systems are divided into 3 types">
+<node CREATED="1587826834515" ID="ID_607489253" MODIFIED="1587826844384" TEXT="Formal Information System">
+<node CREATED="1587826886132" ID="ID_1445114487" MODIFIED="1587826925504" TEXT="based on the flow of information in the form of memos, instructions, etc, from top level to lower levels of management."/>
+</node>
+<node CREATED="1587826851587" ID="ID_679692367" MODIFIED="1587826859295" TEXT="Informal Information System">
+<node CREATED="1587826929012" ID="ID_517399947" MODIFIED="1587826953710" TEXT="employee based system which solves the day to day work related problems."/>
+</node>
+<node CREATED="1587826863154" ID="ID_1432717482" MODIFIED="1587826877040" TEXT="Computer Based System">
+<node CREATED="1587826958836" ID="ID_1150484046" MODIFIED="1587826984048" TEXT="directly dependent on the computer for managing business applications."/>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1587748365627" ID="ID_1608383211" MODIFIED="1587748376101" TEXT="Systems Models">
-<node CREATED="1587748392395" ID="ID_247881131" MODIFIED="1587748398247" TEXT="Schematic Models"/>
-<node CREATED="1587748399546" ID="ID_576151482" MODIFIED="1587748405383" TEXT="Flow System Models"/>
-<node CREATED="1587748406699" ID="ID_24901824" MODIFIED="1587748413335" TEXT="Static System Models"/>
-<node CREATED="1587748415355" ID="ID_141016879" MODIFIED="1587748425911" TEXT="Dynamic System Models"/>
+<node CREATED="1587748392395" ID="ID_247881131" MODIFIED="1587748398247" TEXT="Schematic Models">
+<node CREATED="1587828210567" ID="ID_587006851" MODIFIED="1587828233585" TEXT="2D chart that shows system elements and their linkages."/>
+<node CREATED="1587828235031" ID="ID_1309370182" MODIFIED="1587828266307" TEXT="Different arrows are used to show information flow, material flow, and information feedback."/>
+</node>
+<node CREATED="1587748399546" ID="ID_576151482" MODIFIED="1587748405383" TEXT="Flow System Models">
+<node CREATED="1587828272310" ID="ID_937711172" MODIFIED="1587828308675" TEXT="Shows the orderly flow of the material, energy and information that hodl the system together."/>
+<node CREATED="1587828310277" ID="ID_1046446051" MODIFIED="1587828352036" TEXT="Program Evaluation and Review Technique (PERT), for example, is used to abstract a real world system in model form."/>
+</node>
+<node CREATED="1587748406699" ID="ID_24901824" MODIFIED="1587748413335" TEXT="Static System Models">
+<node CREATED="1587828417111" ID="ID_1409171784" MODIFIED="1587828450580" TEXT="They represent one pair of relationships such as activity-time or cost-quantity."/>
+<node CREATED="1587828452151" ID="ID_1087976194" MODIFIED="1587828484900" TEXT="The Gantt chart, for example, gives a static picture of an activity-time relationship."/>
+</node>
+<node CREATED="1587748415355" ID="ID_141016879" MODIFIED="1587748425911" TEXT="Dynamic System Models">
+<node CREATED="1587828822185" ID="ID_1460996105" MODIFIED="1587828864292" TEXT="Business organizations are dynamic systems. A dynamic model approximates the type of organization or application that analysts deal with."/>
+<node CREATED="1587828878201" ID="ID_1100332367" MODIFIED="1587828923125" TEXT="It show an ongoing, constantly changing status of the system. It consists of -">
+<node CREATED="1587835216647" ID="ID_967415769" MODIFIED="1587835231156" TEXT="Inputs that enter into the system"/>
+<node CREATED="1587835232647" ID="ID_1455221101" MODIFIED="1587835253716" TEXT="The processor through which transformation takes place"/>
+<node CREATED="1587835255384" ID="ID_82554857" MODIFIED="1587835269044" TEXT="The program(s) required for processing"/>
+<node CREATED="1587835270504" ID="ID_667417015" MODIFIED="1587835282257" TEXT="The output(s) that result from processing"/>
+</node>
+</node>
+</node>
+<node CREATED="1587835361768" ID="ID_98603056" MODIFIED="1587835370258" TEXT="Categories of Information">
+<node CREATED="1587835408839" ID="ID_1450134611" MODIFIED="1587835416178" TEXT="Strategic Information">
+<node CREATED="1587835418359" ID="ID_1469311253" MODIFIED="1587835447444" TEXT="This information is required by topmost management for long range planning policies for next few years."/>
+<node CREATED="1587835449320" ID="ID_1446072528" MODIFIED="1587835477796" TEXT="This type of information is achieved with the aid of Decision Support System (DSS)"/>
+</node>
+<node CREATED="1587835483495" ID="ID_104106940" MODIFIED="1587835491812" TEXT="Managerial Information">
+<node CREATED="1587835519416" ID="ID_1700495931" MODIFIED="1587835557620" TEXT="This tpe of information is required by middle management for short and intermediate range planning which is in terms of months."/>
+<node CREATED="1587835559480" ID="ID_723115543" MODIFIED="1587835580420" TEXT="It is achieved with the aid of Management Information Systems (MIS)."/>
+</node>
+<node CREATED="1587835585544" ID="ID_92515621" MODIFIED="1587835591396" TEXT="Operational Information">
+<node CREATED="1587835592360" ID="ID_1786248905" MODIFIED="1587835629813" TEXT="This type of information is required by low management for daily and short term planning to enforce day-to-day operational activities."/>
+<node CREATED="1587835633288" ID="ID_1467880227" MODIFIED="1587835655989" TEXT="It is achieved with the aid of Data Processing Systems (DPS)."/>
+</node>
 </node>
 <node CREATED="1587584746119" ID="ID_1447279173" MODIFIED="1587630824591" TEXT="Types of Information Systems">
 <font NAME="Liberation Sans" SIZE="12"/>
