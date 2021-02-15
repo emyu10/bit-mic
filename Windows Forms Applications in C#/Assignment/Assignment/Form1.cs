@@ -16,5 +16,11 @@ namespace Assignment
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            lblName.Text = "Name: ";
+            lblName.ForeColor = Color.Red;
+        }
     }
 }
