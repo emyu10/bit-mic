@@ -1,0 +1,10 @@
+C:\Users\emyu\source\repos\FontDialogExample\FontDialogExample\bin\Debug\FontDialogExample.exe.config
+C:\Users\emyu\source\repos\FontDialogExample\FontDialogExample\bin\Debug\FontDialogExample.exe
+C:\Users\emyu\source\repos\FontDialogExample\FontDialogExample\bin\Debug\FontDialogExample.pdb
+C:\Users\emyu\source\repos\FontDialogExample\FontDialogExample\obj\Debug\FontDialogExample.csprojAssemblyReference.cache
+C:\Users\emyu\source\repos\FontDialogExample\FontDialogExample\obj\Debug\FontDialogExample.Form1.resources
+C:\Users\emyu\source\repos\FontDialogExample\FontDialogExample\obj\Debug\FontDialogExample.Properties.Resources.resources
+C:\Users\emyu\source\repos\FontDialogExample\FontDialogExample\obj\Debug\FontDialogExample.csproj.GenerateResource.cache
+C:\Users\emyu\source\repos\FontDialogExample\FontDialogExample\obj\Debug\FontDialogExample.csproj.CoreCompileInputs.cache
+C:\Users\emyu\source\repos\FontDialogExample\FontDialogExample\obj\Debug\FontDialogExample.exe
+C:\Users\emyu\source\repos\FontDialogExample\FontDialogExample\obj\Debug\FontDialogExample.pdb
