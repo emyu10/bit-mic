@@ -34,11 +34,15 @@ namespace Assignment
             this.days = new System.Windows.Forms.ComboBox();
             this.lbNames = new System.Windows.Forms.ListBox();
             this.gbxGender = new System.Windows.Forms.GroupBox();
-            this.rdbMale = new System.Windows.Forms.RadioButton();
             this.rdbFemale = new System.Windows.Forms.RadioButton();
+            this.rdbMale = new System.Windows.Forms.RadioButton();
             this.checkEditable = new System.Windows.Forms.CheckBox();
             this.checkHide = new System.Windows.Forms.CheckBox();
+            this.profilePhoto = new System.Windows.Forms.PictureBox();
+            this.imageProgress = new System.Windows.Forms.ProgressBar();
+            this.dobPicker = new System.Windows.Forms.DateTimePicker();
             this.gbxGender.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.profilePhoto)).BeginInit();
             this.SuspendLayout();
             // 
             // lblName
@@ -88,6 +92,17 @@ namespace Assignment
             this.gbxGender.Text = "Gender";
             this.gbxGender.ControlAdded += new System.Windows.Forms.ControlEventHandler(this.gbxGender_ControlAdded);
             // 
+            // rdbFemale
+            // 
+            this.rdbFemale.AutoSize = true;
+            this.rdbFemale.Location = new System.Drawing.Point(104, 30);
+            this.rdbFemale.Name = "rdbFemale";
+            this.rdbFemale.Size = new System.Drawing.Size(59, 17);
+            this.rdbFemale.TabIndex = 1;
+            this.rdbFemale.TabStop = true;
+            this.rdbFemale.Text = "Female";
+            this.rdbFemale.UseVisualStyleBackColor = true;
+            // 
             // rdbMale
             // 
             this.rdbMale.AutoSize = true;
@@ -99,17 +114,6 @@ namespace Assignment
             this.rdbMale.Text = "Male";
             this.rdbMale.UseVisualStyleBackColor = true;
             this.rdbMale.CheckedChanged += new System.EventHandler(this.rdbMale_CheckedChanged);
-            // 
-            // rdbFemale
-            // 
-            this.rdbFemale.AutoSize = true;
-            this.rdbFemale.Location = new System.Drawing.Point(104, 30);
-            this.rdbFemale.Name = "rdbFemale";
-            this.rdbFemale.Size = new System.Drawing.Size(59, 17);
-            this.rdbFemale.TabIndex = 1;
-            this.rdbFemale.TabStop = true;
-            this.rdbFemale.Text = "Female";
-            this.rdbFemale.UseVisualStyleBackColor = true;
             // 
             // checkEditable
             // 
@@ -134,11 +138,37 @@ namespace Assignment
             this.checkHide.CheckedChanged += new System.EventHandler(this.checkHide_CheckedChanged);
             this.checkHide.CheckStateChanged += new System.EventHandler(this.checkHide_CheckStateChanged);
             // 
+            // profilePhoto
+            // 
+            this.profilePhoto.Location = new System.Drawing.Point(530, 261);
+            this.profilePhoto.Name = "profilePhoto";
+            this.profilePhoto.Size = new System.Drawing.Size(160, 108);
+            this.profilePhoto.TabIndex = 7;
+            this.profilePhoto.TabStop = false;
+            this.profilePhoto.LoadProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.profilePhoto_LoadProgressChanged);
+            // 
+            // imageProgress
+            // 
+            this.imageProgress.Location = new System.Drawing.Point(530, 385);
+            this.imageProgress.Name = "imageProgress";
+            this.imageProgress.Size = new System.Drawing.Size(160, 23);
+            this.imageProgress.TabIndex = 8;
+            // 
+            // dobPicker
+            // 
+            this.dobPicker.Location = new System.Drawing.Point(577, 23);
+            this.dobPicker.Name = "dobPicker";
+            this.dobPicker.Size = new System.Drawing.Size(200, 20);
+            this.dobPicker.TabIndex = 9;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dobPicker);
+            this.Controls.Add(this.imageProgress);
+            this.Controls.Add(this.profilePhoto);
             this.Controls.Add(this.checkHide);
             this.Controls.Add(this.checkEditable);
             this.Controls.Add(this.gbxGender);
@@ -151,6 +181,7 @@ namespace Assignment
             this.Load += new System.EventHandler(this.Form1_Load);
             this.gbxGender.ResumeLayout(false);
             this.gbxGender.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.profilePhoto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -167,6 +198,9 @@ namespace Assignment
         private System.Windows.Forms.RadioButton rdbMale;
         private System.Windows.Forms.CheckBox checkEditable;
         private System.Windows.Forms.CheckBox checkHide;
+        private System.Windows.Forms.PictureBox profilePhoto;
+        private System.Windows.Forms.ProgressBar imageProgress;
+        private System.Windows.Forms.DateTimePicker dobPicker;
     }
 }
 

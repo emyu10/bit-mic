@@ -26,6 +26,13 @@ namespace Assignment
             string[] names = { "Hawwa", "Maryam", "Aishath", "Aminath", "Fathimath" };
             lbNames.Items.AddRange(names);
             checkHide.Hide();
+            profilePhoto.ImageLocation = "C:\\Path\\To\\Some\\Image.png";
+            profilePhoto.Load();
+
+            dobPicker.SetBounds(50, 50, 100, 50);
+
+            ImageList socialPhotos = new ImageList();
+            socialPhotos.ImageSize = new Size(500, 500);
         }
 
         private void lblName_Click(object sender, EventArgs e)
@@ -75,6 +82,11 @@ namespace Assignment
             {
                 ((CheckBox)sender).Hide();
             }
+        }
+
+        private void profilePhoto_LoadProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            imageProgress.Value = e.ProgressPercentage;
         }
     }
 }
