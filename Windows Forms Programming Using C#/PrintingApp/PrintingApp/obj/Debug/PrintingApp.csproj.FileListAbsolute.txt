@@ -1,0 +1,10 @@
+C:\Users\emyu\source\repos\PrintingApp\PrintingApp\bin\Debug\PrintingApp.exe.config
+C:\Users\emyu\source\repos\PrintingApp\PrintingApp\bin\Debug\PrintingApp.exe
+C:\Users\emyu\source\repos\PrintingApp\PrintingApp\bin\Debug\PrintingApp.pdb
+C:\Users\emyu\source\repos\PrintingApp\PrintingApp\obj\Debug\PrintingApp.csprojAssemblyReference.cache
+C:\Users\emyu\source\repos\PrintingApp\PrintingApp\obj\Debug\PrintingApp.Form1.resources
+C:\Users\emyu\source\repos\PrintingApp\PrintingApp\obj\Debug\PrintingApp.Properties.Resources.resources
+C:\Users\emyu\source\repos\PrintingApp\PrintingApp\obj\Debug\PrintingApp.csproj.GenerateResource.cache
+C:\Users\emyu\source\repos\PrintingApp\PrintingApp\obj\Debug\PrintingApp.csproj.CoreCompileInputs.cache
+C:\Users\emyu\source\repos\PrintingApp\PrintingApp\obj\Debug\PrintingApp.exe
+C:\Users\emyu\source\repos\PrintingApp\PrintingApp\obj\Debug\PrintingApp.pdb

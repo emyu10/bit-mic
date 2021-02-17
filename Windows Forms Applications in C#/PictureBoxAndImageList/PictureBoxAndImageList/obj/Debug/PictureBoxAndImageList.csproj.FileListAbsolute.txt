@@ -1,9 +1,0 @@
-C:\Users\emyu\source\repos\PictureBoxAndImageList\PictureBoxAndImageList\bin\Debug\PictureBoxAndImageList.exe.config
-C:\Users\emyu\source\repos\PictureBoxAndImageList\PictureBoxAndImageList\bin\Debug\PictureBoxAndImageList.exe
-C:\Users\emyu\source\repos\PictureBoxAndImageList\PictureBoxAndImageList\bin\Debug\PictureBoxAndImageList.pdb
-C:\Users\emyu\source\repos\PictureBoxAndImageList\PictureBoxAndImageList\obj\Debug\PictureBoxAndImageList.Form1.resources
-C:\Users\emyu\source\repos\PictureBoxAndImageList\PictureBoxAndImageList\obj\Debug\PictureBoxAndImageList.Properties.Resources.resources
-C:\Users\emyu\source\repos\PictureBoxAndImageList\PictureBoxAndImageList\obj\Debug\PictureBoxAndImageList.csproj.GenerateResource.cache
-C:\Users\emyu\source\repos\PictureBoxAndImageList\PictureBoxAndImageList\obj\Debug\PictureBoxAndImageList.csproj.CoreCompileInputs.cache
-C:\Users\emyu\source\repos\PictureBoxAndImageList\PictureBoxAndImageList\obj\Debug\PictureBoxAndImageList.exe
-C:\Users\emyu\source\repos\PictureBoxAndImageList\PictureBoxAndImageList\obj\Debug\PictureBoxAndImageList.pdb

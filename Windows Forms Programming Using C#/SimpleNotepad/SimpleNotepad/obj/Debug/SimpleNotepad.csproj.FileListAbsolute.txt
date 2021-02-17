@@ -1,0 +1,10 @@
+C:\Users\emyu\source\repos\SimpleNotepad\SimpleNotepad\bin\Debug\SimpleNotepad.exe.config
+C:\Users\emyu\source\repos\SimpleNotepad\SimpleNotepad\bin\Debug\SimpleNotepad.exe
+C:\Users\emyu\source\repos\SimpleNotepad\SimpleNotepad\bin\Debug\SimpleNotepad.pdb
+C:\Users\emyu\source\repos\SimpleNotepad\SimpleNotepad\obj\Debug\SimpleNotepad.Form1.resources
+C:\Users\emyu\source\repos\SimpleNotepad\SimpleNotepad\obj\Debug\SimpleNotepad.Properties.Resources.resources
+C:\Users\emyu\source\repos\SimpleNotepad\SimpleNotepad\obj\Debug\SimpleNotepad.csproj.GenerateResource.cache
+C:\Users\emyu\source\repos\SimpleNotepad\SimpleNotepad\obj\Debug\SimpleNotepad.csproj.CoreCompileInputs.cache
+C:\Users\emyu\source\repos\SimpleNotepad\SimpleNotepad\obj\Debug\SimpleNotepad.exe
+C:\Users\emyu\source\repos\SimpleNotepad\SimpleNotepad\obj\Debug\SimpleNotepad.pdb
+C:\Users\emyu\source\repos\SimpleNotepad\SimpleNotepad\obj\Debug\SimpleNotepad.Form2.resources

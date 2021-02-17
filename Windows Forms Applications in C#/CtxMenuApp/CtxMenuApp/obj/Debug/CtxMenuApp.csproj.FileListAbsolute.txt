@@ -1,9 +1,0 @@
-C:\Users\emyu\source\repos\CtxMenuApp\CtxMenuApp\bin\Debug\CtxMenuApp.exe.config
-C:\Users\emyu\source\repos\CtxMenuApp\CtxMenuApp\bin\Debug\CtxMenuApp.exe
-C:\Users\emyu\source\repos\CtxMenuApp\CtxMenuApp\bin\Debug\CtxMenuApp.pdb
-C:\Users\emyu\source\repos\CtxMenuApp\CtxMenuApp\obj\Debug\CtxMenuApp.Form1.resources
-C:\Users\emyu\source\repos\CtxMenuApp\CtxMenuApp\obj\Debug\CtxMenuApp.Properties.Resources.resources
-C:\Users\emyu\source\repos\CtxMenuApp\CtxMenuApp\obj\Debug\CtxMenuApp.csproj.GenerateResource.cache
-C:\Users\emyu\source\repos\CtxMenuApp\CtxMenuApp\obj\Debug\CtxMenuApp.csproj.CoreCompileInputs.cache
-C:\Users\emyu\source\repos\CtxMenuApp\CtxMenuApp\obj\Debug\CtxMenuApp.exe
-C:\Users\emyu\source\repos\CtxMenuApp\CtxMenuApp\obj\Debug\CtxMenuApp.pdb
