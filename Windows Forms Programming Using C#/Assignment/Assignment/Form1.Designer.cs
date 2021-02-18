@@ -29,6 +29,7 @@ namespace Assignment
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lblName = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
             this.days = new System.Windows.Forms.ComboBox();
@@ -41,6 +42,7 @@ namespace Assignment
             this.profilePhoto = new System.Windows.Forms.PictureBox();
             this.imageProgress = new System.Windows.Forms.ProgressBar();
             this.dobPicker = new System.Windows.Forms.DateTimePicker();
+            this.socialPhotos = new System.Windows.Forms.ImageList(this.components);
             this.gbxGender.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.profilePhoto)).BeginInit();
             this.SuspendLayout();
@@ -160,6 +162,13 @@ namespace Assignment
             this.dobPicker.Name = "dobPicker";
             this.dobPicker.Size = new System.Drawing.Size(200, 20);
             this.dobPicker.TabIndex = 9;
+            this.dobPicker.CloseUp += new System.EventHandler(this.dobPicker_CloseUp);
+            // 
+            // socialPhotos
+            // 
+            this.socialPhotos.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.socialPhotos.ImageSize = new System.Drawing.Size(16, 16);
+            this.socialPhotos.TransparentColor = System.Drawing.Color.Transparent;
             // 
             // Form1
             // 
@@ -201,6 +210,7 @@ namespace Assignment
         private System.Windows.Forms.PictureBox profilePhoto;
         private System.Windows.Forms.ProgressBar imageProgress;
         private System.Windows.Forms.DateTimePicker dobPicker;
+        private System.Windows.Forms.ImageList socialPhotos;
     }
 }
 

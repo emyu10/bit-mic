@@ -88,5 +88,18 @@ namespace Assignment
         {
             imageProgress.Value = e.ProgressPercentage;
         }
+
+        private void dobPicker_CloseUp(object sender, EventArgs e)
+        {
+            if (dobPicker.Value < new DateTime(1990, 12, 31))
+            {
+                MessageBox.Show("Please choose a date after December 31, 1990");
+            }
+        }
+
+        private void test()
+        {
+            socialPhotos.Draw(g, pt, 1)
+        }
     }
 }
