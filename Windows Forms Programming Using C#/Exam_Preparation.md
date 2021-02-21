@@ -120,4 +120,55 @@ namespace ColorMixer
 ```
 - Set colorChanged event handler as the ValueChanged event of the three NumericUpDown controls and also the Load event of the form.
 ### 4. Explain any five Modal DialogBoxes with sample code to open those dialog boxes.
+1. **ColorDialog**: is used to give the user the option to choose a color. It shows a color palette with basic colors and a color mixer so that the user can mix colors and choose a more refined, more accurate color. When a color is chosen and the OK button is pressed, the chosen color can be obtained from the Color property of the dialog object.
+    ```C#
+    ColorDialog chooseColor = new ColorDialog();
+    if (chooseColor.ShowDialog() == DialogResult.OK)
+        Color chosenColor = chooseColor.Color;
+    }
+    ```
+
+2. **FolderBrowserDialog**: is used to give the user the option to choose a folder or create a new folder for the purpose of the application. It shows the folders in the system as a treeview like structure. The SelectedPath property of the object holds the full path to the folder the user selected.
+    ```C#
+    FolderBrowserDialog fb = new FolderBrowserDialog();
+    if (fb.ShowDialog() == DialogResult.OK)
+    {
+        string folder = fb.SelectedPath;
+    }
+    ```
+
+3. **FontDialog**: is used to give the users the option to choose a font and styling like bold, italic and optionally font color. Font property of the object stores the chosen font.
+    ```C#
+    FontDialog fd = new FontDialog();
+    if (fd.ShowDialog() == DialogResult.OK)
+    {
+        Font chosenFont = fd.Font;
+    }
+    ```
+
+4. **OpenFileDialog**: opens a dialog from which the user can browse the file system and choose a file an existing file. The FileName property of the object holds the full path to the file chosen as a string.
+    ```C#
+    OpenFileDialog ofd = new OpenFileDialog();
+    if (ofd.ShowDialog() == DialogResult.OK)
+    {
+        string fileName = ofd.FileName;
+    }
+    ```
+
+5. **SaveFileDialog**: opens a dialog from which the user can type in a name of a file to save to and it gives the option to choose the file extension. The FileName property of the object holds the full path to the user defined file as a string.
+    ```C#
+    SaveFileDialog sfd = new SaveFileDialog();
+    if (sfd.ShowDialog() == DialogResult.OK)
+    {
+        string fileName = sfd.FileName;
+    }
+    ```
+
 ### 5. Explain ContextMenuStrip control and the four types of item in the ContextMenuStrip.
+ContextMenuStrip is used to implement a context menu (right click menu) for the visual elements on a Windows form. When a control or container on the form is clicked with the right click button on a pointing device, a menu pops-open, giving users the options defined by the programmer, to choose from. Different controls can have different context menus.
+
+Types of items in a context menu strip:
+1. **MenuItem (ToolStripMenuItem)**: It is used to give a simple clickable menu item like "Exit"
+2. **ComboBox (ToolStripComboBox)**: It is used to insert a ComboBox in the context menu where the user can select or type an item in the ComboBox
+3. **Separator (ToolStripSeparator)**: It is used to put a horizontal line (ruler) between menu items to categorize the items in the menu in a logical way
+4. **TextBox (ToolStripTextBox)**: It is used to put a TextBox in the context menu where the user can enter an item.
