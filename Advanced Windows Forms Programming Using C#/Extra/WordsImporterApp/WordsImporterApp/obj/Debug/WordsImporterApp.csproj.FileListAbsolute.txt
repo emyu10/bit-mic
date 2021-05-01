@@ -1,0 +1,7 @@
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Extra\WordsImporterApp\WordsImporterApp\bin\Debug\WordsImporterApp.exe.config
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Extra\WordsImporterApp\WordsImporterApp\bin\Debug\WordsImporterApp.exe
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Extra\WordsImporterApp\WordsImporterApp\bin\Debug\WordsImporterApp.pdb
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Extra\WordsImporterApp\WordsImporterApp\obj\Debug\WordsImporterApp.csprojAssemblyReference.cache
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Extra\WordsImporterApp\WordsImporterApp\obj\Debug\WordsImporterApp.csproj.CoreCompileInputs.cache
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Extra\WordsImporterApp\WordsImporterApp\obj\Debug\WordsImporterApp.exe
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Extra\WordsImporterApp\WordsImporterApp\obj\Debug\WordsImporterApp.pdb

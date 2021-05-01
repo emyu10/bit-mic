@@ -1,0 +1,10 @@
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Extra\WordGenerator\WordGenerator\bin\Debug\WordGenerator.exe.config
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Extra\WordGenerator\WordGenerator\bin\Debug\WordGenerator.exe
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Extra\WordGenerator\WordGenerator\bin\Debug\WordGenerator.pdb
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Extra\WordGenerator\WordGenerator\obj\Debug\WordGenerator.csprojAssemblyReference.cache
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Extra\WordGenerator\WordGenerator\obj\Debug\WordGenerator.Form1.resources
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Extra\WordGenerator\WordGenerator\obj\Debug\WordGenerator.Properties.Resources.resources
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Extra\WordGenerator\WordGenerator\obj\Debug\WordGenerator.csproj.GenerateResource.cache
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Extra\WordGenerator\WordGenerator\obj\Debug\WordGenerator.csproj.CoreCompileInputs.cache
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Extra\WordGenerator\WordGenerator\obj\Debug\WordGenerator.exe
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Extra\WordGenerator\WordGenerator\obj\Debug\WordGenerator.pdb
