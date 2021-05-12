@@ -44,9 +44,11 @@ namespace DB_Connection
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // label1
@@ -147,7 +149,7 @@ namespace DB_Connection
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(231, 266);
+            this.btnUpdate.Location = new System.Drawing.Point(150, 266);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(75, 23);
             this.btnUpdate.TabIndex = 10;
@@ -157,7 +159,7 @@ namespace DB_Connection
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(150, 266);
+            this.btnDelete.Location = new System.Drawing.Point(150, 295);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 23);
             this.btnDelete.TabIndex = 9;
@@ -175,18 +177,9 @@ namespace DB_Connection
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(231, 237);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 12;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(150, 237);
+            this.btnClear.Location = new System.Drawing.Point(69, 295);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 23);
             this.btnClear.TabIndex = 11;
@@ -198,20 +191,55 @@ namespace DB_Connection
             // 
             this.btnSearch.Location = new System.Drawing.Point(69, 237);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(75, 23);
+            this.btnSearch.Size = new System.Drawing.Size(156, 23);
             this.btnSearch.TabIndex = 7;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(286, 237);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(49, 13);
+            this.linkLabel1.TabIndex = 12;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Products";
+            this.linkLabel1.Click += new System.EventHandler(this.linkLabel1_Click);
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Location = new System.Drawing.Point(289, 266);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(56, 13);
+            this.linkLabel2.TabIndex = 13;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "Customers";
+            this.linkLabel2.Click += new System.EventHandler(this.linkLabel2_Click);
+            // 
+            // linkLabel3
+            // 
+            this.linkLabel3.AutoSize = true;
+            this.linkLabel3.Location = new System.Drawing.Point(289, 295);
+            this.linkLabel3.Name = "linkLabel3";
+            this.linkLabel3.Size = new System.Drawing.Size(38, 13);
+            this.linkLabel3.TabIndex = 14;
+            this.linkLabel3.TabStop = true;
+            this.linkLabel3.Text = "Orders";
+            this.linkLabel3.Click += new System.EventHandler(this.linkLabel3_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(376, 335);
+            this.Controls.Add(this.linkLabel3);
+            this.Controls.Add(this.linkLabel2);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnClear);
-            this.Controls.Add(this.button4);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
@@ -227,8 +255,10 @@ namespace DB_Connection
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Employee";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -252,9 +282,11 @@ namespace DB_Connection
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnSave;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.LinkLabel linkLabel3;
     }
 }
 

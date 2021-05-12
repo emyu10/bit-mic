@@ -184,5 +184,20 @@ namespace DB_Connection
                 if (con != null) con.Close();
             }
         }
+
+        private void linkLabel1_Click(object sender, EventArgs e)
+        {
+            (new FormProducts()).Show();
+        }
+
+        private void linkLabel2_Click(object sender, EventArgs e)
+        {
+            (new FormCustomer()).Show();
+        }
+
+        private void linkLabel3_Click(object sender, EventArgs e)
+        {
+            (new FormOrders()).Show();
+        }
     }
 }
