@@ -1,0 +1,10 @@
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\DataGridExample\DataGridExample\bin\Debug\DataGridExample.exe.config
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\DataGridExample\DataGridExample\bin\Debug\DataGridExample.exe
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\DataGridExample\DataGridExample\bin\Debug\DataGridExample.pdb
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\DataGridExample\DataGridExample\obj\Debug\DataGridExample.csprojAssemblyReference.cache
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\DataGridExample\DataGridExample\obj\Debug\DataGridExample.Form1.resources
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\DataGridExample\DataGridExample\obj\Debug\DataGridExample.Properties.Resources.resources
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\DataGridExample\DataGridExample\obj\Debug\DataGridExample.csproj.GenerateResource.cache
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\DataGridExample\DataGridExample\obj\Debug\DataGridExample.csproj.CoreCompileInputs.cache
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\DataGridExample\DataGridExample\obj\Debug\DataGridExample.exe
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\DataGridExample\DataGridExample\obj\Debug\DataGridExample.pdb
