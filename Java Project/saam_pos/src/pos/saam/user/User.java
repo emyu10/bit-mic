@@ -3,7 +3,7 @@ package pos.saam.user;
 import java.time.LocalDateTime;
 
 public class User {
-    private int id;
+    private int id = -1;
     private String username;
     private String fullName;
     private String password;
@@ -11,6 +11,9 @@ public class User {
     private boolean admin;
     private LocalDateTime addedOn;
 
+    public User() {
+
+    }
     public User(int id, String username, String fullName, String password, boolean active, boolean admin, String addedOn) {
         setId(id);
         setUsername(username);
