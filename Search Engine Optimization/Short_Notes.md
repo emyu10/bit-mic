@@ -120,6 +120,82 @@
 ### Why bother with search engines?
 - Single most important source of _new_ visitors
 - 80% of visitors reach through a search engine
+- Most searches are carried out on a very small number of search sites
+    - How to measure popularity of search sites
+        - Percentage of visitors (audience reach)
+        - Total number of visitors
+        - Total number of searches carried out
+        - Total number of hours visitors spend searching
+- Whether or not the results are included from local index, shopping index, PPC index depends on the type of search made
+
+### The Big Tow: Organic and PPC
+- Organic-results index is created by searchbots
+- Google uses googlebot to retrieve pages
+- Searchbots wander around the web
+    - moving from page to page
+    - collecting the pages
+    - reading them
+- Bots are programs that send requests to web servers asking for pages just like a web browser does
+- Most search results include PPC ads
+- Ads does not cost the advertiser anything until a user clicks the ad
+- 2 categories of PPC ads
+    - Simple text ads
+    - `Shopping` or `product listing` ads which contain images
+
+### Local Results
+- Incredibly important
+- Huge presence in many search results pages
+- Often appear above organic search results
+- Below PPC ads
+- Important consideration for businesses that serve a particular geographic area
+
+### Shopping Results
+- Product indexes are separate from organic or reqular text-based PPC indexes
+- But it is typically a form of PPC advertising
+- Submit your products to the search engines' product listings and get charged if someone clicks the search result
+- If the search engine feels the user is searching for a product, it inserts matching product listings into the SERP
+
+### Staying current with News Results
+- Another significant search result component
+- If the search engine feels the user might benefit from a news result, it inserts the news result into the SERP
+
+### Viewing Video and Image Results
+- All major search engines index Youtube results
+- They index other video hosting sites like Vimeo.com, vevo.com and Metacafe.com
+
+### Getting friendly with Social Results
+- Different search engines use this data in different ways
+- Social networks are important as way to feed information into search results
+
+### Is your site indexed?
+- Important to find out if your site is in a search engine or directory
+- some browser add-ons tells you the number of indexed pages when you visit a site (example: SEOQuake)
+
+### Open Directory Project
+- Large directory of websites
+- Owned by AOL
+- Run by volunteers
+- Provides many links back to your site
+- Getting your site listed can be difficult
+- Type in the domain name and if the site is listed, Open Directory will tell you
+- If it's not listed, you should try to list it
+
+### Reasons your site may not be indexed
+- No links pointing to the site, search engines don't know the site exists
+    - Most common reason
+    - No incoming links
+    - Search engines crawl the web, following links from site to site
+    - No links on other sites pointing to your website
+- Web server is unreliable
+    - Site keeps crashing
+    - Unavailable when the search engines come by to crawl it
+    - They can't or won't crawl (prevent listing sites with bad user experience)
+- `robots.txt` is blocking search-engine access to the site
+- `robots` meta tag is blocking pages individually
+- You bought a garbage domain name
+- Navigation structure that search engines can't read, so they can't find their way through the site
+- Site is creating dyanmic pages that search engines choose not to read
+- You have a _canonical_ tag referencing another web site
 
 ## Unit 2 - Planning a Powerful Search Engine Strategy
 ## Unit 3 - Creating Pages That Search Engines Love
