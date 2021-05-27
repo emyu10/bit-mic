@@ -1,0 +1,10 @@
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\HatchBrushExample\HatchBrushExample\bin\Debug\HatchBrushExample.exe.config
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\HatchBrushExample\HatchBrushExample\bin\Debug\HatchBrushExample.exe
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\HatchBrushExample\HatchBrushExample\bin\Debug\HatchBrushExample.pdb
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\HatchBrushExample\HatchBrushExample\obj\Debug\HatchBrushExample.csprojAssemblyReference.cache
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\HatchBrushExample\HatchBrushExample\obj\Debug\HatchBrushExample.Form1.resources
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\HatchBrushExample\HatchBrushExample\obj\Debug\HatchBrushExample.Properties.Resources.resources
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\HatchBrushExample\HatchBrushExample\obj\Debug\HatchBrushExample.csproj.GenerateResource.cache
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\HatchBrushExample\HatchBrushExample\obj\Debug\HatchBrushExample.csproj.CoreCompileInputs.cache
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\HatchBrushExample\HatchBrushExample\obj\Debug\HatchBrushExample.exe
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\HatchBrushExample\HatchBrushExample\obj\Debug\HatchBrushExample.pdb
