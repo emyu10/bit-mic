@@ -193,9 +193,43 @@
 - `robots.txt` is blocking search-engine access to the site
 - `robots` meta tag is blocking pages individually
 - You bought a garbage domain name
+    - A previously blocked domain name by search engines
+    - If no one has used the domain name before, it is a good domain name
+    - Current domain name with links pointing to it but not indexed, means a bad sign
+    - Check a snapshot of the site of the domain from previous use using archive.org
 - Navigation structure that search engines can't read, so they can't find their way through the site
 - Site is creating dyanmic pages that search engines choose not to read
 - You have a _canonical_ tag referencing another web site
+
+### Picking Good Keywords
+- Knowing the words, people are using to search for a website, is important
+- Use Google's adwords keyword tool to check how different keywords perform
+
+### Examining Your Pages
+- Title tags
+    - Many pages don't have the title tags. So search engines do not get the subject of the page
+    - Wrong position - too far down in the page where search engines don't find them
+    - More than one title tag - search engine looks at only the first title tag they find
+    - Same title tag on all the pages - every title tag should be different
+    - Poor - does not contain the proper keywords
+- The description tag
+    - Important because search engines may index it as the description of the page or site
+    - 2 purposes
+        - help with ranking in search engines
+        - convince people to click the search results
+    - It's a meta tag
+    - Often has the same problems the title tags have
+- Eliminating Flash and Silverlight
+    - Flash are simple animations on web pages
+- Replacing images with real text
+    - Text on images can't be read by search engines so it's not indexed
+- Using the right keywords in the right places
+    - Use keywords in folder names and file names, page files and image files
+    - Use keywords near the top of the page
+    - Place keywords into <H> (heading) tags
+    - Use **bold** and *italic* keywords
+    - Put keywords into bulleted lists
+    - Use keywords multiple times on a page - also too much repetition is bad
 
 ## Unit 2 - Planning a Powerful Search Engine Strategy
 ## Unit 3 - Creating Pages That Search Engines Love
