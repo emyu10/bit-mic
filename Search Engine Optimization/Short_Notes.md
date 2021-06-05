@@ -232,6 +232,59 @@
     - Use keywords multiple times on a page - also too much repetition is bad
 
 ## Unit 2 - Planning a Powerful Search Engine Strategy
+- It's getting tougher all the time - getting more competetive
+- There are
+    - page-optimization
+    - link strategies
+    - index submissions
+    - directory submissions
+    - electronic press releases
+    - blogs
+
+### The big picture
+#### Don't trust your web designer
+- Don't rely on your web designer for your SEO
+- They say they understand it
+- For them it's typically "add some meta tags and submit to the search engines"
+
+#### Understanding the limitations
+- Degree of work depends of the competetiveness of the keywords you are going after
+- SEO is based on science but it's more art than science
+- Search engines do not want you to know how they rank - you have to experiment
+
+#### Eyeing the competition
+- Search on Google for keywords that matter to you
+- Search for your terms using quotation marks - searches for the exact phrase
+
+#### PPC ads on the page
+- More PPC ads means more people interested in the phrase
+- More spending on PPC indicates more people spending on SEO
+
+#### Lots of local results
+- Major search engines interpret some searches as local search results
+- Determines your location and shows results about businesses in that area
+
+#### Bold and highlighted words on the page
+- Major search engines highlight the words you searched for in the results page
+- More highlighted words means more optimized pages
+
+#### Complete phrases on the page
+- The more frequently you see the full phrase you searched for, the more competitive the terms are likely to be
+
+### Why is my competitor ranking so high?
+- The answer almost always is that the competitor has done a better job at creating links
+- Do a link analysis on the competitor, you will see
+    - How many links the site has
+    - what keywords are being used in its links
+    - what sorts of sites it's getting links from
+
+### Gain visitors for your site
+#### Highly targeted keyword phrases
+- Go local, use local keywords
+- Focus on more specialized search terms
+
+#### Search tail
+
 ## Unit 3 - Creating Pages That Search Engines Love
 ## Unit 4 - Finding Traffic Through Local-Search Marketing
 ## Unit 5 - Using Link Popularity and Boost Your Position
