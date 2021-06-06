@@ -282,8 +282,54 @@
 #### Highly targeted keyword phrases
 - Go local, use local keywords
 - Focus on more specialized search terms
+- Incorporate spelling mistakes
 
 #### Search tail
+- Specialized search terms are hidden away in the search tail
+- It is an important concept to understand
+- Most of the action is in the search tail, not the top. It means two things
+    - Even if you can't rank well for the primary term, there's still plenty of room to play
+    - If you focus only on a primary term, you're missing most of the action
+- Small businesses still need to target primary keywords for local search results
+    - Because you are up against a smaller number of competitors locally
+    - There will be far fewer searches for a term
+
+### Controlling Search Engine Variables
+#### Keywords
+- Incredibly important
+- The very foundation of your search engine strategy
+- Keywords target searches
+- Place the keywords in the pages, links pointing to your pages as bait to attract people
+- Pick the wrong keywords and you are targeting the wrong people
+
+#### Content
+- From a search engine perspective, it really means text
+- You need a lot of content
+- Search engins index words and you want to index the keywords you are interested in
+- The more words you have, the more pages of text content, the more times your keywords can appear
+    - Create thousands of pages and hope that some of the text matches searches now and then
+    - Create pages optimized for specific phrases that you know are used frequently
+
+#### Page Optimization
+- Content has to be placed on pages in the correct way
+- Pages must be optimized to get the most out of the keywords
+- The search engine should find the relevant keywords on the page in the right places
+
+#### Submissions
+- Submitting information to the search engine asking them to index your site
+- It is not as important as some people imagine
+- It is likely that the search engine ignores the submission
+- Companies selling search engine submissions have disappeared
+
+#### Links
+- Links pointing to your website is equally important
+- Every site needs at least some incoming links
+- If you have lots of keyword competition, you won't win without links
+- Even if keywords are not in the content, if links have it, the ranking will be high
+- The more competitive your area, the more important links become
+
+#### Time and Google Sandbox
+
 
 ## Unit 3 - Creating Pages That Search Engines Love
 ## Unit 4 - Finding Traffic Through Local-Search Marketing
