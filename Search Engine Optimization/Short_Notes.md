@@ -329,6 +329,33 @@
 - The more competitive your area, the more important links become
 
 #### Time and Google Sandbox
+- The sooner you get started, the older your search-engine project becomes
+- Age is critical - the older the site, the more credibility the search engines give it
+- Google sandbox or aging delay
+- When Google first finds the site, it puts it in a sandbox
+- It may index it, but it won't necessarily rank it well
+- It may take months before the site comes out of the sandbox
+- Other search engines also have something similar
+
+### Determining your plan of attack
+- Do a keyword analysis, regardless of competition or budget
+- Create pages that the spiders and bots can read
+- Create keyworded pages - put the keywords into the pages
+    - in the right places
+    - in the right format
+- Consider local
+    - if your business sells locally, rather than world-wide
+    - find out what you need to do to rank when people search locally
+- Get listed in the search engines, 2 things to do
+    - Let the search engines know where the pages are
+    - Get the search engines to include the pages in their indexes and directories
+- Get other sites to link to your site
+- Register with other places - specialized sites that are important for your particular business
+    - Register with the shopping indexes
+- Social networking - Twitter, LinkedIn, Facebook
+- Video - use it in various ways to bring visitors and push the site up in the ranking
+
+### Making Your Site Useful and Visible
 
 
 ## Unit 3 - Creating Pages That Search Engines Love
