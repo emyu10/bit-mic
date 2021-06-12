@@ -27,13 +27,13 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="0.68506594"
-     inkscape:cx="670.0085"
+     inkscape:cx="431.34534"
      inkscape:cy="740.8046"
-     inkscape:window-width="1920"
-     inkscape:window-height="1053"
-     inkscape:window-x="0"
+     inkscape:window-width="1495"
+     inkscape:window-height="983"
+     inkscape:window-x="425"
      inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      inkscape:current-layer="layer1">
     <sodipodi:guide
        position="108.67023,223.3324"
@@ -163,15 +163,5 @@
          r="1.225"
          transform="rotate(-20.222497)" />
     </g>
-    <rect
-       style="fill:url(#Wavy);stroke-width:4;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill;fill-opacity:1;opacity:0.48"
-       id="rect1842"
-       width="115.14491"
-       height="108.9139"
-       x="248.31531"
-       y="107.67083"
-       inkscape:export-filename="/home/emyu/Documents/C_Sharp_Project/background.png"
-       inkscape:export-xdpi="75.094177"
-       inkscape:export-ydpi="75.094177" />
   </g>
 </svg>
