@@ -32,6 +32,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -65,6 +69,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +83,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16x16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20x20.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\24x24.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32x32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\40x40.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\48x48.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\64x64.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\128x128.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\256x256.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
