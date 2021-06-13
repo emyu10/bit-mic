@@ -8,3 +8,4 @@ C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms
 C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Debug\Pfms.csproj.CoreCompileInputs.cache
 C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Debug\Pfms.exe
 C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Debug\Pfms.pdb
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Debug\Pfms.Dashboard.resources
