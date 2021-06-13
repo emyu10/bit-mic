@@ -121,28 +121,31 @@
   <data name="_128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\128x128.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\16x16.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_20x20" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\20x20.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_24x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\24x24.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\32x32.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_256x256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\256x256.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\32x32.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="_40x40" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\40x40.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\64x64.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_24x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\24x24.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16x16.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_48x48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\48x48.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\64x64.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_20x20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20x20.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
