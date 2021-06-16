@@ -13,6 +13,7 @@ namespace Pfms
     public partial class Form1 : Form
     {
         private Dashboard frmDashboard = new Dashboard();
+        private AccountForm frmAccount = new AccountForm();
 
         public Form1()
         {
@@ -27,6 +28,16 @@ namespace Pfms
             }
             frmDashboard.MdiParent = this;
             frmDashboard.Show();
+        }
+
+        private void accountsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (frmAccount.IsDisposed)
+            {
+                frmAccount = new AccountForm();
+            }
+            frmAccount.MdiParent = this;
+            frmAccount.Show();
         }
     }
 }
