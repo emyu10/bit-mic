@@ -29,18 +29,19 @@ namespace Pfms
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvAllAccounts = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.tvAccounts = new System.Windows.Forms.TreeView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAllAccounts)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgvAllAccounts
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 110);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(776, 328);
-            this.dataGridView1.TabIndex = 0;
+            this.dgvAllAccounts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAllAccounts.Location = new System.Drawing.Point(12, 110);
+            this.dgvAllAccounts.Name = "dgvAllAccounts";
+            this.dgvAllAccounts.Size = new System.Drawing.Size(776, 328);
+            this.dgvAllAccounts.TabIndex = 0;
             // 
             // label1
             // 
@@ -51,17 +52,25 @@ namespace Pfms
             this.label1.TabIndex = 1;
             this.label1.Text = "Accounts List";
             // 
+            // tvAccounts
+            // 
+            this.tvAccounts.Location = new System.Drawing.Point(12, 488);
+            this.tvAccounts.Name = "tvAccounts";
+            this.tvAccounts.Size = new System.Drawing.Size(776, 97);
+            this.tvAccounts.TabIndex = 2;
+            // 
             // AccountForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 791);
+            this.Controls.Add(this.tvAccounts);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvAllAccounts);
             this.Name = "AccountForm";
-            this.Text = "AccountForm";
+            this.Text = "Accounts List";
             this.Load += new System.EventHandler(this.AccountForm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAllAccounts)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -69,7 +78,8 @@ namespace Pfms
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvAllAccounts;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TreeView tvAccounts;
     }
 }

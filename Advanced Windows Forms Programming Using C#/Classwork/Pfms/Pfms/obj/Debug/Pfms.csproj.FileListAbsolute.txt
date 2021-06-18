@@ -1,7 +1,6 @@
 C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\bin\Debug\Pfms.exe.config
 C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\bin\Debug\Pfms.exe
 C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\bin\Debug\Pfms.pdb
-C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Debug\Pfms.csprojAssemblyReference.cache
 C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Debug\Pfms.Form1.resources
 C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Debug\Pfms.Properties.Resources.resources
 C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Debug\Pfms.csproj.GenerateResource.cache
@@ -10,3 +9,5 @@ C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms
 C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Debug\Pfms.pdb
 C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Debug\Pfms.Dashboard.resources
 C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Debug\Pfms.AccountForm.resources
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Debug\Pfms.csproj.AssemblyReference.cache
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Debug\Pfms.AddAccountForm.resources

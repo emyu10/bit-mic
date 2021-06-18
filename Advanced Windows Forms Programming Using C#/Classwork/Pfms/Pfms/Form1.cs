@@ -14,6 +14,7 @@ namespace Pfms
     {
         private Dashboard frmDashboard = new Dashboard();
         private AccountForm frmAccount = new AccountForm();
+        private AddAccountForm frmAddAccount = new AddAccountForm();
 
         public Form1()
         {
@@ -30,7 +31,7 @@ namespace Pfms
             frmDashboard.Show();
         }
 
-        private void accountsToolStripMenuItem_Click(object sender, EventArgs e)
+        private void listToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (frmAccount.IsDisposed)
             {
@@ -38,6 +39,16 @@ namespace Pfms
             }
             frmAccount.MdiParent = this;
             frmAccount.Show();
+        }
+
+        private void addToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (frmAddAccount.IsDisposed)
+            {
+                frmAddAccount = new AddAccountForm();
+            }
+            frmAddAccount.MdiParent = this;
+            frmAddAccount.Show();
         }
     }
 }

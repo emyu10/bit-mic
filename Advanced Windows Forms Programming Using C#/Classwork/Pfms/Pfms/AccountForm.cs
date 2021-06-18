@@ -21,18 +21,14 @@ namespace Pfms
         {
             try
             {
-                List<Account> accounts = Account.GetAllAccounts();
-                var show = "";
-                foreach (var a in accounts)
-                {
-                    show += a.Id + "\t" + a.Title + "\n";
-                }
-                MessageBox.Show(show);
+                var ds = Account.GetAllAccount();
+                dgvAllAccounts.DataSource = ds.Tables[0];
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
+            tvAccounts.Nodes.Add("sddss");
             
         }
     }
