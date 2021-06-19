@@ -12,9 +12,23 @@ namespace Pfms
 {
     public partial class AddAccountForm : Form
     {
+        private string title = "Add Account";
+        private int accountId = -1;
+
         public AddAccountForm()
         {
             InitializeComponent();
+        }
+
+        public void SetTitle(string title = "Add Account")
+        {
+            this.title = title;
+            this.Text = this.title;
+        }
+
+        public void SetAccountId(int accountId)
+        {
+            this.accountId = accountId;
         }
 
         private void btnSave_Click(object sender, EventArgs e)
@@ -56,6 +70,31 @@ namespace Pfms
         private void btnCancel_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void AddAccountForm_Load(object sender, EventArgs e)
+        {
+            MdiParent = Form1.ActiveForm;
+
+            if (accountId != -1)
+            {
+                try
+                {
+                    var account = Account.GetAccountById(accountId);
+                    txtId.Text = account.Id.ToString();
+                    txtTitle.Text = account.Title;
+                    txtDescription.Text = account.Description;
+                    txtParentId.Text = account.ParentId.ToString();
+                    txtMax.Text = account.MaxAmount.ToString();
+                    txtMin.Text = account.MinAmount.ToString();
+                    txtBalance.Text = account.CurrentBalance.ToString();
+                    dtAdded.Value = account.AddedDate;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Could not load account details.\n" + ex.Message);
+                }
+            }
         }
     }
 }

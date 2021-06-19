@@ -141,5 +141,40 @@ namespace Pfms
                 return false;
             }
         }
+
+        public static Account GetAccountById(int id)
+        {
+            var account = new Account();
+            try
+            {
+                conn.Open();
+                var sql = "select * from Account where AccountId = @Id";
+                SqlParameter paramId = new SqlParameter("@Id", id);
+                com = new SqlCommand(sql, conn);
+                com.Parameters.Add(paramId);
+                SqlDataReader reader = com.ExecuteReader();
+                if (reader.Read())
+                {
+                    account.Id = reader.GetInt32(0);
+                    account.Title = reader.GetString(1);
+                    account.Description = reader.IsDBNull(2) ? "" : reader.GetString(2);
+                    account.ParentId = reader.IsDBNull(3) ? -1 : reader.GetInt32(3);
+                    account.MaxAmount = reader.IsDBNull(4) ? -1 : reader.GetDecimal(4);
+                    account.MinAmount = reader.IsDBNull(5) ? -1 : reader.GetDecimal(5);
+                    account.CurrentBalance = reader.IsDBNull(6) ? -1 : reader.GetDecimal(6);
+                    account.AddedDate = reader.GetDateTime(7);
+                }
+                conn.Close();
+            }
+            catch
+            {
+                throw;
+            }
+            finally
+            {
+                if (conn != null) conn.Close();
+            }
+            return account;
+        }
     }
 }

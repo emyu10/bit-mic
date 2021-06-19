@@ -13,7 +13,7 @@ namespace Pfms
     public partial class AccountOptionsForm : Form
     {
         private string details = "Options for ";
-        private int accountId;
+        private int accountId = -1;
 
         public AccountOptionsForm()
         {
@@ -37,7 +37,22 @@ namespace Pfms
 
         private void AccountOptionsForm_Load(object sender, EventArgs e)
         {
+            MdiParent = Form1.ActiveForm;
             lblDetails.Text = this.details;
+        }
+
+        private void btnTransactions_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnDetails_Click(object sender, EventArgs e)
+        {
+            AddAccountForm details = new AddAccountForm();
+            details.SetTitle("Account Details");
+            details.SetAccountId(accountId);
+            details.Show();
+            this.Close();
         }
     }
 }

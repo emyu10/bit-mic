@@ -125,6 +125,7 @@ namespace Pfms
             // 
             this.txtId.Location = new System.Drawing.Point(132, 22);
             this.txtId.Name = "txtId";
+            this.txtId.ReadOnly = true;
             this.txtId.Size = new System.Drawing.Size(196, 20);
             this.txtId.TabIndex = 1;
             // 
@@ -226,6 +227,7 @@ namespace Pfms
             this.Name = "AddAccountForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddAccountForm";
+            this.Load += new System.EventHandler(this.AddAccountForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

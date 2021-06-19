@@ -65,7 +65,7 @@ namespace Pfms
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(391, 15);
             this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "Double click an account to see more details.";
+            this.textBox1.Text = "Right-click an account for more options.";
             // 
             // AccountForm
             // 
