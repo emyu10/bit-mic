@@ -29,57 +29,66 @@ namespace Pfms
         /// </summary>
         private void InitializeComponent()
         {
-            this.dgvAllAccounts = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
             this.tvAccounts = new System.Windows.Forms.TreeView();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAllAccounts)).BeginInit();
+            this.btnRefresh = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // dgvAllAccounts
-            // 
-            this.dgvAllAccounts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAllAccounts.Location = new System.Drawing.Point(12, 110);
-            this.dgvAllAccounts.Name = "dgvAllAccounts";
-            this.dgvAllAccounts.Size = new System.Drawing.Size(776, 328);
-            this.dgvAllAccounts.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 81);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Accounts List";
             // 
             // tvAccounts
             // 
-            this.tvAccounts.Location = new System.Drawing.Point(12, 488);
+            this.tvAccounts.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tvAccounts.FullRowSelect = true;
+            this.tvAccounts.Location = new System.Drawing.Point(12, 71);
             this.tvAccounts.Name = "tvAccounts";
-            this.tvAccounts.Size = new System.Drawing.Size(776, 97);
+            this.tvAccounts.Size = new System.Drawing.Size(391, 293);
             this.tvAccounts.TabIndex = 2;
+            this.tvAccounts.NodeMouseClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.tvAccounts_NodeMouseClick);
+            // 
+            // btnRefresh
+            // 
+            this.btnRefresh.Location = new System.Drawing.Point(12, 7);
+            this.btnRefresh.Name = "btnRefresh";
+            this.btnRefresh.Size = new System.Drawing.Size(75, 23);
+            this.btnRefresh.TabIndex = 3;
+            this.btnRefresh.Text = "Refresh";
+            this.btnRefresh.UseVisualStyleBackColor = true;
+            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.Info;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Enabled = false;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(12, 41);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(391, 15);
+            this.textBox1.TabIndex = 4;
+            this.textBox1.Text = "Double click an account to see more details.";
             // 
             // AccountForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 791);
+            this.ClientSize = new System.Drawing.Size(415, 376);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnRefresh);
             this.Controls.Add(this.tvAccounts);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.dgvAllAccounts);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "AccountForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Accounts List";
             this.Load += new System.EventHandler(this.AccountForm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvAllAccounts)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dgvAllAccounts;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TreeView tvAccounts;
+        private System.Windows.Forms.Button btnRefresh;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

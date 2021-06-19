@@ -57,6 +57,12 @@
     <Compile Include="AccountForm.Designer.cs">
       <DependentUpon>AccountForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AccountOptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountOptionsForm.Designer.cs">
+      <DependentUpon>AccountOptionsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddAccountForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AccountForm.resx">
       <DependentUpon>AccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountOptionsForm.resx">
+      <DependentUpon>AccountOptionsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AddAccountForm.resx">
       <DependentUpon>AddAccountForm.cs</DependentUpon>

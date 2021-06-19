@@ -20,6 +20,11 @@ namespace Pfms
         public decimal CurrentBalance { get; set; }
         public DateTime AddedDate { get; set; }
 
+        public string Info()
+        {
+            string bal = this.CurrentBalance == -1 ? "N/A" : this.CurrentBalance.ToString("0.00");
+            return String.Format("{0} [{1}]", this.Title, bal);
+        }
         public static List<Account> GetAllAccounts()
         {
             List<Account> accounts = new List<Account>();
@@ -36,10 +41,10 @@ namespace Pfms
                     account.Id = r.GetInt32(0);
                     account.Title = r.GetString(1);
                     account.Description = r.IsDBNull(2) ? "" : r.GetString(2);
-                    account.ParentId = r.IsDBNull(3) ? 0 : r.GetInt32(3);
-                    account.MaxAmount = r.IsDBNull(4) ? 0 : r.GetDecimal(4);
-                    account.MinAmount = r.IsDBNull(5) ? 0 : r.GetDecimal(5);
-                    account.CurrentBalance = r.IsDBNull(6) ? 0 : r.GetDecimal(6);
+                    account.ParentId = r.IsDBNull(3) ? -1 : r.GetInt32(3);
+                    account.MaxAmount = r.IsDBNull(4) ? -1 : r.GetDecimal(4);
+                    account.MinAmount = r.IsDBNull(5) ? -1 : r.GetDecimal(5);
+                    account.CurrentBalance = r.IsDBNull(6) ? -1 : r.GetDecimal(6);
                     account.AddedDate = r.GetDateTime(7);
                     accounts.Add(account);
                 }
@@ -53,27 +58,27 @@ namespace Pfms
             return accounts;
         }
 
-        public static DataSet GetAllAccount()
-        {
-            var sql = "select * from Account";
-            var adapter = new SqlDataAdapter();
-            DataSet accounts = new DataSet();
-            //DataView
-            try
-            {
-                conn.Open();
-                com = new SqlCommand(sql, conn);
-                adapter.SelectCommand = com;
-                adapter.Fill(accounts, "Account");
-                adapter.Dispose();
-                conn.Close();
-            }
-            catch
-            {
-                throw;
-            }
-            return accounts;
-        }
+        //public static DataSet GetAllAccount()
+        //{
+        //    var sql = "select * from Account";
+        //    var adapter = new SqlDataAdapter();
+        //    DataSet accounts = new DataSet();
+        //    //DataView
+        //    try
+        //    {
+        //        conn.Open();
+        //        com = new SqlCommand(sql, conn);
+        //        adapter.SelectCommand = com;
+        //        adapter.Fill(accounts, "Account");
+        //        adapter.Dispose();
+        //        conn.Close();
+        //    }
+        //    catch
+        //    {
+        //        throw;
+        //    }
+        //    return accounts;
+        //}
 
         public static bool Save(string title, string description = null, int parentId = -1, decimal max = 0, decimal min = 0, decimal balance = 0)
         {

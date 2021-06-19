@@ -21,15 +21,46 @@ namespace Pfms
         {
             try
             {
-                var ds = Account.GetAllAccount();
-                dgvAllAccounts.DataSource = ds.Tables[0];
+                tvAccounts.Nodes.Clear();
+                var accounts = Account.GetAllAccounts();
+                List<TreeNode> treenodes = new List<TreeNode>();
+                foreach (Account a in accounts)
+                {
+                    if (a.ParentId == -1)
+                    {
+                        tvAccounts.Nodes.Add(a.Id.ToString(), a.Info());
+                    }
+                    else
+                    {
+                        TreeNode[] tnc = tvAccounts.Nodes.Find(a.ParentId.ToString(), true);
+                        foreach (TreeNode tn in tnc)
+                        {
+                            tn.Nodes.Add(a.Id.ToString(), a.Info());
+                        }
+                    }
+                }
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
-            tvAccounts.Nodes.Add("sddss");
             
+        }
+
+        private void btnRefresh_Click(object sender, EventArgs e)
+        {
+            this.AccountForm_Load(sender, e);
+        }
+
+        private void tvAccounts_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                var options = new AccountOptionsForm();
+                options.SetDetails(e.Node.Text);
+                options.SetAccountId(int.Parse(e.Node.Name));
+                options.Show();
+            }
         }
     }
 }
