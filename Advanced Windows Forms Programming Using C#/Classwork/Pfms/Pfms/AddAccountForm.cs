@@ -31,7 +31,7 @@ namespace Pfms
             this.accountId = accountId;
         }
 
-        private void btnSave_Click(object sender, EventArgs e)
+        private void SaveRecord()
         {
             bool filled = txtTitle.Text != "";
             if (!filled)
@@ -44,9 +44,9 @@ namespace Pfms
                 var title = txtTitle.Text;
                 var description = txtDescription.Text;
                 var parentId = txtParentId.Text == "" ? -1 : Int32.Parse(txtParentId.Text);
-                decimal max = txtMax.Text == "" ? 0 : decimal.Parse(txtMax.Text);
-                decimal min = txtMin.Text == "" ? 0 : decimal.Parse(txtMin.Text);
-                decimal balance = txtBalance.Text == "" ? 0 : decimal.Parse(txtBalance.Text);
+                decimal max = txtMax.Text == "" ? -1 : decimal.Parse(txtMax.Text);
+                decimal min = txtMin.Text == "" ? -1 : decimal.Parse(txtMin.Text);
+                decimal balance = txtBalance.Text == "" ? -1 : decimal.Parse(txtBalance.Text);
                 var result = Account.Save(title, description, parentId, max, min, balance);
                 if (result)
                 {
@@ -61,9 +61,51 @@ namespace Pfms
             {
                 MessageBox.Show("Please enter the values in the correct format");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show("Could not save account");
+            }
+        }
+
+        private void UpdateRecord()
+        {
+            bool filled = txtTitle.Text != "";
+            if (!filled)
+            {
+                MessageBox.Show("Please enter a title");
+                return;
+            }
+            try
+            {
+                int id = int.Parse(txtId.Text);
+                var title = txtTitle.Text;
+                var description = txtDescription.Text;
+                var parentId = txtParentId.Text == "" ? -1 : Int32.Parse(txtParentId.Text);
+                decimal max = txtMax.Text == "" ? -1 : decimal.Parse(txtMax.Text);
+                decimal min = txtMin.Text == "" ? -1 : decimal.Parse(txtMin.Text);
+                var result = Account.Update(id, title, description, parentId, max, min);
+                if (result) MessageBox.Show("Account information udpated");
+                else MessageBox.Show("Could not update account information");
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Please enter the values in the correct format");
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Could not update account information");
+            }
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            if (accountId != -1)
+            {
+                UpdateRecord();
+            }
+            else
+            {
+                SaveRecord();
             }
         }
 
@@ -78,23 +120,29 @@ namespace Pfms
 
             if (accountId != -1)
             {
+                btnSave.Text = "Update";
                 try
                 {
                     var account = Account.GetAccountById(accountId);
-                    txtId.Text = account.Id.ToString();
-                    txtTitle.Text = account.Title;
-                    txtDescription.Text = account.Description;
-                    txtParentId.Text = account.ParentId.ToString();
-                    txtMax.Text = account.MaxAmount.ToString();
-                    txtMin.Text = account.MinAmount.ToString();
-                    txtBalance.Text = account.CurrentBalance.ToString();
-                    dtAdded.Value = account.AddedDate;
+                    LoadFromAccount(account);
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show("Could not load account details.\n" + ex.Message);
                 }
             }
+        }
+
+        private void LoadFromAccount(Account account)
+        {
+            txtId.Text = account.Id == -1 ? "" : account.Id.ToString();
+            txtTitle.Text = account.Title;
+            txtDescription.Text = account.Description;
+            txtParentId.Text = account.ParentId == -1 ? "" : account.ParentId.ToString();
+            txtMax.Text = account.MaxAmount == -1 ? "" : account.MaxAmount.ToString();
+            txtMin.Text = account.MinAmount == -1 ? "" : account.MinAmount.ToString();
+            txtBalance.Text = account.CurrentBalance == -1 ? "" : account.CurrentBalance.ToString();
+            dtAdded.Value = account.AddedDate;
         }
     }
 }

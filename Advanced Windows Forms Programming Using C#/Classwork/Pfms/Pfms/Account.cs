@@ -9,7 +9,7 @@ using System.Diagnostics;
 
 namespace Pfms
 {
-    class Account : Model
+    public class Account : Model
     {
         public int Id { get; set; }
         public string Title { get; set; }
@@ -80,21 +80,20 @@ namespace Pfms
         //    return accounts;
         //}
 
-        public static bool Save(string title, string description = null, int parentId = -1, decimal max = 0, decimal min = 0, decimal balance = 0)
+        public static bool Save(string title, string description = null, int parentId = -1, decimal max = -1, decimal min = -1, decimal balance = -1)
         {
-            Debug.WriteLine("title: " + title + ", description: " + description + ", parentId: " + parentId + ", max: " + max + ", min: " + min + ", balance: " + balance);
             var sql = "insert into Account (AccountTitle, AccountDescription ";
             if (parentId != -1) sql += ", ParentId ";
-            if (max != 0) sql += ", MaxAmount ";
-            if (min != 0) sql += ", MinAmount ";
-            if (balance != 0) sql += ", CurrentBalance";
+            if (max != -1) sql += ", MaxAmount ";
+            if (min != -1) sql += ", MinAmount ";
+            if (balance != -1) sql += ", CurrentBalance";
             sql += " ) values (@Title, @Description ";
             if (parentId != -1) sql += ", @ParentId";
-            if (max != 0) sql += ", @Max";
-            if (min != 0) sql += ", @Min";
-            if (balance != 0) sql += ", @Balance";
+            if (max != -1) sql += ", @Max";
+            if (min != -1) sql += ", @Min";
+            if (balance != -1) sql += ", @Balance";
             sql += ")";
-            Debug.WriteLine(sql);
+
             List<SqlParameter> parameters = new List<SqlParameter>();
             SqlParameter paramTitle = new SqlParameter("@Title", title);
             SqlParameter paramDescription = new SqlParameter("@Description", description);
@@ -104,17 +103,17 @@ namespace Pfms
                 SqlParameter paramParentId = new SqlParameter("@ParentId", parentId);
                 parameters.Add(paramParentId);
             }
-            if (max != 0)
+            if (max != -1)
             {
                 SqlParameter paramMax = new SqlParameter("@Max", max);
                 parameters.Add(paramMax);
             }
-            if (min != 0)
+            if (min != -1)
             {
                 SqlParameter paramMin = new SqlParameter("@Min", min);
                 parameters.Add(paramMin);
             }
-            if (balance != 0)
+            if (balance != -1)
             {
                 SqlParameter paramBalance = new SqlParameter("@Balance", balance);
                 parameters.Add(paramBalance);
@@ -135,10 +134,57 @@ namespace Pfms
                     return false;
                 }
             }
-            catch (Exception ex)
+            catch
             {
-                Debug.WriteLine(ex.Message);
                 return false;
+            }
+        }
+
+        public static bool Update(int id, string title, string description = null, int parentId = -1, decimal max = -1, decimal min = -1)
+        {
+            var sql = "update Account set AccountTitle = @Title";
+            if (description != null) { sql += ", AccountDescription = @Description"; }
+            if (parentId != -1) { sql += ", ParentId = @ParentId"; }
+            if (max != -1) { sql += ", MaxAmount = @Max"; }
+            if (min != -1) { sql += ", MinAmount = @Min"; }
+            sql += " where AccountId = @Id";
+
+            try
+            {
+                conn.Open();
+                com = new SqlCommand(sql, conn);
+                SqlParameter paramId = new SqlParameter("@Id", id);
+                com.Parameters.Add(paramId);
+                SqlParameter paramTitle = new SqlParameter("@Title", title);
+                com.Parameters.Add(paramTitle);
+                if (description != null)
+                {
+                    SqlParameter paramDescription = new SqlParameter("@Description", description);
+                    com.Parameters.Add(paramDescription);
+                }
+                if (parentId != -1)
+                {
+                    SqlParameter paramParentId = new SqlParameter("@ParentId", parentId);
+                    com.Parameters.Add(paramParentId);
+                }
+                if (max != -1)
+                {
+                    SqlParameter paramMax = new SqlParameter("@Max", max);
+                    com.Parameters.Add(paramMax);
+                }
+                if (min != -1)
+                {
+                    SqlParameter paramMin = new SqlParameter("@Min", min);
+                    com.Parameters.Add(paramMin);
+                }
+                var result = com.ExecuteNonQuery();
+                conn.Close();
+                if (result > 0) return true;
+                else return false;
+            }
+            catch
+            {
+                throw;
             }
         }
 

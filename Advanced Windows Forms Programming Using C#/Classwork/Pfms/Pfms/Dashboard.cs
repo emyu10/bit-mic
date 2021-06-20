@@ -16,5 +16,10 @@ namespace Pfms
         {
             InitializeComponent();
         }
+
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+            MdiParent = Form1.ActiveForm;
+        }
     }
 }

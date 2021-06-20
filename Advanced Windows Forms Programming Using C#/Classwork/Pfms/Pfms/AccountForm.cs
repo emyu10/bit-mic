@@ -19,6 +19,7 @@ namespace Pfms
 
         private void AccountForm_Load(object sender, EventArgs e)
         {
+            MdiParent = Form1.ActiveForm;
             try
             {
                 tvAccounts.Nodes.Clear();

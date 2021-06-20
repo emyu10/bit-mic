@@ -27,7 +27,6 @@ namespace Pfms
             {
                 frmDashboard = new Dashboard();
             }
-            frmDashboard.MdiParent = this;
             frmDashboard.Show();
         }
 
@@ -37,7 +36,6 @@ namespace Pfms
             {
                 frmAccount = new AccountForm();
             }
-            frmAccount.MdiParent = this;
             frmAccount.Show();
         }
 
@@ -47,7 +45,6 @@ namespace Pfms
             {
                 frmAddAccount = new AddAccountForm();
             }
-            frmAddAccount.MdiParent = this;
             frmAddAccount.Show();
         }
     }
