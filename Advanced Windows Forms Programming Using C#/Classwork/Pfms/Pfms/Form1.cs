@@ -15,6 +15,7 @@ namespace Pfms
         private Dashboard frmDashboard = new Dashboard();
         private AccountForm frmAccount = new AccountForm();
         private AddAccountForm frmAddAccount = new AddAccountForm();
+        private CategoryForm frmCategory = new CategoryForm();
 
         public Form1()
         {
@@ -46,6 +47,15 @@ namespace Pfms
                 frmAddAccount = new AddAccountForm();
             }
             frmAddAccount.Show();
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            if (frmCategory.IsDisposed)
+            {
+                frmCategory = new CategoryForm();
+            }
+            frmCategory.Show();
         }
     }
 }

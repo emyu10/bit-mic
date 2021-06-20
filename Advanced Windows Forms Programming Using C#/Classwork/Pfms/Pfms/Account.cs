@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
-using System.Data;
 using System.Diagnostics;
 
 namespace Pfms
@@ -25,6 +24,7 @@ namespace Pfms
             string bal = this.CurrentBalance == -1 ? "N/A" : this.CurrentBalance.ToString("0.00");
             return String.Format("{0} [{1}]", this.Title, bal);
         }
+
         public static List<Account> GetAllAccounts()
         {
             List<Account> accounts = new List<Account>();
@@ -48,11 +48,14 @@ namespace Pfms
                     account.AddedDate = r.GetDateTime(7);
                     accounts.Add(account);
                 }
-                conn.Close();
             }
             catch
             {
                 throw;
+            }
+            finally
+            {
+                if (conn != null) conn.Close();
             }
             
             return accounts;
@@ -124,7 +127,7 @@ namespace Pfms
                 com = new SqlCommand(sql, conn);
                 com.Parameters.AddRange(parameters.ToArray());
                 var result = com.ExecuteNonQuery();
-                conn.Close();
+
                 if (result > 0)
                 {
                     return true;
@@ -137,6 +140,10 @@ namespace Pfms
             catch
             {
                 return false;
+            }
+            finally
+            {
+                if (conn != null) conn.Close();
             }
         }
 
@@ -177,14 +184,19 @@ namespace Pfms
                     SqlParameter paramMin = new SqlParameter("@Min", min);
                     com.Parameters.Add(paramMin);
                 }
+
                 var result = com.ExecuteNonQuery();
-                conn.Close();
+
                 if (result > 0) return true;
                 else return false;
             }
             catch
             {
                 throw;
+            }
+            finally
+            {
+                if (conn != null) conn.Close();
             }
         }
 
@@ -210,7 +222,6 @@ namespace Pfms
                     account.CurrentBalance = reader.IsDBNull(6) ? -1 : reader.GetDecimal(6);
                     account.AddedDate = reader.GetDateTime(7);
                 }
-                conn.Close();
             }
             catch
             {

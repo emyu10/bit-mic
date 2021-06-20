@@ -226,7 +226,7 @@ namespace Pfms
             this.MaximizeBox = false;
             this.Name = "AddAccountForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AddAccountForm";
+            this.Text = "Add Account";
             this.Load += new System.EventHandler(this.AddAccountForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
