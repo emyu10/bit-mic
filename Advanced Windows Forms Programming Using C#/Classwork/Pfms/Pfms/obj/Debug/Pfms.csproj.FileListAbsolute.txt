@@ -13,3 +13,4 @@ C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms
 C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Debug\Pfms.AddAccountForm.resources
 C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Debug\Pfms.AccountOptionsForm.resources
 C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Debug\Pfms.CategoryForm.resources
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Debug\Pfms.PersonForm.resources

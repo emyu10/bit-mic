@@ -16,6 +16,7 @@ namespace Pfms
         private AccountForm frmAccount = new AccountForm();
         private AddAccountForm frmAddAccount = new AddAccountForm();
         private CategoryForm frmCategory = new CategoryForm();
+        private PersonForm frmPerson = new PersonForm();
 
         public Form1()
         {
@@ -56,6 +57,12 @@ namespace Pfms
                 frmCategory = new CategoryForm();
             }
             frmCategory.Show();
+        }
+
+        private void peopleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (frmPerson.IsDisposed) frmPerson = new PersonForm();
+            frmPerson.Show();
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 namespace Pfms
 {
-    partial class CategoryForm
+    partial class PersonForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,43 +29,39 @@ namespace Pfms
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CategoryForm));
-            this.dgvCategories = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvCategories)).BeginInit();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PersonForm));
+            this.dgvPersons = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPersons)).BeginInit();
             this.SuspendLayout();
             // 
-            // dgvCategories
+            // dgvPersons
             // 
-            this.dgvCategories.AllowUserToAddRows = false;
-            this.dgvCategories.AllowUserToDeleteRows = false;
-            this.dgvCategories.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCategories.Location = new System.Drawing.Point(12, 132);
-            this.dgvCategories.MultiSelect = false;
-            this.dgvCategories.Name = "dgvCategories";
-            this.dgvCategories.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvCategories.Size = new System.Drawing.Size(627, 306);
-            this.dgvCategories.TabIndex = 0;
+            this.dgvPersons.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPersons.Location = new System.Drawing.Point(12, 132);
+            this.dgvPersons.Name = "dgvPersons";
+            this.dgvPersons.Size = new System.Drawing.Size(627, 306);
+            this.dgvPersons.TabIndex = 0;
             // 
-            // CategoryForm
+            // PersonForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(650, 450);
-            this.Controls.Add(this.dgvCategories);
+            this.Controls.Add(this.dgvPersons);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "CategoryForm";
+            this.Name = "PersonForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Categories";
-            this.Load += new System.EventHandler(this.CategoryForm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvCategories)).EndInit();
+            this.Text = "People";
+            this.Load += new System.EventHandler(this.PersonForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPersons)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dgvCategories;
+        private System.Windows.Forms.DataGridView dgvPersons;
     }
 }
