@@ -57,6 +57,19 @@ namespace Pfms
             catch { MessageBox.Show("Could not load persons"); }
         }
 
+        private void LoadData()
+        {
+            try
+            {
+                var transactions = Transaction.GetByAccount(account);
+                dgvTransactions.DataSource = transactions;
+            }
+            catch
+            {
+                MessageBox.Show("Could not load transactions");
+            }
+        }
+
         private void TransactionForm_Load(object sender, EventArgs e)
         {
             MdiParent = Form1.ActiveForm;
@@ -64,6 +77,7 @@ namespace Pfms
             LoadCategories();
             LoadPersons();
             txtAccount.Text = account.ToString();
+            LoadData();
         }
 
         private void btnSave_Click(object sender, EventArgs e)
@@ -107,7 +121,11 @@ namespace Pfms
                     result2 = Transaction.Save(account, category, amount, details, transactionDate, person.Id);
                 }
 
-                if (result1 && result2) MessageBox.Show("Transaction saved");
+                if (result1 && result2)
+                {
+                    MessageBox.Show("Transaction saved");
+                    LoadData();
+                }
                 else MessageBox.Show("Could not save transaction");
             }
             catch (FormatException)
@@ -121,6 +139,61 @@ namespace Pfms
             catch
             {
                 MessageBox.Show("Could not save transaction");
+            }
+        }
+
+        private void dgvTransactions_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            DataGridView gridView = (DataGridView)sender;
+            DataGridViewCell cell = gridView.Rows[e.RowIndex].Cells[0];
+            try
+            {
+                var trans = Transaction.GetById((int)cell.Value);
+                if (trans == null)
+                {
+                    MessageBox.Show("Could not select transaction");
+                }
+                else
+                {
+                    txtId.Text = trans.Id.ToString();
+                    txtAmount.Text = trans.Amount.ToString();
+                    txtDetails.Text = trans.Details;
+                    dtTransDate.Value = trans.TransactionDate;
+                    dtAddedDate.Value = trans.AddedDate;
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Could not select transaction");
+            }
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (txtId.Text == "")
+            {
+                MessageBox.Show("Select a transaction to delete");
+                return;
+            }
+            try
+            {
+                if (Transaction.Delete(int.Parse(txtId.Text)))
+                {
+                    MessageBox.Show("Transaction deleted");
+                }
+                else
+                {
+                    MessageBox.Show("Could not delete transaction");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Could not delete transaction" + ex.Message);
             }
         }
     }

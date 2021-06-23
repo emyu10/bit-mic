@@ -47,6 +47,10 @@ namespace Pfms
             this.dtAddedDate = new System.Windows.Forms.DateTimePicker();
             this.btnSave = new System.Windows.Forms.Button();
             this.txtAccount = new System.Windows.Forms.TextBox();
+            this.dgvTransactions = new System.Windows.Forms.DataGridView();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTransactions)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -177,7 +181,7 @@ namespace Pfms
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(34, 180);
+            this.btnSave.Location = new System.Drawing.Point(172, 164);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 16;
@@ -193,11 +197,45 @@ namespace Pfms
             this.txtAccount.Size = new System.Drawing.Size(176, 20);
             this.txtAccount.TabIndex = 17;
             // 
+            // dgvTransactions
+            // 
+            this.dgvTransactions.AllowUserToAddRows = false;
+            this.dgvTransactions.AllowUserToDeleteRows = false;
+            this.dgvTransactions.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvTransactions.Location = new System.Drawing.Point(13, 207);
+            this.dgvTransactions.Name = "dgvTransactions";
+            this.dgvTransactions.Size = new System.Drawing.Size(667, 282);
+            this.dgvTransactions.TabIndex = 18;
+            this.dgvTransactions.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvTransactions_RowHeaderMouseClick);
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Location = new System.Drawing.Point(291, 164);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnDelete.TabIndex = 19;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.Location = new System.Drawing.Point(410, 164);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.TabIndex = 20;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
             // TransactionForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(692, 501);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.dgvTransactions);
             this.Controls.Add(this.txtAccount);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.dtAddedDate);
@@ -222,6 +260,7 @@ namespace Pfms
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Transactions";
             this.Load += new System.EventHandler(this.TransactionForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTransactions)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -246,5 +285,8 @@ namespace Pfms
         private System.Windows.Forms.DateTimePicker dtAddedDate;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.TextBox txtAccount;
+        private System.Windows.Forms.DataGridView dgvTransactions;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btnCancel;
     }
 }
