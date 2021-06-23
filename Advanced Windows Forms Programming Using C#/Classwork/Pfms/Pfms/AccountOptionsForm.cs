@@ -14,6 +14,7 @@ namespace Pfms
     {
         private string details = "Options for ";
         private int accountId = -1;
+        private Account account = null;
 
         public AccountOptionsForm()
         {
@@ -33,6 +34,14 @@ namespace Pfms
         public void SetAccountId(int accountId)
         {
             this.accountId = accountId;
+            try
+            {
+                account = Account.GetAccountById(accountId);
+                
+            }
+            catch
+            {
+            }
         }
 
         private void AccountOptionsForm_Load(object sender, EventArgs e)
@@ -43,7 +52,10 @@ namespace Pfms
 
         private void btnTransactions_Click(object sender, EventArgs e)
         {
-            
+            TransactionForm transForm = new TransactionForm();
+            transForm.SetAccount(account);
+            transForm.Show();
+            this.Close();
         }
 
         private void btnDetails_Click(object sender, EventArgs e)

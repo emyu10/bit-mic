@@ -170,6 +170,7 @@ namespace Pfms
             // 
             this.txtBalance.Location = new System.Drawing.Point(132, 196);
             this.txtBalance.Name = "txtBalance";
+            this.txtBalance.ReadOnly = true;
             this.txtBalance.Size = new System.Drawing.Size(196, 20);
             this.txtBalance.TabIndex = 7;
             // 

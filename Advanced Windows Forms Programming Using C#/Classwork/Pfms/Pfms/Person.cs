@@ -11,12 +11,16 @@ namespace Pfms
 {
     public class Person : Model
     {
-        public int Id;
+        public int Id = -1;
         public string Name;
         public string FriendlyName;
         public string ContactNumber;
         public DateTime AddedDate;
 
+        public override string ToString()
+        {
+            return string.Format("{0} ({1} / {2})", this.Name, this.FriendlyName, this.ContactNumber);
+        }
         public static DataTable GetAllPersons()
         {
             var sql = "select * from Person";
@@ -40,6 +44,39 @@ namespace Pfms
             {
                 if (conn != null) conn.Close();
             }
+        }
+
+        public static List<Person> GetAll()
+        {
+            var persons = new List<Person>();
+            var sql = "select * from Person";
+
+            try
+            {
+                conn.Open();
+                com = new SqlCommand(sql, conn);
+
+                var reader = com.ExecuteReader();
+                while (reader.Read())
+                {
+                    var person = new Person();
+                    person.Id = reader.GetInt32(0);
+                    person.Name = reader.GetString(1);
+                    person.FriendlyName = reader.GetString(2);
+                    person.ContactNumber = reader.GetString(3);
+                    person.AddedDate = reader.GetDateTime(4);
+                    persons.Add(person);
+                }
+            }
+            catch
+            {
+                throw;
+            }
+            finally
+            {
+                if (conn != null) conn.Close();
+            }
+            return persons;
         }
 
         public static bool Save(string name, string friendlyName, string contactNumber)

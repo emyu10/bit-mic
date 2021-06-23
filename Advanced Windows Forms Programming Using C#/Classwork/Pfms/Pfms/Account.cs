@@ -25,10 +25,15 @@ namespace Pfms
             return String.Format("{0} [{1}]", this.Title, bal);
         }
 
+        public override string ToString()
+        {
+            return Info();
+        }
+
         public static List<Account> GetAllAccounts()
         {
             List<Account> accounts = new List<Account>();
-            var sql = "select * from Account";
+            var sql = "select * from AccountDetails";
             try
             {
                 conn.Open();
@@ -44,8 +49,8 @@ namespace Pfms
                     account.ParentId = r.IsDBNull(3) ? -1 : r.GetInt32(3);
                     account.MaxAmount = r.IsDBNull(4) ? -1 : r.GetDecimal(4);
                     account.MinAmount = r.IsDBNull(5) ? -1 : r.GetDecimal(5);
-                    account.CurrentBalance = r.IsDBNull(6) ? -1 : r.GetDecimal(6);
-                    account.AddedDate = r.GetDateTime(7);
+                    account.CurrentBalance = r.IsDBNull(9) ? -1 : r.GetDecimal(9);
+                    account.AddedDate = r.GetDateTime(6);
                     accounts.Add(account);
                 }
             }
@@ -83,18 +88,16 @@ namespace Pfms
         //    return accounts;
         //}
 
-        public static bool Save(string title, string description = null, int parentId = -1, decimal max = -1, decimal min = -1, decimal balance = -1)
+        public static bool Save(string title, string description = null, int parentId = -1, decimal max = -1, decimal min = -1)
         {
             var sql = "insert into Account (AccountTitle, AccountDescription ";
             if (parentId != -1) sql += ", ParentId ";
             if (max != -1) sql += ", MaxAmount ";
             if (min != -1) sql += ", MinAmount ";
-            if (balance != -1) sql += ", CurrentBalance";
             sql += " ) values (@Title, @Description ";
             if (parentId != -1) sql += ", @ParentId";
             if (max != -1) sql += ", @Max";
             if (min != -1) sql += ", @Min";
-            if (balance != -1) sql += ", @Balance";
             sql += ")";
 
             List<SqlParameter> parameters = new List<SqlParameter>();
@@ -116,11 +119,7 @@ namespace Pfms
                 SqlParameter paramMin = new SqlParameter("@Min", min);
                 parameters.Add(paramMin);
             }
-            if (balance != -1)
-            {
-                SqlParameter paramBalance = new SqlParameter("@Balance", balance);
-                parameters.Add(paramBalance);
-            }
+
             try
             {
                 conn.Open();
@@ -206,7 +205,7 @@ namespace Pfms
             try
             {
                 conn.Open();
-                var sql = "select * from Account where AccountId = @Id";
+                var sql = "select * from AccountDetails where AccountId = @Id";
                 SqlParameter paramId = new SqlParameter("@Id", id);
                 com = new SqlCommand(sql, conn);
                 com.Parameters.Add(paramId);
@@ -219,8 +218,8 @@ namespace Pfms
                     account.ParentId = reader.IsDBNull(3) ? -1 : reader.GetInt32(3);
                     account.MaxAmount = reader.IsDBNull(4) ? -1 : reader.GetDecimal(4);
                     account.MinAmount = reader.IsDBNull(5) ? -1 : reader.GetDecimal(5);
-                    account.CurrentBalance = reader.IsDBNull(6) ? -1 : reader.GetDecimal(6);
-                    account.AddedDate = reader.GetDateTime(7);
+                    account.CurrentBalance = reader.IsDBNull(9) ? -1 : reader.GetDecimal(9);
+                    account.AddedDate = reader.GetDateTime(6);
                 }
             }
             catch

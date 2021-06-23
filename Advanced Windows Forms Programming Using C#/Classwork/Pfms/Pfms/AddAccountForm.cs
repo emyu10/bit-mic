@@ -47,7 +47,7 @@ namespace Pfms
                 decimal max = txtMax.Text == "" ? -1 : decimal.Parse(txtMax.Text);
                 decimal min = txtMin.Text == "" ? -1 : decimal.Parse(txtMin.Text);
                 decimal balance = txtBalance.Text == "" ? -1 : decimal.Parse(txtBalance.Text);
-                var result = Account.Save(title, description, parentId, max, min, balance);
+                var result = Account.Save(title, description, parentId, max, min);
                 if (result)
                 {
                     MessageBox.Show("Account saved");

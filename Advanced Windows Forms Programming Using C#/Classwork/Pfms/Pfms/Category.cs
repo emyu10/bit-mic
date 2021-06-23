@@ -16,6 +16,10 @@ namespace Pfms
         public char TransactionDirection;
         public DateTime AddedDate;
 
+        public override string ToString()
+        {
+            return String.Format("{0} [{1}]", this.Name, this.TransactionDirection == '+' ? "IN" : "OUT");
+        }
         public static DataTable GetAllCategories()
         {
             var sql = "select * from Category";
@@ -39,6 +43,37 @@ namespace Pfms
             {
                 if (conn != null) conn.Close();
             }
+        }
+
+        public static List<Category> GetAll()
+        {
+            List<Category> categories = new List<Category>();
+            var sql = "select * from Category";
+
+            try
+            {
+                conn.Open();
+                com = new SqlCommand(sql, conn);
+                var reader = com.ExecuteReader();
+                while (reader.Read())
+                {
+                    var category = new Category();
+                    category.Id = reader.GetInt32(0);
+                    category.Name = reader.GetString(1);
+                    category.TransactionDirection = reader.GetString(2)[0];
+                    category.AddedDate = reader.GetDateTime(3);
+                    categories.Add(category);
+                }
+            }
+            catch
+            {
+                throw;
+            }
+            finally
+            {
+                if (conn != null) conn.Close();
+            }
+            return categories;
         }
 
         public static bool Save(string name, char direction)
