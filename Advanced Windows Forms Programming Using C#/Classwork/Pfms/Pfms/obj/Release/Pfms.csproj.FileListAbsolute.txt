@@ -1,0 +1,17 @@
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\bin\Release\Pfms.exe.config
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\bin\Release\Pfms.exe
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\bin\Release\Pfms.pdb
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Release\Pfms.csproj.AssemblyReference.cache
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Release\Pfms.AccountForm.resources
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Release\Pfms.AccountOptionsForm.resources
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Release\Pfms.AddAccountForm.resources
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Release\Pfms.CategoryForm.resources
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Release\Pfms.Dashboard.resources
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Release\Pfms.Form1.resources
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Release\Pfms.PersonForm.resources
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Release\Pfms.Properties.Resources.resources
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Release\Pfms.TransactionForm.resources
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Release\Pfms.csproj.GenerateResource.cache
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Release\Pfms.csproj.CoreCompileInputs.cache
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Release\Pfms.exe
+C:\Users\emyu\bit-mic\Advanced Windows Forms Programming Using C#\Classwork\Pfms\Pfms\obj\Release\Pfms.pdb
